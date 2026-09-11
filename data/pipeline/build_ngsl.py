@@ -116,14 +116,15 @@ def main(argv: list[str] | None = None) -> int:
         return 1
 
     if OUTPUT_FILE.exists() and same_content(json.loads(OUTPUT_FILE.read_text("utf-8")), collection):
-        print(f"{OUTPUT_FILE.relative_to(REPO_DIR)} unchanged; keeping existing build date")
+        outcome = "unchanged (existing build date kept)"
     else:
         write_json(OUTPUT_FILE, collection)
+        outcome = "written"
     write_json(DERIVED_DIR / "wiktionary_pos_candidates.json", pos_candidates)
 
     glossed = sum(1 for w in collection["words"] if w["gloss"])
     print(
-        f"wrote {OUTPUT_FILE.relative_to(REPO_DIR)}: {collection['word_count']} words, "
+        f"{OUTPUT_FILE.relative_to(REPO_DIR)} {outcome}: {collection['word_count']} words, "
         f"IPA coverage {len(ipa)}/{len(lemmas)}, glosses {glossed}/{len(lemmas)}"
     )
     return 0
