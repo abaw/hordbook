@@ -9,7 +9,7 @@ licensed separately (see the repository's `LICENSE`).
 
 ## ngsl.json
 
-- Word list, frequency ranks and easy-English definitions: the New General
+- Words, frequency ranks and easy-English definitions: the New General
   Service List 1.2 by Charles Browne, Brent Culligan and Joseph Phillips,
   New General Service List Project, https://www.newgeneralservicelist.com —
   licensed under CC BY-SA 4.0. Source files:

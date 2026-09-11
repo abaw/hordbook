@@ -9,10 +9,10 @@ from __future__ import annotations
 import json
 from pathlib import Path
 from typing import Any, Iterable
-
-Entry = dict[str, Any]
 from urllib.error import HTTPError
 from urllib.request import Request, urlopen
+
+Entry = dict[str, Any]
 
 # Senses that describe the written character or a proper name rather than the
 # everyday word; their pronunciations and PoS are not what a learner wants.

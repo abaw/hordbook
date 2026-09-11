@@ -1,9 +1,9 @@
 """The build-collection boundary (seam 1).
 
 ``build_collection`` turns the parsed official sources plus optional
-enrichments (IPA, glosses) into one collection document. It is pure: no I/O,
-deterministic for identical inputs, and it fails loudly on any inconsistency
-rather than emitting a partial collection.
+enrichments (IPA, glosses) into the NGSL collection document. It is pure: no
+I/O, deterministic for identical inputs, and it fails loudly on any
+inconsistency rather than emitting a partial collection.
 """
 
 from __future__ import annotations
@@ -11,9 +11,9 @@ from __future__ import annotations
 from collections import Counter
 from typing import Any, Mapping
 
-Collection = dict[str, Any]
-
 from .sources import RankedLemma
+
+Collection = dict[str, Any]
 
 SCHEMA_VERSION = 1
 
@@ -39,13 +39,16 @@ LICENSE = {
 }
 
 ATTRIBUTION = (
-    "Word list, frequency ranks and English definitions: New General Service List 1.2 "
+    "Words, frequency ranks and English definitions: New General Service List 1.2 "
     "by Charles Browne, Brent Culligan and Joseph Phillips (newgeneralservicelist.com), "
     "licensed under CC BY-SA 4.0. "
     "Pronunciations: Wiktionary contributors via kaikki.org, CC BY-SA 4.0. "
     "Traditional Chinese glosses: generated for the Hordbook project and released under "
     "CC BY-SA 4.0. This collection file is a derivative work under the same licence."
 )
+
+# The only field allowed to differ between two builds of identical inputs.
+BUILD_DATE_FIELD = "built_at"
 
 
 class BuildError(ValueError):
@@ -63,9 +66,11 @@ def build_collection(
     lemmas = [entry.lemma for entry in stats]
     _reject_duplicates(lemmas)
     _reject_non_contiguous_ranks([entry.rank for entry in stats])
-    _reject_mismatched_lemmas(set(lemmas), set(definitions), what="definitions")
-    _reject_unknown_lemmas(set(lemmas), set(ipa), what="ipa")
-    _reject_unknown_lemmas(set(lemmas), set(glosses), what="glosses")
+    ranked = set(lemmas)
+    _reject_unranked(ranked, set(definitions), what="definitions")
+    _reject_missing(ranked, set(definitions), what="definitions")
+    _reject_unranked(ranked, set(ipa), what="ipa")
+    _reject_unranked(ranked, set(glosses), what="glosses")
 
     words: list[dict[str, Any]] = []
     for entry in sorted(stats, key=lambda e: e.rank):
@@ -91,13 +96,26 @@ def build_collection(
         "source": SOURCE,
         "license": LICENSE,
         "attribution": ATTRIBUTION,
-        "built_at": built_at,
+        BUILD_DATE_FIELD: built_at,
         "sort_key": "rank",
         "level_size": LEVEL_SIZE,
         "gloss_language": GLOSS_LANGUAGE,
         "word_count": len(words),
         "words": words,
     }
+
+
+def same_content(a: Collection, b: Collection) -> bool:
+    """True when two collections differ at most in their build date.
+
+    Used by the runner to leave the committed file untouched when a rebuild
+    from identical inputs would only bump ``built_at``.
+    """
+    return _without_build_date(a) == _without_build_date(b)
+
+
+def _without_build_date(collection: Collection) -> Collection:
+    return {key: value for key, value in collection.items() if key != BUILD_DATE_FIELD}
 
 
 def _reject_duplicates(lemmas: list[str]) -> None:
@@ -111,19 +129,13 @@ def _reject_non_contiguous_ranks(ranks: list[int]) -> None:
         raise BuildError("ranks must be unique and contiguous from 1")
 
 
-def _reject_mismatched_lemmas(ranked: set[str], other: set[str], *, what: str) -> None:
+def _reject_missing(ranked: set[str], other: set[str], *, what: str) -> None:
     missing = sorted(ranked - other)
-    extra = sorted(other - ranked)
-    problems = []
     if missing:
-        problems.append(f"ranked lemmas without {what}: {', '.join(missing)}")
-    if extra:
-        problems.append(f"{what} for unranked lemmas: {', '.join(extra)}")
-    if problems:
-        raise BuildError("; ".join(problems))
+        raise BuildError(f"ranked lemmas without {what}: {', '.join(missing)}")
 
 
-def _reject_unknown_lemmas(ranked: set[str], other: set[str], *, what: str) -> None:
+def _reject_unranked(ranked: set[str], other: set[str], *, what: str) -> None:
     extra = sorted(other - ranked)
     if extra:
         raise BuildError(f"{what} for unranked lemmas: {', '.join(extra)}")

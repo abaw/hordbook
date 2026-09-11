@@ -20,7 +20,7 @@ from datetime import date
 from pathlib import Path
 from urllib.request import Request, urlopen
 
-from .build import BuildError, build_collection
+from .build import BuildError, build_collection, same_content
 from .sources import read_definitions_xlsx, read_stats_csv
 from .wiktionary import extract_ipa, extract_pos_candidates, fetch_entries
 
@@ -115,7 +115,10 @@ def main(argv: list[str] | None = None) -> int:
         print(f"build failed: {error}", file=sys.stderr)
         return 1
 
-    write_json(OUTPUT_FILE, collection)
+    if OUTPUT_FILE.exists() and same_content(json.loads(OUTPUT_FILE.read_text("utf-8")), collection):
+        print(f"{OUTPUT_FILE.relative_to(REPO_DIR)} unchanged; keeping existing build date")
+    else:
+        write_json(OUTPUT_FILE, collection)
     write_json(DERIVED_DIR / "wiktionary_pos_candidates.json", pos_candidates)
 
     glossed = sum(1 for w in collection["words"] if w["gloss"])

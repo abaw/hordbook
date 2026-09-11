@@ -12,7 +12,7 @@ from pathlib import Path
 import openpyxl
 import pytest
 
-from pipeline.build import BuildError, build_collection
+from pipeline.build import BuildError, build_collection, same_content
 from pipeline.sources import read_definitions_xlsx, read_stats_csv
 from pipeline.wiktionary import extract_ipa, extract_pos_candidates
 
@@ -63,7 +63,7 @@ def build_from(stats: Path, defs: Path, **overrides):
         definitions=read_definitions_xlsx(defs),
         ipa=ipa,
         glosses=overrides.pop("glosses", {}),
-        built_at="2026-09-11",
+        built_at=overrides.pop("built_at", "2026-09-11"),
         **overrides,
     )
 
@@ -168,6 +168,13 @@ class TestDeterminism:
         a = json.dumps(build_from(*five_word_sources), ensure_ascii=False, sort_keys=True)
         b = json.dumps(build_from(*five_word_sources), ensure_ascii=False, sort_keys=True)
         assert a == b
+
+    def test_same_content_ignores_only_the_build_date(self, five_word_sources):
+        today = build_from(*five_word_sources)
+        later = build_from(*five_word_sources, built_at="2030-01-01")
+        assert same_content(today, later)
+        changed = build_from(*five_word_sources, glosses={"abandon": "遺棄"})
+        assert not same_content(today, changed)
 
     def test_input_order_does_not_matter(self, tmp_path):
         stats_a = write_stats_csv(tmp_path / "a.csv", [("the", 1), ("be", 2)])
