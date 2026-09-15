@@ -54,11 +54,14 @@ def ensure_sources(network: bool) -> None:
             target.write_bytes(response.read())
 
 
-def load_glosses() -> dict[str, str]:
+def load_glosses() -> tuple[dict[str, str], dict[str, str]]:
+    """Accepted ``{lemma: {pos, gloss}}`` from the gloss step, split into two mappings."""
     if not GLOSSES_FILE.exists():
-        return {}
+        return {}, {}
     data = json.loads(GLOSSES_FILE.read_text(encoding="utf-8"))
-    return {str(k): str(v) for k, v in data.items()}
+    glosses = {str(lemma): str(fields["gloss"]) for lemma, fields in data.items()}
+    pos = {str(lemma): str(fields["pos"]) for lemma, fields in data.items()}
+    return glosses, pos
 
 
 def enrich_from_wiktionary(
@@ -103,12 +106,14 @@ def main(argv: list[str] | None = None) -> int:
     print(f"fetching Wiktionary extracts for {len(lemmas)} lemmas (cache: {CACHE_DIR})")
     ipa, pos_candidates = enrich_from_wiktionary(lemmas, network=network, workers=args.workers)
 
+    glosses, pos = load_glosses()
     try:
         collection = build_collection(
             stats=stats,
             definitions=definitions,
             ipa=ipa,
-            glosses=load_glosses(),
+            glosses=glosses,
+            pos=pos,
             built_at=date.today().isoformat(),
         )
     except BuildError as error:
@@ -123,9 +128,10 @@ def main(argv: list[str] | None = None) -> int:
     write_json(DERIVED_DIR / "wiktionary_pos_candidates.json", pos_candidates)
 
     glossed = sum(1 for w in collection["words"] if w["gloss"])
+    tagged = sum(1 for w in collection["words"] if w["pos"])
     print(
         f"{OUTPUT_FILE.relative_to(REPO_DIR)} {outcome}: {collection['word_count']} words, "
-        f"IPA coverage {len(ipa)}/{len(lemmas)}, glosses {glossed}/{len(lemmas)}"
+        f"IPA {len(ipa)}/{len(lemmas)}, glosses {glossed}/{len(lemmas)}, pos {tagged}/{len(lemmas)}"
     )
     return 0
 

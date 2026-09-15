@@ -11,6 +11,7 @@ from __future__ import annotations
 from collections import Counter
 from typing import Any, Mapping
 
+from .glosses import NGSL_POS
 from .sources import RankedLemma
 
 Collection = dict[str, Any]
@@ -61,6 +62,7 @@ def build_collection(
     definitions: Mapping[str, str],
     ipa: Mapping[str, str],
     glosses: Mapping[str, str],
+    pos: Mapping[str, str],
     built_at: str,
 ) -> Collection:
     lemmas = [entry.lemma for entry in stats]
@@ -71,6 +73,8 @@ def build_collection(
     _reject_missing(ranked, set(definitions), what="definitions")
     _reject_unranked(ranked, set(ipa), what="ipa")
     _reject_unranked(ranked, set(glosses), what="glosses")
+    _reject_unranked(ranked, set(pos), what="pos")
+    _reject_unknown_pos(pos)
 
     words: list[dict[str, Any]] = []
     for entry in sorted(stats, key=lambda e: e.rank):
@@ -81,7 +85,7 @@ def build_collection(
             {
                 "id": f"{COLLECTION_ID}:{entry.lemma}",
                 "lemma": entry.lemma,
-                "pos": None,
+                "pos": pos.get(entry.lemma),
                 "rank": entry.rank,
                 "ipa": ipa.get(entry.lemma),
                 "definition": definition,
@@ -127,6 +131,12 @@ def _reject_duplicates(lemmas: list[str]) -> None:
 def _reject_non_contiguous_ranks(ranks: list[int]) -> None:
     if sorted(ranks) != list(range(1, len(ranks) + 1)):
         raise BuildError("ranks must be unique and contiguous from 1")
+
+
+def _reject_unknown_pos(pos: Mapping[str, str]) -> None:
+    bad = sorted(f"{lemma}={value}" for lemma, value in pos.items() if value not in NGSL_POS)
+    if bad:
+        raise BuildError(f"pos outside the NGSL vocabulary: {', '.join(bad)}")
 
 
 def _reject_missing(ranked: set[str], other: set[str], *, what: str) -> None:

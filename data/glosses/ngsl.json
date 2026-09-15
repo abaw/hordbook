@@ -1,0 +1,11238 @@
+{
+ "I": {
+  "pos": "pron",
+  "gloss": "我；說話者"
+ },
+ "a": {
+  "pos": "det",
+  "gloss": "某個；一個"
+ },
+ "abandon": {
+  "pos": "verb",
+  "gloss": "放棄；拋棄"
+ },
+ "ability": {
+  "pos": "noun",
+  "gloss": "能力；才能"
+ },
+ "able": {
+  "pos": "adj",
+  "gloss": "有做某事的能力、技能、知識或金錢"
+ },
+ "abortion": {
+  "pos": "noun",
+  "gloss": "墮胎；流產"
+ },
+ "about": {
+  "pos": "prep",
+  "gloss": "關於；涉及"
+ },
+ "above": {
+  "pos": "prep",
+  "gloss": "在...上方；高於"
+ },
+ "abroad": {
+  "pos": "adv",
+  "gloss": "在或往外國"
+ },
+ "absence": {
+  "pos": "noun",
+  "gloss": "不在應該在的地方的時期"
+ },
+ "absolute": {
+  "pos": "adj",
+  "gloss": "絕對的；完全的"
+ },
+ "absolutely": {
+  "pos": "adv",
+  "gloss": "絕對地；完全地"
+ },
+ "abstract": {
+  "pos": "adj",
+  "gloss": "抽象；無形"
+ },
+ "abuse": {
+  "pos": "noun",
+  "gloss": "以殘忍、傷害或錯誤的方式對待某人或某物"
+ },
+ "academic": {
+  "pos": "adj",
+  "gloss": "與教育或學校相關"
+ },
+ "accept": {
+  "pos": "verb",
+  "gloss": "接受；同意"
+ },
+ "acceptable": {
+  "pos": "adj",
+  "gloss": "可接受的；滿意的"
+ },
+ "access": {
+  "pos": "noun",
+  "gloss": "進入的路徑；入口"
+ },
+ "accident": {
+  "pos": "noun",
+  "gloss": "造成損害傷害的突發意外事件"
+ },
+ "accommodation": {
+  "pos": "noun",
+  "gloss": "住宿；旅館"
+ },
+ "accompany": {
+  "pos": "verb",
+  "gloss": "陪同；伴隨"
+ },
+ "accomplish": {
+  "pos": "verb",
+  "gloss": "完成；達成"
+ },
+ "accord": {
+  "pos": "noun",
+  "gloss": "協議；和諧"
+ },
+ "account": {
+  "pos": "noun",
+  "gloss": "帳戶；銀行帳號"
+ },
+ "accurate": {
+  "pos": "adj",
+  "gloss": "準確的；無誤差"
+ },
+ "accuse": {
+  "pos": "verb",
+  "gloss": "指控；控訴"
+ },
+ "achieve": {
+  "pos": "verb",
+  "gloss": "達成；實現"
+ },
+ "achievement": {
+  "pos": "noun",
+  "gloss": "成功完成的事；成就"
+ },
+ "acknowledge": {
+  "pos": "verb",
+  "gloss": "承認某事為真"
+ },
+ "acquire": {
+  "pos": "verb",
+  "gloss": "獲得；取得"
+ },
+ "acquisition": {
+  "pos": "noun",
+  "gloss": "取得；獲得的過程"
+ },
+ "across": {
+  "pos": "prep",
+  "gloss": "橫過；穿過"
+ },
+ "act": {
+  "pos": "verb",
+  "gloss": "表現；行動"
+ },
+ "action": {
+  "pos": "noun",
+  "gloss": "行動；動作"
+ },
+ "active": {
+  "pos": "adj",
+  "gloss": "活動頻繁或做許多事情"
+ },
+ "activity": {
+  "pos": "noun",
+  "gloss": "活動；行為"
+ },
+ "actor": {
+  "pos": "noun",
+  "gloss": "在劇院電影或電視演出的人"
+ },
+ "actual": {
+  "pos": "adj",
+  "gloss": "真實存在的；非虛構的"
+ },
+ "actually": {
+  "pos": "adv",
+  "gloss": "用以補充或更正資訊"
+ },
+ "ad": {
+  "pos": "noun",
+  "gloss": "廣告；商業廣告"
+ },
+ "adapt": {
+  "pos": "verb",
+  "gloss": "改變以適應；調整"
+ },
+ "add": {
+  "pos": "verb",
+  "gloss": "加；相加"
+ },
+ "addition": {
+  "pos": "noun",
+  "gloss": "加法；添加"
+ },
+ "additional": {
+  "pos": "adj",
+  "gloss": "附加的；進一步的"
+ },
+ "address": {
+  "pos": "noun",
+  "gloss": "地址；住所"
+ },
+ "adequate": {
+  "pos": "adj",
+  "gloss": "足夠的；充分的"
+ },
+ "adjust": {
+  "pos": "verb",
+  "gloss": "改變以適應新環境"
+ },
+ "adjustment": {
+  "pos": "noun",
+  "gloss": "調整；微調"
+ },
+ "administration": {
+  "pos": "noun",
+  "gloss": "管理；行政事務"
+ },
+ "admire": {
+  "pos": "verb",
+  "gloss": "欽佩；讚美"
+ },
+ "admit": {
+  "pos": "verb",
+  "gloss": "承認；認可為真"
+ },
+ "adopt": {
+  "pos": "verb",
+  "gloss": "承擔責任；接手"
+ },
+ "adult": {
+  "pos": "noun",
+  "gloss": "成人；成年人"
+ },
+ "advance": {
+  "pos": "verb",
+  "gloss": "前進；進展"
+ },
+ "advantage": {
+  "pos": "noun",
+  "gloss": "優勢；好處"
+ },
+ "adventure": {
+  "pos": "noun",
+  "gloss": "冒險；奇遇"
+ },
+ "advertise": {
+  "pos": "verb",
+  "gloss": "廣告；宣傳"
+ },
+ "advertisement": {
+  "pos": "noun",
+  "gloss": "廣告；宣傳"
+ },
+ "advice": {
+  "pos": "noun",
+  "gloss": "建議；意見指導"
+ },
+ "advise": {
+  "pos": "verb",
+  "gloss": "建議；給予意見"
+ },
+ "adviser": {
+  "pos": "noun",
+  "gloss": "提供建議的專家"
+ },
+ "advocate": {
+  "pos": "verb",
+  "gloss": "公開支持或倡導"
+ },
+ "affair": {
+  "pos": "noun",
+  "gloss": "事件；（不愉快的）事情"
+ },
+ "affect": {
+  "pos": "verb",
+  "gloss": "影響；作用於"
+ },
+ "afford": {
+  "pos": "verb",
+  "gloss": "負擔得起；提供"
+ },
+ "afraid": {
+  "pos": "adj",
+  "gloss": "擔心壞事發生；害怕"
+ },
+ "after": {
+  "pos": "prep",
+  "gloss": "之後；後面"
+ },
+ "afternoon": {
+  "pos": "noun",
+  "gloss": "中午12時後至晚餐前的時間"
+ },
+ "again": {
+  "pos": "adv",
+  "gloss": "再一次；重新"
+ },
+ "against": {
+  "pos": "prep",
+  "gloss": "反對；不同意"
+ },
+ "age": {
+  "pos": "noun",
+  "gloss": "一個人活著的年數（也包括事物）"
+ },
+ "agency": {
+  "pos": "noun",
+  "gloss": "為他人提供服務的商業機構"
+ },
+ "agenda": {
+  "pos": "noun",
+  "gloss": "會議討論的主題清單"
+ },
+ "agent": {
+  "pos": "noun",
+  "gloss": "能代表及決定他人事務的人"
+ },
+ "aggressive": {
+  "pos": "adj",
+  "gloss": "具攻擊性的；好鬥的"
+ },
+ "ago": {
+  "pos": "adj",
+  "gloss": "前；之前"
+ },
+ "agree": {
+  "pos": "verb",
+  "gloss": "同意；贊同"
+ },
+ "agreement": {
+  "pos": "noun",
+  "gloss": "協議；同意"
+ },
+ "agricultural": {
+  "pos": "adj",
+  "gloss": "農業的；與耕種相關"
+ },
+ "ahead": {
+  "pos": "adv",
+  "gloss": "向前；朝向前方"
+ },
+ "aid": {
+  "pos": "verb",
+  "gloss": "提供幫助或所需物資"
+ },
+ "aim": {
+  "pos": "noun",
+  "gloss": "目標；目的"
+ },
+ "air": {
+  "pos": "noun",
+  "gloss": "空氣；氣體"
+ },
+ "aircraft": {
+  "pos": "noun",
+  "gloss": "能飛行的機器"
+ },
+ "airline": {
+  "pos": "noun",
+  "gloss": "航空公司"
+ },
+ "alarm": {
+  "pos": "noun",
+  "gloss": "警報；警示聲光"
+ },
+ "album": {
+  "pos": "noun",
+  "gloss": "收集照片或圖片的冊子"
+ },
+ "alcohol": {
+  "pos": "noun",
+  "gloss": "酒；含酒精飲料"
+ },
+ "alive": {
+  "pos": "adj",
+  "gloss": "活著；未死亡"
+ },
+ "all": {
+  "pos": "det",
+  "gloss": "全部；整體"
+ },
+ "allege": {
+  "pos": "verb",
+  "gloss": "聲稱；宣稱"
+ },
+ "allow": {
+  "pos": "verb",
+  "gloss": "允許；准許"
+ },
+ "ally": {
+  "pos": "noun",
+  "gloss": "盟友；支持者"
+ },
+ "almost": {
+  "pos": "adv",
+  "gloss": "幾乎；差不多"
+ },
+ "alone": {
+  "pos": "adv",
+  "gloss": "獨自；單獨"
+ },
+ "along": {
+  "pos": "prep",
+  "gloss": "沿著；順著"
+ },
+ "alongside": {
+  "pos": "prep",
+  "gloss": "在…旁邊；與…並排"
+ },
+ "already": {
+  "pos": "adv",
+  "gloss": "已經；早已"
+ },
+ "alright": {
+  "pos": "adj",
+  "gloss": "好的；可以接受"
+ },
+ "also": {
+  "pos": "adv",
+  "gloss": "也；同樣"
+ },
+ "alter": {
+  "pos": "verb",
+  "gloss": "改變；修改"
+ },
+ "alternative": {
+  "pos": "noun",
+  "gloss": "替代；其他選擇"
+ },
+ "although": {
+  "pos": "conj",
+  "gloss": "儘管；不過"
+ },
+ "altogether": {
+  "pos": "adv",
+  "gloss": "完全地；總共"
+ },
+ "always": {
+  "pos": "adv",
+  "gloss": "總是；始終"
+ },
+ "amaze": {
+  "pos": "verb",
+  "gloss": "引起驚異；完全出乎意料"
+ },
+ "amendment": {
+  "pos": "noun",
+  "gloss": "修改；改進"
+ },
+ "among": {
+  "pos": "prep",
+  "gloss": "在...之中；當中"
+ },
+ "amount": {
+  "pos": "noun",
+  "gloss": "數量；分量"
+ },
+ "analysis": {
+  "pos": "noun",
+  "gloss": "分析；解析"
+ },
+ "analyst": {
+  "pos": "noun",
+  "gloss": "分析師；資料分析專家"
+ },
+ "analyze": {
+  "pos": "verb",
+  "gloss": "分析；解析"
+ },
+ "ancient": {
+  "pos": "adj",
+  "gloss": "非常古老；來自很久以前"
+ },
+ "and": {
+  "pos": "conj",
+  "gloss": "連接兩個或多個事物"
+ },
+ "anger": {
+  "pos": "verb",
+  "gloss": "使某人生氣、沮喪或惱怒"
+ },
+ "angle": {
+  "pos": "noun",
+  "gloss": "角度；兩線相交點"
+ },
+ "angry": {
+  "pos": "adj",
+  "gloss": "對不喜歡的事物有強烈感受"
+ },
+ "animal": {
+  "pos": "noun",
+  "gloss": "動物；生物"
+ },
+ "announce": {
+  "pos": "verb",
+  "gloss": "公開宣布；發表聲明"
+ },
+ "announcement": {
+  "pos": "noun",
+  "gloss": "公告；通知"
+ },
+ "annual": {
+  "pos": "adj",
+  "gloss": "一年一次；每年的"
+ },
+ "another": {
+  "pos": "det",
+  "gloss": "另一個；又一個"
+ },
+ "answer": {
+  "pos": "noun",
+  "gloss": "答案；解答"
+ },
+ "anticipate": {
+  "pos": "verb",
+  "gloss": "預期；期待"
+ },
+ "anxiety": {
+  "pos": "noun",
+  "gloss": "焦慮；不安"
+ },
+ "anxious": {
+  "pos": "adj",
+  "gloss": "焦慮的；擔憂的"
+ },
+ "any": {
+  "pos": "det",
+  "gloss": "任何；某些"
+ },
+ "anybody": {
+  "pos": "pron",
+  "gloss": "任何人；誰"
+ },
+ "anymore": {
+  "pos": "adv",
+  "gloss": "不再；已不"
+ },
+ "anyone": {
+  "pos": "pron",
+  "gloss": "任何人"
+ },
+ "anything": {
+  "pos": "pron",
+  "gloss": "任何東西；什麼"
+ },
+ "anyway": {
+  "pos": "adv",
+  "gloss": "無論如何；總之"
+ },
+ "anywhere": {
+  "pos": "adv",
+  "gloss": "任何地方；到處"
+ },
+ "apart": {
+  "pos": "adv",
+  "gloss": "分開的；相隔"
+ },
+ "apartment": {
+  "pos": "noun",
+  "gloss": "建築物某層樓的一套居住房間"
+ },
+ "apologize": {
+  "pos": "verb",
+  "gloss": "為錯誤或傷害向人道歉"
+ },
+ "apparent": {
+  "pos": "adj",
+  "gloss": "容易看出的；明顯易懂的"
+ },
+ "apparently": {
+  "pos": "adv",
+  "gloss": "據所聞；從表面看來"
+ },
+ "appeal": {
+  "pos": "verb",
+  "gloss": "上訴；請求改判決"
+ },
+ "appear": {
+  "pos": "verb",
+  "gloss": "出現；變得可見"
+ },
+ "appearance": {
+  "pos": "noun",
+  "gloss": "某人或某物的樣貌"
+ },
+ "application": {
+  "pos": "noun",
+  "gloss": "申請；應徵"
+ },
+ "apply": {
+  "pos": "verb",
+  "gloss": "申請；提出申請"
+ },
+ "appoint": {
+  "pos": "verb",
+  "gloss": "正式為某人選定職位或工作"
+ },
+ "appointment": {
+  "pos": "noun",
+  "gloss": "預約；約定時間"
+ },
+ "appreciate": {
+  "pos": "verb",
+  "gloss": "感謝；重視或欽佩"
+ },
+ "approach": {
+  "pos": "verb",
+  "gloss": "接近；靠近"
+ },
+ "appropriate": {
+  "pos": "adj",
+  "gloss": "適當的；恰當的"
+ },
+ "approval": {
+  "pos": "noun",
+  "gloss": "贊同；認可"
+ },
+ "approve": {
+  "pos": "verb",
+  "gloss": "贊成；對……有正面看法"
+ },
+ "approximately": {
+  "pos": "adv",
+  "gloss": "大約；約莫"
+ },
+ "architecture": {
+  "pos": "noun",
+  "gloss": "建築；建築學"
+ },
+ "area": {
+  "pos": "noun",
+  "gloss": "特定的區域或空間；地區的一部分"
+ },
+ "argue": {
+  "pos": "verb",
+  "gloss": "辯論；爭論"
+ },
+ "argument": {
+  "pos": "noun",
+  "gloss": "論述；爭論"
+ },
+ "arise": {
+  "pos": "verb",
+  "gloss": "起身；發生"
+ },
+ "arm": {
+  "pos": "noun",
+  "gloss": "手臂；胳膊"
+ },
+ "army": {
+  "pos": "noun",
+  "gloss": "軍隊；陸軍"
+ },
+ "around": {
+  "pos": "prep",
+  "gloss": "周圍；四周"
+ },
+ "arrange": {
+  "pos": "verb",
+  "gloss": "將事物排成特定順序；規劃組織事件"
+ },
+ "arrangement": {
+  "pos": "noun",
+  "gloss": "安排；協議"
+ },
+ "arrest": {
+  "pos": "verb",
+  "gloss": "逮捕；被捕"
+ },
+ "arrival": {
+  "pos": "noun",
+  "gloss": "到達某地的時刻"
+ },
+ "arrive": {
+  "pos": "verb",
+  "gloss": "抵達；到達"
+ },
+ "art": {
+  "pos": "noun",
+  "gloss": "藝術；美術"
+ },
+ "article": {
+  "pos": "noun",
+  "gloss": "文章；論文"
+ },
+ "artist": {
+  "pos": "noun",
+  "gloss": "藝術家；創作者"
+ },
+ "as": {
+  "pos": "conj",
+  "gloss": "如同；當…時"
+ },
+ "ashamed": {
+  "pos": "adj",
+  "gloss": "感到羞愧；內疚"
+ },
+ "aside": {
+  "pos": "adv",
+  "gloss": "旁邊；一旁"
+ },
+ "ask": {
+  "pos": "verb",
+  "gloss": "詢問；請求"
+ },
+ "assess": {
+  "pos": "verb",
+  "gloss": "評估；評定"
+ },
+ "assessment": {
+  "pos": "noun",
+  "gloss": "評估；評價"
+ },
+ "asset": {
+  "pos": "noun",
+  "gloss": "資產；有價值的人或物"
+ },
+ "assign": {
+  "pos": "verb",
+  "gloss": "分配；指派"
+ },
+ "assist": {
+  "pos": "verb",
+  "gloss": "幫助"
+ },
+ "assistance": {
+  "pos": "noun",
+  "gloss": "幫助；協助"
+ },
+ "assistant": {
+  "pos": "noun",
+  "gloss": "幫助他人的人；助手"
+ },
+ "associate": {
+  "pos": "noun",
+  "gloss": "同事；夥伴"
+ },
+ "association": {
+  "pos": "noun",
+  "gloss": "協會；同好組織"
+ },
+ "assume": {
+  "pos": "verb",
+  "gloss": "假設；推測"
+ },
+ "assumption": {
+  "pos": "noun",
+  "gloss": "假設；未經證實的想法"
+ },
+ "assure": {
+  "pos": "verb",
+  "gloss": "確保某事發生"
+ },
+ "at": {
+  "pos": "prep",
+  "gloss": "在；位於"
+ },
+ "athlete": {
+  "pos": "noun",
+  "gloss": "運動員；健兒"
+ },
+ "atmosphere": {
+  "pos": "noun",
+  "gloss": "環繞地球的氣體混合物；地點或情況給予的感覺"
+ },
+ "attach": {
+  "pos": "verb",
+  "gloss": "與……有關聯；相連"
+ },
+ "attachment": {
+  "pos": "noun",
+  "gloss": "深厚情感；依戀；眷戀"
+ },
+ "attack": {
+  "pos": "verb",
+  "gloss": "攻擊；進攻"
+ },
+ "attempt": {
+  "pos": "verb",
+  "gloss": "嘗試；試圖"
+ },
+ "attend": {
+  "pos": "verb",
+  "gloss": "出席；參加"
+ },
+ "attendance": {
+  "pos": "noun",
+  "gloss": "出席；出勤"
+ },
+ "attention": {
+  "pos": "noun",
+  "gloss": "注意；關注"
+ },
+ "attitude": {
+  "pos": "noun",
+  "gloss": "態度；思想與感受方式"
+ },
+ "attract": {
+  "pos": "verb",
+  "gloss": "吸引；引起注意"
+ },
+ "attraction": {
+  "pos": "noun",
+  "gloss": "景點；吸引力"
+ },
+ "attractive": {
+  "pos": "adj",
+  "gloss": "因容貌漂亮等而令人喜歡"
+ },
+ "attribute": {
+  "pos": "noun",
+  "gloss": "特質；某物的性質"
+ },
+ "audience": {
+  "pos": "noun",
+  "gloss": "觀眾；聽眾"
+ },
+ "aunt": {
+  "pos": "noun",
+  "gloss": "阿姨；姑姑"
+ },
+ "author": {
+  "pos": "noun",
+  "gloss": "作者；著作人"
+ },
+ "automatically": {
+  "pos": "adv",
+  "gloss": "自動地；自發地"
+ },
+ "autumn": {
+  "pos": "noun",
+  "gloss": "秋季；秋天"
+ },
+ "available": {
+  "pos": "adj",
+  "gloss": "可得的；可用的"
+ },
+ "average": {
+  "pos": "adj",
+  "gloss": "平均的；普通的"
+ },
+ "avoid": {
+  "pos": "verb",
+  "gloss": "避免；躲避"
+ },
+ "award": {
+  "pos": "verb",
+  "gloss": "因表現良好而給予獎項"
+ },
+ "aware": {
+  "pos": "adj",
+  "gloss": "知道的；察覺到"
+ },
+ "awareness": {
+  "pos": "noun",
+  "gloss": "認識；意識"
+ },
+ "away": {
+  "pos": "adv",
+  "gloss": "不在此處；在遠方；朝另一方向"
+ },
+ "awful": {
+  "pos": "adj",
+  "gloss": "非常壞；可怕的"
+ },
+ "baby": {
+  "pos": "noun",
+  "gloss": "嬰兒；幼兒"
+ },
+ "back": {
+  "pos": "adv",
+  "gloss": "向後；返回"
+ },
+ "background": {
+  "pos": "noun",
+  "gloss": "背景；主體後方的影像或資訊"
+ },
+ "bad": {
+  "pos": "adj",
+  "gloss": "不好的；錯誤的"
+ },
+ "badly": {
+  "pos": "adv",
+  "gloss": "不好地；非所願地"
+ },
+ "bag": {
+  "pos": "noun",
+  "gloss": "袋子；包包"
+ },
+ "balance": {
+  "pos": "verb",
+  "gloss": "使平衡；使相等"
+ },
+ "ball": {
+  "pos": "noun",
+  "gloss": "圓形物體；球"
+ },
+ "ban": {
+  "pos": "verb",
+  "gloss": "禁止；使其非法或不被允許"
+ },
+ "band": {
+  "pos": "noun",
+  "gloss": "樂隊；協力工作的群體"
+ },
+ "bank": {
+  "pos": "noun",
+  "gloss": "銀行；金融機構"
+ },
+ "bar": {
+  "pos": "verb",
+  "gloss": "阻止；禁止"
+ },
+ "barely": {
+  "pos": "adv",
+  "gloss": "幾乎不；勉強"
+ },
+ "barrier": {
+  "pos": "noun",
+  "gloss": "障礙物；阻隔"
+ },
+ "base": {
+  "pos": "noun",
+  "gloss": "基礎；根基"
+ },
+ "basic": {
+  "pos": "adj",
+  "gloss": "最重要或最初級的"
+ },
+ "basically": {
+  "pos": "adv",
+  "gloss": "基本上；本質上"
+ },
+ "basis": {
+  "pos": "noun",
+  "gloss": "開發的起始情況；基礎"
+ },
+ "bath": {
+  "pos": "noun",
+  "gloss": "浴；水中清洗身體"
+ },
+ "battle": {
+  "pos": "noun",
+  "gloss": "軍隊之間的戰鬥"
+ },
+ "be": {
+  "pos": "verb",
+  "gloss": "存在；生存"
+ },
+ "beach": {
+  "pos": "noun",
+  "gloss": "大片沙地；靠近水域的地方"
+ },
+ "bear": {
+  "pos": "noun",
+  "gloss": "熊；熊類動物"
+ },
+ "beat": {
+  "pos": "verb",
+  "gloss": "戰勝；擊敗對手"
+ },
+ "beautiful": {
+  "pos": "adj",
+  "gloss": "美麗；漂亮"
+ },
+ "beauty": {
+  "pos": "noun",
+  "gloss": "美；美麗"
+ },
+ "because": {
+  "pos": "conj",
+  "gloss": "因為；理由"
+ },
+ "become": {
+  "pos": "verb",
+  "gloss": "變成；成為"
+ },
+ "bed": {
+  "pos": "noun",
+  "gloss": "床；床鋪"
+ },
+ "bedroom": {
+  "pos": "noun",
+  "gloss": "臥室；寢室"
+ },
+ "beer": {
+  "pos": "noun",
+  "gloss": "用麥類穀物釀製的酒精飲料"
+ },
+ "before": {
+  "pos": "adv",
+  "gloss": "先前；過去"
+ },
+ "begin": {
+  "pos": "verb",
+  "gloss": "開始；著手"
+ },
+ "behave": {
+  "pos": "verb",
+  "gloss": "舉止；表現行為"
+ },
+ "behavior": {
+  "pos": "noun",
+  "gloss": "行為；舉止"
+ },
+ "behind": {
+  "pos": "prep",
+  "gloss": "在...後面；背後"
+ },
+ "belief": {
+  "pos": "noun",
+  "gloss": "信念；信仰"
+ },
+ "believe": {
+  "pos": "verb",
+  "gloss": "相信；認為是真的"
+ },
+ "bell": {
+  "pos": "noun",
+  "gloss": "鐘；門鈴"
+ },
+ "belong": {
+  "pos": "verb",
+  "gloss": "屬於；隸屬"
+ },
+ "below": {
+  "pos": "adv",
+  "gloss": "下方；以下"
+ },
+ "belt": {
+  "pos": "noun",
+  "gloss": "腰帶；皮帶"
+ },
+ "bend": {
+  "pos": "verb",
+  "gloss": "彎曲；使不直"
+ },
+ "beneath": {
+  "pos": "prep",
+  "gloss": "在下方；在……下面"
+ },
+ "benefit": {
+  "pos": "noun",
+  "gloss": "好處；利益"
+ },
+ "beside": {
+  "pos": "prep",
+  "gloss": "在…旁邊；靠近"
+ },
+ "besides": {
+  "pos": "prep",
+  "gloss": "除了；另外"
+ },
+ "bet": {
+  "pos": "verb",
+  "gloss": "打賭；下注"
+ },
+ "between": {
+  "pos": "prep",
+  "gloss": "在...之間"
+ },
+ "beyond": {
+  "pos": "prep",
+  "gloss": "超越；在另一側"
+ },
+ "bias": {
+  "pos": "noun",
+  "gloss": "偏見；成見"
+ },
+ "bid": {
+  "pos": "noun",
+  "gloss": "願意支付特定金額的報價"
+ },
+ "big": {
+  "pos": "adj",
+  "gloss": "大的；巨大"
+ },
+ "bike": {
+  "pos": "noun",
+  "gloss": "自行車；腳踏車"
+ },
+ "bill": {
+  "pos": "noun",
+  "gloss": "帳單；費用單"
+ },
+ "bin": {
+  "pos": "noun",
+  "gloss": "儲物箱；容器"
+ },
+ "bind": {
+  "pos": "verb",
+  "gloss": "捆綁；束縛"
+ },
+ "biological": {
+  "pos": "adj",
+  "gloss": "生物的；生物學的"
+ },
+ "bird": {
+  "pos": "noun",
+  "gloss": "鳥類"
+ },
+ "birth": {
+  "pos": "noun",
+  "gloss": "嬰兒從母親身體出生的時刻"
+ },
+ "bit": {
+  "pos": "noun",
+  "gloss": "小片；一小塊"
+ },
+ "bite": {
+  "pos": "verb",
+  "gloss": "咬；齧"
+ },
+ "black": {
+  "pos": "adj",
+  "gloss": "黑色的"
+ },
+ "blame": {
+  "pos": "verb",
+  "gloss": "責備；歸咎"
+ },
+ "bless": {
+  "pos": "verb",
+  "gloss": "祈求神靈保護"
+ },
+ "blind": {
+  "pos": "adj",
+  "gloss": "瞎的；看不見"
+ },
+ "block": {
+  "pos": "verb",
+  "gloss": "阻擋；阻止前進"
+ },
+ "blog": {
+  "pos": "noun",
+  "gloss": "部落格；網誌"
+ },
+ "blood": {
+  "pos": "noun",
+  "gloss": "血液；紅色體液"
+ },
+ "bloody": {
+  "pos": "adj",
+  "gloss": "流血的；有血跡"
+ },
+ "blow": {
+  "pos": "verb",
+  "gloss": "用空氣移動某物"
+ },
+ "blue": {
+  "pos": "adj",
+  "gloss": "藍色的"
+ },
+ "board": {
+  "pos": "noun",
+  "gloss": "板子；告示板"
+ },
+ "boat": {
+  "pos": "noun",
+  "gloss": "在水上航行的小型交通工具"
+ },
+ "body": {
+  "pos": "noun",
+  "gloss": "人的肉體；軀體"
+ },
+ "bomb": {
+  "pos": "noun",
+  "gloss": "炸彈；爆炸裝置"
+ },
+ "bond": {
+  "pos": "noun",
+  "gloss": "連結；紐帶；承諾"
+ },
+ "bone": {
+  "pos": "noun",
+  "gloss": "動物身體的堅硬部分；骨架"
+ },
+ "book": {
+  "pos": "noun",
+  "gloss": "書；印刷物"
+ },
+ "boom": {
+  "pos": "verb",
+  "gloss": "發出低沉共鳴聲"
+ },
+ "boost": {
+  "pos": "verb",
+  "gloss": "促進；增加"
+ },
+ "boot": {
+  "pos": "noun",
+  "gloss": "靴子；長筒鞋"
+ },
+ "border": {
+  "pos": "noun",
+  "gloss": "邊界；邊境"
+ },
+ "bore": {
+  "pos": "verb",
+  "gloss": "使厭煩；無聊"
+ },
+ "borrow": {
+  "pos": "verb",
+  "gloss": "借入；借用"
+ },
+ "boss": {
+  "pos": "noun",
+  "gloss": "工作上管理或負責你的人"
+ },
+ "both": {
+  "pos": "det",
+  "gloss": "兩者都；雙方"
+ },
+ "bother": {
+  "pos": "verb",
+  "gloss": "費力去做某事"
+ },
+ "bottle": {
+  "pos": "noun",
+  "gloss": "瓶子；容器"
+ },
+ "bottom": {
+  "pos": "noun",
+  "gloss": "事物最低的部分；基礎"
+ },
+ "boundary": {
+  "pos": "noun",
+  "gloss": "邊界；界線"
+ },
+ "bowl": {
+  "pos": "noun",
+  "gloss": "碗；盛裝容器"
+ },
+ "box": {
+  "pos": "noun",
+  "gloss": "盒子；箱子"
+ },
+ "boy": {
+  "pos": "noun",
+  "gloss": "男孩；少年"
+ },
+ "brain": {
+  "pos": "noun",
+  "gloss": "頭部思考和控制身體的部分"
+ },
+ "branch": {
+  "pos": "noun",
+  "gloss": "樹枝；分支"
+ },
+ "brand": {
+  "pos": "noun",
+  "gloss": "給予產品或服務的名稱"
+ },
+ "bread": {
+  "pos": "noun",
+  "gloss": "麵包；麵粉烤製食物"
+ },
+ "break": {
+  "pos": "verb",
+  "gloss": "打破；折斷"
+ },
+ "breakfast": {
+  "pos": "noun",
+  "gloss": "一天的第一餐"
+ },
+ "breast": {
+  "pos": "noun",
+  "gloss": "女性身體前部產乳的部分"
+ },
+ "breath": {
+  "pos": "noun",
+  "gloss": "呼吸；氣息"
+ },
+ "breathe": {
+  "pos": "verb",
+  "gloss": "呼吸；吸氣"
+ },
+ "breed": {
+  "pos": "verb",
+  "gloss": "生產特定種類的幼獸"
+ },
+ "bridge": {
+  "pos": "noun",
+  "gloss": "橋梁；橋"
+ },
+ "brief": {
+  "pos": "adj",
+  "gloss": "短的；用詞簡少的"
+ },
+ "briefly": {
+  "pos": "adv",
+  "gloss": "簡短地；短期間"
+ },
+ "bright": {
+  "pos": "adj",
+  "gloss": "明亮的；發出強光的"
+ },
+ "brilliant": {
+  "pos": "adj",
+  "gloss": "具有極高智慧或才能"
+ },
+ "bring": {
+  "pos": "verb",
+  "gloss": "帶來；攜帶"
+ },
+ "broad": {
+  "pos": "adj",
+  "gloss": "寬；從短邊到另一邊"
+ },
+ "broadcast": {
+  "pos": "verb",
+  "gloss": "廣播；無線電視傳播"
+ },
+ "brother": {
+  "pos": "noun",
+  "gloss": "兄弟"
+ },
+ "brown": {
+  "pos": "adj",
+  "gloss": "褐色；棕色"
+ },
+ "brush": {
+  "pos": "noun",
+  "gloss": "刷子；毛刷"
+ },
+ "budget": {
+  "pos": "noun",
+  "gloss": "預算；計畫開支"
+ },
+ "build": {
+  "pos": "verb",
+  "gloss": "通過組合材料來製造（如房屋）"
+ },
+ "bunch": {
+  "pos": "noun",
+  "gloss": "一束；一群"
+ },
+ "burden": {
+  "pos": "noun",
+  "gloss": "負擔；困擾重任"
+ },
+ "burn": {
+  "pos": "verb",
+  "gloss": "焚燒；燒毀"
+ },
+ "burst": {
+  "pos": "verb",
+  "gloss": "突然破裂；爆破"
+ },
+ "bury": {
+  "pos": "verb",
+  "gloss": "埋入地下；掩埋"
+ },
+ "bus": {
+  "pos": "noun",
+  "gloss": "公共汽車；巴士"
+ },
+ "business": {
+  "pos": "noun",
+  "gloss": "製造、買賣商品或提供服務以賺錢"
+ },
+ "busy": {
+  "pos": "adj",
+  "gloss": "忙於做某事；充滿活動"
+ },
+ "but": {
+  "pos": "conj",
+  "gloss": "但是；然而"
+ },
+ "button": {
+  "pos": "noun",
+  "gloss": "鈕扣；衣服扣子"
+ },
+ "buy": {
+  "pos": "verb",
+  "gloss": "購買；花錢取得"
+ },
+ "buyer": {
+  "pos": "noun",
+  "gloss": "買方；購買者"
+ },
+ "by": {
+  "pos": "prep",
+  "gloss": "靠近；由"
+ },
+ "cable": {
+  "pos": "noun",
+  "gloss": "傳輸電力、訊號或網路的電線"
+ },
+ "cake": {
+  "pos": "noun",
+  "gloss": "用麵粉、蛋、油脂、糖烘焙的甜食"
+ },
+ "calculate": {
+  "pos": "verb",
+  "gloss": "計算；運算"
+ },
+ "call": {
+  "pos": "verb",
+  "gloss": "打電話給"
+ },
+ "calm": {
+  "pos": "adj",
+  "gloss": "平靜的；鎮定的"
+ },
+ "camera": {
+  "pos": "noun",
+  "gloss": "數位或膠片拍照的器材"
+ },
+ "camp": {
+  "pos": "noun",
+  "gloss": "營地；野營"
+ },
+ "campaign": {
+  "pos": "verb",
+  "gloss": "宣傳；從事活動"
+ },
+ "can": {
+  "pos": "aux",
+  "gloss": "能；可以"
+ },
+ "cancel": {
+  "pos": "verb",
+  "gloss": "取消；撤銷"
+ },
+ "cancer": {
+  "pos": "noun",
+  "gloss": "癌症；惡性腫瘤"
+ },
+ "candidate": {
+  "pos": "noun",
+  "gloss": "被考慮任職或擔任公職的人"
+ },
+ "cap": {
+  "pos": "noun",
+  "gloss": "帽子；鴨舌帽"
+ },
+ "capability": {
+  "pos": "noun",
+  "gloss": "能力；才能"
+ },
+ "capable": {
+  "pos": "adj",
+  "gloss": "能夠做某事的"
+ },
+ "capacity": {
+  "pos": "noun",
+  "gloss": "容量；能力"
+ },
+ "capital": {
+  "pos": "adj",
+  "gloss": "主要；首要"
+ },
+ "capture": {
+  "pos": "verb",
+  "gloss": "捕捉；抓住"
+ },
+ "car": {
+  "pos": "noun",
+  "gloss": "有四個輪子和引擎能運載東西的車輛"
+ },
+ "carbon": {
+  "pos": "noun",
+  "gloss": "碳；碳元素"
+ },
+ "card": {
+  "pos": "noun",
+  "gloss": "卡片；證件"
+ },
+ "care": {
+  "pos": "verb",
+  "gloss": "照顧；關心"
+ },
+ "career": {
+  "pos": "noun",
+  "gloss": "職業；事業"
+ },
+ "careful": {
+  "pos": "adj",
+  "gloss": "謹慎；小心"
+ },
+ "carefully": {
+  "pos": "adv",
+  "gloss": "小心地；專注地"
+ },
+ "carpet": {
+  "pos": "noun",
+  "gloss": "地毯；毛毯"
+ },
+ "carry": {
+  "pos": "verb",
+  "gloss": "攜帶；運送"
+ },
+ "case": {
+  "pos": "noun",
+  "gloss": "例子；情況"
+ },
+ "cash": {
+  "pos": "noun",
+  "gloss": "實體金錢；非信用卡或數位金錢"
+ },
+ "cast": {
+  "pos": "verb",
+  "gloss": "投擲；丟出"
+ },
+ "castle": {
+  "pos": "noun",
+  "gloss": "城堡；堡壘"
+ },
+ "cat": {
+  "pos": "noun",
+  "gloss": "貓；家貓"
+ },
+ "catalog": {
+  "pos": "noun",
+  "gloss": "目錄；商品清單"
+ },
+ "catch": {
+  "pos": "verb",
+  "gloss": "抓住；捕捉"
+ },
+ "category": {
+  "pos": "noun",
+  "gloss": "類別；種類"
+ },
+ "cause": {
+  "pos": "verb",
+  "gloss": "導致；使發生"
+ },
+ "celebrate": {
+  "pos": "verb",
+  "gloss": "慶祝；紀念"
+ },
+ "celebration": {
+  "pos": "noun",
+  "gloss": "慶祝；慶典"
+ },
+ "cell": {
+  "pos": "noun",
+  "gloss": "手機；行動電話"
+ },
+ "cent": {
+  "pos": "noun",
+  "gloss": "分；美分"
+ },
+ "center": {
+  "pos": "noun",
+  "gloss": "中心；中央"
+ },
+ "central": {
+  "pos": "adj",
+  "gloss": "中央的；中心的"
+ },
+ "century": {
+  "pos": "noun",
+  "gloss": "世紀；百年"
+ },
+ "ceremony": {
+  "pos": "noun",
+  "gloss": "儀式；典禮"
+ },
+ "certain": {
+  "pos": "adj",
+  "gloss": "確定的；肯定的"
+ },
+ "certainly": {
+  "pos": "adv",
+  "gloss": "肯定；確實"
+ },
+ "chain": {
+  "pos": "noun",
+  "gloss": "連結的事物、事件或人的系列"
+ },
+ "chair": {
+  "pos": "noun",
+  "gloss": "椅子；坐具"
+ },
+ "chairman": {
+  "pos": "noun",
+  "gloss": "主席；會長"
+ },
+ "challenge": {
+  "pos": "noun",
+  "gloss": "挑戰；困難"
+ },
+ "chamber": {
+  "pos": "noun",
+  "gloss": "房間；室"
+ },
+ "champion": {
+  "pos": "noun",
+  "gloss": "冠軍；倡導者"
+ },
+ "championship": {
+  "pos": "noun",
+  "gloss": "冠軍賽；錦標賽"
+ },
+ "chance": {
+  "pos": "noun",
+  "gloss": "機會；可能性"
+ },
+ "change": {
+  "pos": "verb",
+  "gloss": "改變；變成"
+ },
+ "channel": {
+  "pos": "noun",
+  "gloss": "供船舶通行的狹窄深水道；傳送事物的系統"
+ },
+ "chapter": {
+  "pos": "noun",
+  "gloss": "書的主要章節之一"
+ },
+ "character": {
+  "pos": "noun",
+  "gloss": "性格；人格"
+ },
+ "characteristic": {
+  "pos": "noun",
+  "gloss": "特定人或物所具有的典型特徵或品質"
+ },
+ "characterize": {
+  "pos": "verb",
+  "gloss": "描述特質；刻畫特性"
+ },
+ "charge": {
+  "pos": "verb",
+  "gloss": "收費；索價"
+ },
+ "charity": {
+  "pos": "noun",
+  "gloss": "慈善機構；慈善工作"
+ },
+ "charm": {
+  "pos": "noun",
+  "gloss": "魅力；吸引力"
+ },
+ "chart": {
+  "pos": "noun",
+  "gloss": "以清晰方式顯示資訊的圖表"
+ },
+ "chase": {
+  "pos": "verb",
+  "gloss": "追趕；追逐"
+ },
+ "chat": {
+  "pos": "verb",
+  "gloss": "聊天；談話"
+ },
+ "cheap": {
+  "pos": "adj",
+  "gloss": "便宜的；價格不高"
+ },
+ "check": {
+  "pos": "verb",
+  "gloss": "檢查；確認"
+ },
+ "cheek": {
+  "pos": "noun",
+  "gloss": "臉頰；面頰"
+ },
+ "cheese": {
+  "pos": "noun",
+  "gloss": "起司；乳酪"
+ },
+ "chemical": {
+  "pos": "noun",
+  "gloss": "化學物質；化工物"
+ },
+ "chest": {
+  "pos": "noun",
+  "gloss": "胸部；胸腔"
+ },
+ "chicken": {
+  "pos": "noun",
+  "gloss": "雞；家禽"
+ },
+ "chief": {
+  "pos": "noun",
+  "gloss": "最重要者；首要之人或物"
+ },
+ "child": {
+  "pos": "noun",
+  "gloss": "幼兒；小孩"
+ },
+ "childhood": {
+  "pos": "noun",
+  "gloss": "作為小孩的時期"
+ },
+ "chip": {
+  "pos": "noun",
+  "gloss": "碎片；小片"
+ },
+ "chocolate": {
+  "pos": "noun",
+  "gloss": "巧克力"
+ },
+ "choice": {
+  "pos": "noun",
+  "gloss": "選擇；抉擇"
+ },
+ "choose": {
+  "pos": "verb",
+  "gloss": "選擇；挑選"
+ },
+ "church": {
+  "pos": "noun",
+  "gloss": "教堂；教會"
+ },
+ "cigarette": {
+  "pos": "noun",
+  "gloss": "香菸；捲菸"
+ },
+ "circle": {
+  "pos": "noun",
+  "gloss": "完全圓形；排成圓形的群體"
+ },
+ "circumstance": {
+  "pos": "noun",
+  "gloss": "影響情況的條件或事實"
+ },
+ "cite": {
+  "pos": "verb",
+  "gloss": "引述；提及他人著作"
+ },
+ "citizen": {
+  "pos": "noun",
+  "gloss": "公民；市民"
+ },
+ "city": {
+  "pos": "noun",
+  "gloss": "城市；都市"
+ },
+ "civil": {
+  "pos": "adj",
+  "gloss": "民間的；非軍事的"
+ },
+ "civilian": {
+  "pos": "noun",
+  "gloss": "平民；非軍人"
+ },
+ "claim": {
+  "pos": "verb",
+  "gloss": "聲稱；主張"
+ },
+ "class": {
+  "pos": "noun",
+  "gloss": "階級；社會階層"
+ },
+ "classic": {
+  "pos": "adj",
+  "gloss": "經典的；長久受推崇的"
+ },
+ "classical": {
+  "pos": "adj",
+  "gloss": "古典的；傳統的"
+ },
+ "clause": {
+  "pos": "noun",
+  "gloss": "條款；子句"
+ },
+ "clean": {
+  "pos": "adj",
+  "gloss": "乾淨的；潔淨的"
+ },
+ "clear": {
+  "pos": "adj",
+  "gloss": "清楚的；明白的"
+ },
+ "clearly": {
+  "pos": "adv",
+  "gloss": "清楚地；明顯地"
+ },
+ "click": {
+  "pos": "verb",
+  "gloss": "點擊；按下"
+ },
+ "climate": {
+  "pos": "noun",
+  "gloss": "氣候；天氣型態"
+ },
+ "climb": {
+  "pos": "verb",
+  "gloss": "爬升；上升"
+ },
+ "clinical": {
+  "pos": "adj",
+  "gloss": "臨床的；與患者診療相關的"
+ },
+ "clock": {
+  "pos": "noun",
+  "gloss": "顯示時間的裝置"
+ },
+ "close": {
+  "pos": "adj",
+  "gloss": "靠近；距離很短"
+ },
+ "closely": {
+  "pos": "adv",
+  "gloss": "在空間或時間上非常接近"
+ },
+ "clothes": {
+  "pos": "noun",
+  "gloss": "穿在身體上的東西；衣著"
+ },
+ "clothing": {
+  "pos": "noun",
+  "gloss": "衣物；服飾"
+ },
+ "cloud": {
+  "pos": "noun",
+  "gloss": "天空中的水蒸氣團；雲"
+ },
+ "club": {
+  "pos": "noun",
+  "gloss": "俱樂部；社團"
+ },
+ "cluster": {
+  "pos": "noun",
+  "gloss": "群集；叢聚"
+ },
+ "coach": {
+  "pos": "noun",
+  "gloss": "教導他人運動或技能的人"
+ },
+ "coal": {
+  "pos": "noun",
+  "gloss": "煤；煤炭"
+ },
+ "coast": {
+  "pos": "noun",
+  "gloss": "靠近海或洋的陸地"
+ },
+ "coat": {
+  "pos": "noun",
+  "gloss": "穿在普通衣服外的外衣"
+ },
+ "code": {
+  "pos": "noun",
+  "gloss": "由字母或數字組成的密碼"
+ },
+ "coffee": {
+  "pos": "noun",
+  "gloss": "用烘焙豆子煮沸製成的褐色飲料"
+ },
+ "coin": {
+  "pos": "noun",
+  "gloss": "硬幣"
+ },
+ "cold": {
+  "pos": "adj",
+  "gloss": "冷的；寒冷的"
+ },
+ "collapse": {
+  "pos": "verb",
+  "gloss": "突然倒下或破裂"
+ },
+ "colleague": {
+  "pos": "noun",
+  "gloss": "與你一起工作的人；同事"
+ },
+ "collect": {
+  "pos": "verb",
+  "gloss": "收集；聚集一處"
+ },
+ "collection": {
+  "pos": "noun",
+  "gloss": "收藏；聚集的物品"
+ },
+ "college": {
+  "pos": "noun",
+  "gloss": "學院；大學"
+ },
+ "color": {
+  "pos": "noun",
+  "gloss": "顏色；色彩"
+ },
+ "column": {
+  "pos": "noun",
+  "gloss": "建築物中的支撐柱；頁面上並列的文字欄"
+ },
+ "combination": {
+  "pos": "noun",
+  "gloss": "將事物混合在一起的結果"
+ },
+ "combine": {
+  "pos": "verb",
+  "gloss": "混合多個東西形成一體"
+ },
+ "come": {
+  "pos": "verb",
+  "gloss": "來；到達"
+ },
+ "comedy": {
+  "pos": "noun",
+  "gloss": "喜劇；搞笑片"
+ },
+ "comfort": {
+  "pos": "noun",
+  "gloss": "舒適；安慰"
+ },
+ "comfortable": {
+  "pos": "adj",
+  "gloss": "不擔憂的；自在的"
+ },
+ "command": {
+  "pos": "verb",
+  "gloss": "下令；控制他人"
+ },
+ "comment": {
+  "pos": "noun",
+  "gloss": "評論；意見"
+ },
+ "commercial": {
+  "pos": "noun",
+  "gloss": "廣播或電視廣告"
+ },
+ "commission": {
+  "pos": "noun",
+  "gloss": "被正式委任負責查明某事或控制某事的群體"
+ },
+ "commit": {
+  "pos": "verb",
+  "gloss": "做壞事，通常是犯罪行為"
+ },
+ "commitment": {
+  "pos": "noun",
+  "gloss": "承諾或決定做某事；佔用時間必須做的事"
+ },
+ "committee": {
+  "pos": "noun",
+  "gloss": "委員會；決策小組"
+ },
+ "common": {
+  "pos": "adj",
+  "gloss": "常見的；普通的"
+ },
+ "communicate": {
+  "pos": "verb",
+  "gloss": "溝通；交流資訊"
+ },
+ "communication": {
+  "pos": "noun",
+  "gloss": "與人交談；向他人提供資訊"
+ },
+ "community": {
+  "pos": "noun",
+  "gloss": "社群；社區"
+ },
+ "company": {
+  "pos": "noun",
+  "gloss": "企業；商業機構"
+ },
+ "compare": {
+  "pos": "verb",
+  "gloss": "比較；對比"
+ },
+ "comparison": {
+  "pos": "noun",
+  "gloss": "比較；異同對照"
+ },
+ "compensation": {
+  "pos": "noun",
+  "gloss": "補償；賠償"
+ },
+ "compete": {
+  "pos": "verb",
+  "gloss": "競爭；比賽"
+ },
+ "competition": {
+  "pos": "noun",
+  "gloss": "競爭；比賽"
+ },
+ "competitive": {
+  "pos": "adj",
+  "gloss": "想贏或比他人更優秀的"
+ },
+ "competitor": {
+  "pos": "noun",
+  "gloss": "競賽者；競爭對手"
+ },
+ "complain": {
+  "pos": "verb",
+  "gloss": "抱怨；訴苦"
+ },
+ "complaint": {
+  "pos": "noun",
+  "gloss": "抱怨；申訴"
+ },
+ "complete": {
+  "pos": "verb",
+  "gloss": "完成；結束"
+ },
+ "completely": {
+  "pos": "adv",
+  "gloss": "以各種方式；盡可能充分"
+ },
+ "complex": {
+  "pos": "adj",
+  "gloss": "複雜的；難以理解"
+ },
+ "complexity": {
+  "pos": "noun",
+  "gloss": "複雜性；複雜"
+ },
+ "complicate": {
+  "pos": "verb",
+  "gloss": "使複雜；使困難"
+ },
+ "component": {
+  "pos": "noun",
+  "gloss": "成分；零件"
+ },
+ "compose": {
+  "pos": "verb",
+  "gloss": "組成；構成"
+ },
+ "composition": {
+  "pos": "noun",
+  "gloss": "作文；構成物"
+ },
+ "compound": {
+  "pos": "noun",
+  "gloss": "化合物；複合物"
+ },
+ "comprehensive": {
+  "pos": "adj",
+  "gloss": "全面的；包羅萬象的"
+ },
+ "comprise": {
+  "pos": "verb",
+  "gloss": "組成；構成"
+ },
+ "compromise": {
+  "pos": "noun",
+  "gloss": "妥協；折中"
+ },
+ "compute": {
+  "pos": "verb",
+  "gloss": "計算；推算"
+ },
+ "computer": {
+  "pos": "noun",
+  "gloss": "電腦；計算機"
+ },
+ "concentrate": {
+  "pos": "verb",
+  "gloss": "將全部注意力集中在工作上；專注"
+ },
+ "concentration": {
+  "pos": "noun",
+  "gloss": "將努力和注意力集中於一事物的能力"
+ },
+ "concept": {
+  "pos": "noun",
+  "gloss": "概念；抽象想法"
+ },
+ "concern": {
+  "pos": "noun",
+  "gloss": "擔憂；憂慮"
+ },
+ "concert": {
+  "pos": "noun",
+  "gloss": "由一位或多位表演者公開演奏的音樂"
+ },
+ "conclude": {
+  "pos": "verb",
+  "gloss": "停止或完成；達到結束"
+ },
+ "conclusion": {
+  "pos": "noun",
+  "gloss": "結論；判斷"
+ },
+ "concrete": {
+  "pos": "noun",
+  "gloss": "混凝土；水泥"
+ },
+ "condition": {
+  "pos": "noun",
+  "gloss": "狀態；條件"
+ },
+ "conduct": {
+  "pos": "verb",
+  "gloss": "指揮；引導進行"
+ },
+ "conference": {
+  "pos": "noun",
+  "gloss": "會議；研討會"
+ },
+ "confidence": {
+  "pos": "noun",
+  "gloss": "信心；自信"
+ },
+ "confident": {
+  "pos": "adj",
+  "gloss": "自信的；相信能做好"
+ },
+ "confirm": {
+  "pos": "verb",
+  "gloss": "提供證據證實真偽"
+ },
+ "conflict": {
+  "pos": "verb",
+  "gloss": "衝突；不符"
+ },
+ "confuse": {
+  "pos": "verb",
+  "gloss": "使困惑；弄不清"
+ },
+ "confusion": {
+  "pos": "noun",
+  "gloss": "困惑；混亂"
+ },
+ "connect": {
+  "pos": "verb",
+  "gloss": "將事物連接或附加在一起"
+ },
+ "connection": {
+  "pos": "noun",
+  "gloss": "連接；事物聯繫關係"
+ },
+ "consequence": {
+  "pos": "noun",
+  "gloss": "事件的結果；後果"
+ },
+ "consequently": {
+  "pos": "adv",
+  "gloss": "因此；所以"
+ },
+ "conservative": {
+  "pos": "adj",
+  "gloss": "保守的；傳統的"
+ },
+ "consider": {
+  "pos": "verb",
+  "gloss": "仔細思考某事"
+ },
+ "considerable": {
+  "pos": "adj",
+  "gloss": "相當的；可觀的"
+ },
+ "consideration": {
+  "pos": "noun",
+  "gloss": "仔細思考；對某事的思量"
+ },
+ "consist": {
+  "pos": "verb",
+  "gloss": "以某物為主要或必要成分"
+ },
+ "consistent": {
+  "pos": "adj",
+  "gloss": "一致的；始終如一"
+ },
+ "constant": {
+  "pos": "adj",
+  "gloss": "頻繁的；不斷的"
+ },
+ "constantly": {
+  "pos": "adv",
+  "gloss": "經常發生；一直"
+ },
+ "constitute": {
+  "pos": "verb",
+  "gloss": "組成；構成"
+ },
+ "constraint": {
+  "pos": "noun",
+  "gloss": "限制；束縛"
+ },
+ "construct": {
+  "pos": "verb",
+  "gloss": "建造或創造某事物"
+ },
+ "construction": {
+  "pos": "noun",
+  "gloss": "建造某物的行為或已建成物"
+ },
+ "consult": {
+  "pos": "verb",
+  "gloss": "商量；討論以做決定"
+ },
+ "consultant": {
+  "pos": "noun",
+  "gloss": "顧問；諮詢專家"
+ },
+ "consume": {
+  "pos": "verb",
+  "gloss": "消耗；消費"
+ },
+ "consumer": {
+  "pos": "noun",
+  "gloss": "消費者；購買者"
+ },
+ "contact": {
+  "pos": "verb",
+  "gloss": "聯繫；取得連絡"
+ },
+ "contain": {
+  "pos": "verb",
+  "gloss": "包含；容納"
+ },
+ "contemporary": {
+  "pos": "adj",
+  "gloss": "所討論時期內的"
+ },
+ "content": {
+  "pos": "noun",
+  "gloss": "內容；所含資訊"
+ },
+ "contest": {
+  "pos": "noun",
+  "gloss": "競賽；比賽"
+ },
+ "context": {
+  "pos": "noun",
+  "gloss": "背景；環境情況"
+ },
+ "continue": {
+  "pos": "verb",
+  "gloss": "繼續；持續"
+ },
+ "continuous": {
+  "pos": "adj",
+  "gloss": "連續的；不斷的"
+ },
+ "contract": {
+  "pos": "noun",
+  "gloss": "契約；合約"
+ },
+ "contrast": {
+  "pos": "verb",
+  "gloss": "對比；比較"
+ },
+ "contribute": {
+  "pos": "verb",
+  "gloss": "貢獻；提供有價值之物"
+ },
+ "contribution": {
+  "pos": "noun",
+  "gloss": "捐獻；貢獻；資助"
+ },
+ "control": {
+  "pos": "verb",
+  "gloss": "指揮；支配；管制"
+ },
+ "controversial": {
+  "pos": "adj",
+  "gloss": "有爭議的；引起爭論"
+ },
+ "convention": {
+  "pos": "noun",
+  "gloss": "大會；集會"
+ },
+ "conventional": {
+  "pos": "adj",
+  "gloss": "遵循常規的；傳統的"
+ },
+ "conversation": {
+  "pos": "noun",
+  "gloss": "與他人交談；討論或聊天"
+ },
+ "convert": {
+  "pos": "verb",
+  "gloss": "改變形式、性質或功能"
+ },
+ "convince": {
+  "pos": "verb",
+  "gloss": "說服某人或使其確信"
+ },
+ "cook": {
+  "pos": "verb",
+  "gloss": "烹飪；煮"
+ },
+ "cool": {
+  "pos": "adj",
+  "gloss": "涼的；不溫暖"
+ },
+ "cooperation": {
+  "pos": "noun",
+  "gloss": "合作；協力"
+ },
+ "cope": {
+  "pos": "verb",
+  "gloss": "成功處理；克服"
+ },
+ "copy": {
+  "pos": "verb",
+  "gloss": "複製；製作相同物品"
+ },
+ "core": {
+  "pos": "noun",
+  "gloss": "果實的中心部分；事物的中心"
+ },
+ "corner": {
+  "pos": "noun",
+  "gloss": "角落；轉角"
+ },
+ "corporate": {
+  "pos": "adj",
+  "gloss": "公司的；企業的"
+ },
+ "corporation": {
+  "pos": "noun",
+  "gloss": "大公司；企業集團"
+ },
+ "correct": {
+  "pos": "adj",
+  "gloss": "正確的；準確的"
+ },
+ "correspond": {
+  "pos": "verb",
+  "gloss": "相符；相應"
+ },
+ "cost": {
+  "pos": "noun",
+  "gloss": "價格；費用"
+ },
+ "cough": {
+  "pos": "verb",
+  "gloss": "咳嗽；咳聲"
+ },
+ "could": {
+  "pos": "aux",
+  "gloss": "能；可以"
+ },
+ "council": {
+  "pos": "noun",
+  "gloss": "委員會；理事會"
+ },
+ "counsel": {
+  "pos": "verb",
+  "gloss": "給予建議；勸告"
+ },
+ "count": {
+  "pos": "verb",
+  "gloss": "計算；計數總數"
+ },
+ "counter": {
+  "pos": "noun",
+  "gloss": "櫃檯；工作檯"
+ },
+ "country": {
+  "pos": "noun",
+  "gloss": "國家；政府統治區域"
+ },
+ "county": {
+  "pos": "noun",
+  "gloss": "國家或州內具自治政府的地區"
+ },
+ "couple": {
+  "pos": "noun",
+  "gloss": "一對；兩個"
+ },
+ "course": {
+  "pos": "noun",
+  "gloss": "路線；方向"
+ },
+ "court": {
+  "pos": "noun",
+  "gloss": "球場；運動場地"
+ },
+ "cousin": {
+  "pos": "noun",
+  "gloss": "表親；堂親"
+ },
+ "cover": {
+  "pos": "noun",
+  "gloss": "蓋子；覆蓋物"
+ },
+ "coverage": {
+  "pos": "noun",
+  "gloss": "報紙、電視等報導事件的方式"
+ },
+ "cow": {
+  "pos": "noun",
+  "gloss": "牛；乳牛"
+ },
+ "crack": {
+  "pos": "verb",
+  "gloss": "幾乎破裂某物"
+ },
+ "craft": {
+  "pos": "verb",
+  "gloss": "精心製作；手工製作"
+ },
+ "crash": {
+  "pos": "verb",
+  "gloss": "撞擊導致嚴重損傷"
+ },
+ "crazy": {
+  "pos": "adj",
+  "gloss": "瘋狂的；不理性"
+ },
+ "cream": {
+  "pos": "noun",
+  "gloss": "奶油；鮮奶油"
+ },
+ "create": {
+  "pos": "verb",
+  "gloss": "創造；製造"
+ },
+ "creation": {
+  "pos": "noun",
+  "gloss": "創作；創造"
+ },
+ "creative": {
+  "pos": "adj",
+  "gloss": "有創作能力的；創新的"
+ },
+ "creature": {
+  "pos": "noun",
+  "gloss": "生物；動物"
+ },
+ "credit": {
+  "pos": "noun",
+  "gloss": "信用消費；先買後付"
+ },
+ "crew": {
+  "pos": "noun",
+  "gloss": "組織化的工作人員團隊"
+ },
+ "crime": {
+  "pos": "noun",
+  "gloss": "犯罪；違法行為"
+ },
+ "criminal": {
+  "pos": "adj",
+  "gloss": "犯罪的；與違法有關的"
+ },
+ "crisis": {
+  "pos": "noun",
+  "gloss": "極度危急的局勢"
+ },
+ "criteria": {
+  "pos": "noun",
+  "gloss": "標準；準則"
+ },
+ "critic": {
+  "pos": "noun",
+  "gloss": "以書籍、電影等為評論對象的職業人士"
+ },
+ "critical": {
+  "pos": "adj",
+  "gloss": "重要或嚴肅的；關鍵的"
+ },
+ "criticism": {
+  "pos": "noun",
+  "gloss": "批評；評論"
+ },
+ "criticize": {
+  "pos": "verb",
+  "gloss": "批評；指其不足"
+ },
+ "crop": {
+  "pos": "noun",
+  "gloss": "莊稼；農作物"
+ },
+ "cross": {
+  "pos": "verb",
+  "gloss": "在某點相交；穿越"
+ },
+ "crowd": {
+  "pos": "noun",
+  "gloss": "人群；群眾"
+ },
+ "crucial": {
+  "pos": "adj",
+  "gloss": "關鍵的；至關重要"
+ },
+ "cry": {
+  "pos": "verb",
+  "gloss": "因痛苦而流淚發聲"
+ },
+ "cultural": {
+  "pos": "adj",
+  "gloss": "文化的；與文化有關的"
+ },
+ "culture": {
+  "pos": "noun",
+  "gloss": "文化；習俗"
+ },
+ "cup": {
+  "pos": "noun",
+  "gloss": "杯子；茶杯"
+ },
+ "curious": {
+  "pos": "adj",
+  "gloss": "好奇的；感興趣"
+ },
+ "currency": {
+  "pos": "noun",
+  "gloss": "某國使用的貨幣制度"
+ },
+ "current": {
+  "pos": "adj",
+  "gloss": "現在的；當前的"
+ },
+ "currently": {
+  "pos": "adv",
+  "gloss": "目前；現在"
+ },
+ "curtain": {
+  "pos": "noun",
+  "gloss": "窗簾；布幕"
+ },
+ "curve": {
+  "pos": "noun",
+  "gloss": "曲線；不直的線條"
+ },
+ "custom": {
+  "pos": "noun",
+  "gloss": "習俗；慣例"
+ },
+ "customer": {
+  "pos": "noun",
+  "gloss": "客戶；顧客"
+ },
+ "cut": {
+  "pos": "verb",
+  "gloss": "切；割"
+ },
+ "cycle": {
+  "pos": "noun",
+  "gloss": "週期；循環"
+ },
+ "dad": {
+  "pos": "noun",
+  "gloss": "父親；爸爸"
+ },
+ "daily": {
+  "pos": "adj",
+  "gloss": "每天發生"
+ },
+ "damage": {
+  "pos": "noun",
+  "gloss": "對物體造成的物理傷害"
+ },
+ "damn": {
+  "pos": "verb",
+  "gloss": "詛咒；譴責"
+ },
+ "dance": {
+  "pos": "verb",
+  "gloss": "跳舞；隨音樂律動"
+ },
+ "danger": {
+  "pos": "noun",
+  "gloss": "危險；危害"
+ },
+ "dangerous": {
+  "pos": "adj",
+  "gloss": "危險的；有害的"
+ },
+ "dare": {
+  "pos": "verb",
+  "gloss": "有膽量；敢於"
+ },
+ "dark": {
+  "pos": "adj",
+  "gloss": "黑暗的；光線不足的"
+ },
+ "darkness": {
+  "pos": "noun",
+  "gloss": "黑暗；暗處"
+ },
+ "data": {
+  "pos": "noun",
+  "gloss": "資料；數據"
+ },
+ "database": {
+  "pos": "noun",
+  "gloss": "資料庫"
+ },
+ "date": {
+  "pos": "noun",
+  "gloss": "日期；日子"
+ },
+ "daughter": {
+  "pos": "noun",
+  "gloss": "某人的女性子女"
+ },
+ "day": {
+  "pos": "noun",
+  "gloss": "日；一天"
+ },
+ "dead": {
+  "pos": "adj",
+  "gloss": "不活著的"
+ },
+ "deal": {
+  "pos": "verb",
+  "gloss": "發牌；分配"
+ },
+ "dealer": {
+  "pos": "noun",
+  "gloss": "商人；買賣人"
+ },
+ "dear": {
+  "pos": "adj",
+  "gloss": "珍愛的；寶貴的"
+ },
+ "death": {
+  "pos": "noun",
+  "gloss": "死亡；生命終結"
+ },
+ "debate": {
+  "pos": "noun",
+  "gloss": "對某個議題的公開討論"
+ },
+ "debt": {
+  "pos": "noun",
+  "gloss": "債務；欠款"
+ },
+ "decade": {
+  "pos": "noun",
+  "gloss": "十年；十年期"
+ },
+ "decide": {
+  "pos": "verb",
+  "gloss": "決定；判決"
+ },
+ "decision": {
+  "pos": "noun",
+  "gloss": "決定；決策"
+ },
+ "declare": {
+  "pos": "verb",
+  "gloss": "宣布；聲明"
+ },
+ "decline": {
+  "pos": "verb",
+  "gloss": "拒絕；謝絕"
+ },
+ "decrease": {
+  "pos": "verb",
+  "gloss": "減少；降低"
+ },
+ "dedicate": {
+  "pos": "verb",
+  "gloss": "專注；奉獻"
+ },
+ "deep": {
+  "pos": "adj",
+  "gloss": "深的；向下深入"
+ },
+ "deeply": {
+  "pos": "adv",
+  "gloss": "深度地；極其"
+ },
+ "defeat": {
+  "pos": "verb",
+  "gloss": "擊敗；打敗"
+ },
+ "defend": {
+  "pos": "verb",
+  "gloss": "保護不受攻擊"
+ },
+ "defense": {
+  "pos": "noun",
+  "gloss": "防禦；防衛"
+ },
+ "deficit": {
+  "pos": "noun",
+  "gloss": "赤字；虧缺"
+ },
+ "define": {
+  "pos": "verb",
+  "gloss": "解釋字義；下定義"
+ },
+ "definitely": {
+  "pos": "adv",
+  "gloss": "毫無疑問地；確定無疑"
+ },
+ "definition": {
+  "pos": "noun",
+  "gloss": "詞彙含義的解釋，如字典中所示"
+ },
+ "degree": {
+  "pos": "noun",
+  "gloss": "度；程度"
+ },
+ "delay": {
+  "pos": "verb",
+  "gloss": "使延誤；推遲"
+ },
+ "delight": {
+  "pos": "noun",
+  "gloss": "喜悅；愉快"
+ },
+ "deliver": {
+  "pos": "verb",
+  "gloss": "遞送；運送到目的地"
+ },
+ "delivery": {
+  "pos": "noun",
+  "gloss": "遞送；交付"
+ },
+ "demand": {
+  "pos": "verb",
+  "gloss": "要求；堅持"
+ },
+ "democracy": {
+  "pos": "noun",
+  "gloss": "人民投票選舉統治者的政治制度"
+ },
+ "democratic": {
+  "pos": "adj",
+  "gloss": "民主的；民主性"
+ },
+ "demonstrate": {
+  "pos": "verb",
+  "gloss": "示範；演示操作"
+ },
+ "demonstration": {
+  "pos": "noun",
+  "gloss": "示範；說明運作方式"
+ },
+ "density": {
+  "pos": "noun",
+  "gloss": "密度；濃度"
+ },
+ "deny": {
+  "pos": "verb",
+  "gloss": "否認；拒絕"
+ },
+ "department": {
+  "pos": "noun",
+  "gloss": "部門；科室"
+ },
+ "depend": {
+  "pos": "verb",
+  "gloss": "依賴；依靠"
+ },
+ "dependent": {
+  "pos": "noun",
+  "gloss": "受扶養人；依附者"
+ },
+ "deposit": {
+  "pos": "noun",
+  "gloss": "訂金；銀行存款"
+ },
+ "depress": {
+  "pos": "verb",
+  "gloss": "使沮喪；降低"
+ },
+ "depression": {
+  "pos": "noun",
+  "gloss": "憂鬱；極度悲傷"
+ },
+ "depth": {
+  "pos": "noun",
+  "gloss": "深度；表面以下的距離"
+ },
+ "derive": {
+  "pos": "verb",
+  "gloss": "源自；取得"
+ },
+ "describe": {
+  "pos": "verb",
+  "gloss": "描述；敘述"
+ },
+ "description": {
+  "pos": "noun",
+  "gloss": "描述；說明"
+ },
+ "desert": {
+  "pos": "noun",
+  "gloss": "沙漠；乾旱地區"
+ },
+ "deserve": {
+  "pos": "verb",
+  "gloss": "因行為或所作所為獲得適當獎懲"
+ },
+ "design": {
+  "pos": "verb",
+  "gloss": "設計；規劃"
+ },
+ "designer": {
+  "pos": "noun",
+  "gloss": "設計事物的人"
+ },
+ "desire": {
+  "pos": "verb",
+  "gloss": "希望或想要某物"
+ },
+ "desk": {
+  "pos": "noun",
+  "gloss": "類似桌子的家具，通常有抽屜"
+ },
+ "despite": {
+  "pos": "prep",
+  "gloss": "儘管；雖然"
+ },
+ "destroy": {
+  "pos": "verb",
+  "gloss": "摧毀；毀滅"
+ },
+ "destruction": {
+  "pos": "noun",
+  "gloss": "摧毀；破壞"
+ },
+ "detail": {
+  "pos": "noun",
+  "gloss": "細節；詳情"
+ },
+ "detect": {
+  "pos": "verb",
+  "gloss": "偵測；發現"
+ },
+ "determination": {
+  "pos": "noun",
+  "gloss": "決心；決定"
+ },
+ "determine": {
+  "pos": "verb",
+  "gloss": "決定；確定"
+ },
+ "develop": {
+  "pos": "verb",
+  "gloss": "發展；開發"
+ },
+ "development": {
+  "pos": "noun",
+  "gloss": "發展；進展"
+ },
+ "device": {
+  "pos": "noun",
+  "gloss": "裝置；設備；器具"
+ },
+ "devote": {
+  "pos": "verb",
+  "gloss": "決定將某物用於或獻給某事"
+ },
+ "dialog": {
+  "pos": "noun",
+  "gloss": "對話；會話"
+ },
+ "die": {
+  "pos": "verb",
+  "gloss": "死；逝世"
+ },
+ "diet": {
+  "pos": "noun",
+  "gloss": "人或動物通常吃的食物類型"
+ },
+ "differ": {
+  "pos": "verb",
+  "gloss": "不同；相異"
+ },
+ "difference": {
+  "pos": "noun",
+  "gloss": "差異；不同"
+ },
+ "different": {
+  "pos": "adj",
+  "gloss": "不同的；各異"
+ },
+ "differently": {
+  "pos": "adv",
+  "gloss": "不同地；以不同方式"
+ },
+ "difficult": {
+  "pos": "adj",
+  "gloss": "困難的；艱難的"
+ },
+ "difficulty": {
+  "pos": "noun",
+  "gloss": "難做的事；困難"
+ },
+ "dig": {
+  "pos": "verb",
+  "gloss": "挖掘；掘土"
+ },
+ "digital": {
+  "pos": "adj",
+  "gloss": "數位的；電子的"
+ },
+ "dimension": {
+  "pos": "noun",
+  "gloss": "尺寸；長寬高的量度"
+ },
+ "dinner": {
+  "pos": "noun",
+  "gloss": "晚餐；主餐"
+ },
+ "direct": {
+  "pos": "verb",
+  "gloss": "直接指示；明確告知"
+ },
+ "direction": {
+  "pos": "noun",
+  "gloss": "描述你前進的方向；方位"
+ },
+ "directly": {
+  "pos": "adv",
+  "gloss": "直接地；坦率地"
+ },
+ "director": {
+  "pos": "noun",
+  "gloss": "主任；導演"
+ },
+ "dirty": {
+  "pos": "adj",
+  "gloss": "髒的；不乾淨"
+ },
+ "disagree": {
+  "pos": "verb",
+  "gloss": "意見不同；不同意"
+ },
+ "disappear": {
+  "pos": "verb",
+  "gloss": "消失；不見"
+ },
+ "disappoint": {
+  "pos": "verb",
+  "gloss": "未能滿足他人或自己的期望"
+ },
+ "disaster": {
+  "pos": "noun",
+  "gloss": "造成大量傷害或損害的事件"
+ },
+ "discipline": {
+  "pos": "noun",
+  "gloss": "自律訓練；紀律教育"
+ },
+ "discount": {
+  "pos": "noun",
+  "gloss": "折扣；減價"
+ },
+ "discover": {
+  "pos": "verb",
+  "gloss": "發現；找到未知之物"
+ },
+ "discovery": {
+  "pos": "noun",
+  "gloss": "發現；初次得知"
+ },
+ "discuss": {
+  "pos": "verb",
+  "gloss": "討論；商談"
+ },
+ "discussion": {
+  "pos": "noun",
+  "gloss": "討論；談論"
+ },
+ "disease": {
+  "pos": "noun",
+  "gloss": "影響人動物或植物的疾病"
+ },
+ "dish": {
+  "pos": "noun",
+  "gloss": "淺盤；盛食物的容器"
+ },
+ "disk": {
+  "pos": "noun",
+  "gloss": "平的圓形物體"
+ },
+ "dismiss": {
+  "pos": "verb",
+  "gloss": "遣散；解僱"
+ },
+ "disorder": {
+  "pos": "noun",
+  "gloss": "缺乏組織；混亂"
+ },
+ "display": {
+  "pos": "verb",
+  "gloss": "展示；陳列"
+ },
+ "dispute": {
+  "pos": "noun",
+  "gloss": "雙方或多方關於某事的爭執"
+ },
+ "distance": {
+  "pos": "noun",
+  "gloss": "距離；間隔"
+ },
+ "distant": {
+  "pos": "adj",
+  "gloss": "遙遠；遠方"
+ },
+ "distinct": {
+  "pos": "adj",
+  "gloss": "明確的；不同的"
+ },
+ "distinction": {
+  "pos": "noun",
+  "gloss": "特殊之處；使之不同的特質"
+ },
+ "distinguish": {
+  "pos": "verb",
+  "gloss": "區分；辨別差異"
+ },
+ "distribute": {
+  "pos": "verb",
+  "gloss": "分配；配送"
+ },
+ "district": {
+  "pos": "noun",
+  "gloss": "國家、城市或城鎮的一個區域"
+ },
+ "disturb": {
+  "pos": "verb",
+  "gloss": "干擾；妨礙睡眠"
+ },
+ "diversity": {
+  "pos": "noun",
+  "gloss": "多樣性；差異"
+ },
+ "divide": {
+  "pos": "verb",
+  "gloss": "將某物分成相等的部分"
+ },
+ "division": {
+  "pos": "noun",
+  "gloss": "分割；分組；部門"
+ },
+ "divorce": {
+  "pos": "noun",
+  "gloss": "離婚"
+ },
+ "do": {
+  "pos": "verb",
+  "gloss": "做；行動"
+ },
+ "doctor": {
+  "pos": "noun",
+  "gloss": "醫師；醫生"
+ },
+ "document": {
+  "pos": "noun",
+  "gloss": "文件；文檔"
+ },
+ "dog": {
+  "pos": "noun",
+  "gloss": "狗；犬"
+ },
+ "dollar": {
+  "pos": "noun",
+  "gloss": "元；美元"
+ },
+ "domestic": {
+  "pos": "adj",
+  "gloss": "國內的；家庭的"
+ },
+ "dominate": {
+  "pos": "verb",
+  "gloss": "支配；掌控"
+ },
+ "door": {
+  "pos": "noun",
+  "gloss": "門；房門"
+ },
+ "double": {
+  "pos": "adj",
+  "gloss": "雙倍的；兩倍量"
+ },
+ "doubt": {
+  "pos": "noun",
+  "gloss": "懷疑；疑慮"
+ },
+ "down": {
+  "pos": "adv",
+  "gloss": "往下；從高處到低處"
+ },
+ "dozen": {
+  "pos": "noun",
+  "gloss": "一打；十二個"
+ },
+ "draft": {
+  "pos": "noun",
+  "gloss": "未完成的文稿或計畫"
+ },
+ "drag": {
+  "pos": "verb",
+  "gloss": "拖拉；拖動"
+ },
+ "drama": {
+  "pos": "noun",
+  "gloss": "戲劇；劇作"
+ },
+ "dramatic": {
+  "pos": "adj",
+  "gloss": "劇烈的；急劇的"
+ },
+ "dramatically": {
+  "pos": "adv",
+  "gloss": "劇烈地；戲劇性地"
+ },
+ "draw": {
+  "pos": "verb",
+  "gloss": "繪製；畫"
+ },
+ "dream": {
+  "pos": "noun",
+  "gloss": "睡眠中經歷的影像思想和感受"
+ },
+ "dress": {
+  "pos": "noun",
+  "gloss": "洋裝；連身裙"
+ },
+ "drink": {
+  "pos": "verb",
+  "gloss": "喝；飲用"
+ },
+ "drive": {
+  "pos": "verb",
+  "gloss": "駕駛；開車"
+ },
+ "driver": {
+  "pos": "noun",
+  "gloss": "駕駛人；司機"
+ },
+ "drop": {
+  "pos": "verb",
+  "gloss": "掉落；丟下"
+ },
+ "drug": {
+  "pos": "noun",
+  "gloss": "藥物；藥品"
+ },
+ "dry": {
+  "pos": "adj",
+  "gloss": "乾的；無濕氣"
+ },
+ "due": {
+  "pos": "adj",
+  "gloss": "預期的；應有的"
+ },
+ "during": {
+  "pos": "prep",
+  "gloss": "在...期間；在...進行時"
+ },
+ "dust": {
+  "pos": "noun",
+  "gloss": "塵埃；灰塵"
+ },
+ "duty": {
+  "pos": "noun",
+  "gloss": "職責；本分"
+ },
+ "each": {
+  "pos": "det",
+  "gloss": "每一個；各個"
+ },
+ "ear": {
+  "pos": "noun",
+  "gloss": "耳朵；聽覺器官"
+ },
+ "early": {
+  "pos": "adj",
+  "gloss": "早的；提前"
+ },
+ "earn": {
+  "pos": "verb",
+  "gloss": "因工作而獲得金錢"
+ },
+ "earth": {
+  "pos": "noun",
+  "gloss": "地球"
+ },
+ "ease": {
+  "pos": "noun",
+  "gloss": "舒適或放鬆的狀態"
+ },
+ "easily": {
+  "pos": "adv",
+  "gloss": "不費力地；輕易地"
+ },
+ "east": {
+  "pos": "noun",
+  "gloss": "太陽升起的方向"
+ },
+ "eastern": {
+  "pos": "adj",
+  "gloss": "東部的；東方的"
+ },
+ "easy": {
+  "pos": "adj",
+  "gloss": "容易的；簡單的"
+ },
+ "eat": {
+  "pos": "verb",
+  "gloss": "吃；進食"
+ },
+ "economic": {
+  "pos": "adj",
+  "gloss": "經濟的；經濟學的"
+ },
+ "economy": {
+  "pos": "noun",
+  "gloss": "經濟；經濟體"
+ },
+ "edge": {
+  "pos": "noun",
+  "gloss": "邊界；邊緣"
+ },
+ "edit": {
+  "pos": "verb",
+  "gloss": "編輯；校訂後修改"
+ },
+ "edition": {
+  "pos": "noun",
+  "gloss": "向公眾銷售的特定版本"
+ },
+ "editor": {
+  "pos": "noun",
+  "gloss": "編輯；編者"
+ },
+ "educate": {
+  "pos": "verb",
+  "gloss": "教育；培養"
+ },
+ "education": {
+  "pos": "noun",
+  "gloss": "教育；教學"
+ },
+ "educational": {
+  "pos": "adj",
+  "gloss": "與學校教學相關的"
+ },
+ "effect": {
+  "pos": "noun",
+  "gloss": "結果；影響"
+ },
+ "effective": {
+  "pos": "adj",
+  "gloss": "有效的；能達到目的"
+ },
+ "effectively": {
+  "pos": "adv",
+  "gloss": "以產生預期結果的方式"
+ },
+ "efficiency": {
+  "pos": "noun",
+  "gloss": "效率；高效運作"
+ },
+ "efficient": {
+  "pos": "adj",
+  "gloss": "高效的；有效率"
+ },
+ "effort": {
+  "pos": "noun",
+  "gloss": "努力；工夫"
+ },
+ "egg": {
+  "pos": "noun",
+  "gloss": "蛋；鳥蛋"
+ },
+ "either": {
+  "pos": "det",
+  "gloss": "任一；兩者之一"
+ },
+ "elderly": {
+  "pos": "adj",
+  "gloss": "年長的；用於敬稱老年人"
+ },
+ "elect": {
+  "pos": "verb",
+  "gloss": "通常通過投票為職位選擇某人"
+ },
+ "election": {
+  "pos": "noun",
+  "gloss": "選舉；投票"
+ },
+ "electric": {
+  "pos": "adj",
+  "gloss": "電的；用電的"
+ },
+ "electricity": {
+  "pos": "noun",
+  "gloss": "由正負電荷產生的能量"
+ },
+ "electronic": {
+  "pos": "adj",
+  "gloss": "利用電力運作；數位的"
+ },
+ "element": {
+  "pos": "noun",
+  "gloss": "要素；基本成分"
+ },
+ "eliminate": {
+  "pos": "verb",
+  "gloss": "完全移除；排除"
+ },
+ "else": {
+  "pos": "adv",
+  "gloss": "否則；要不然"
+ },
+ "elsewhere": {
+  "pos": "adv",
+  "gloss": "在或到其他地方"
+ },
+ "email": {
+  "pos": "noun",
+  "gloss": "電子郵件；信件"
+ },
+ "embarrass": {
+  "pos": "verb",
+  "gloss": "使尷尬；令人困窘"
+ },
+ "embrace": {
+  "pos": "verb",
+  "gloss": "擁抱；抱緊"
+ },
+ "emerge": {
+  "pos": "verb",
+  "gloss": "從背景中升起或出現"
+ },
+ "emergency": {
+  "pos": "noun",
+  "gloss": "需要立即行動的突發嚴重事件"
+ },
+ "emotion": {
+  "pos": "noun",
+  "gloss": "如悲傷、憤怒或愛的感受"
+ },
+ "emotional": {
+  "pos": "adj",
+  "gloss": "與深層感受相關的"
+ },
+ "emphasis": {
+  "pos": "noun",
+  "gloss": "強調；重音"
+ },
+ "emphasize": {
+  "pos": "verb",
+  "gloss": "強調重要的項目"
+ },
+ "empire": {
+  "pos": "noun",
+  "gloss": "帝國；帝制"
+ },
+ "employ": {
+  "pos": "verb",
+  "gloss": "雇用；給予工作"
+ },
+ "employee": {
+  "pos": "noun",
+  "gloss": "員工；受僱者"
+ },
+ "employer": {
+  "pos": "noun",
+  "gloss": "雇主；用人單位"
+ },
+ "employment": {
+  "pos": "noun",
+  "gloss": "就業；工作"
+ },
+ "empty": {
+  "pos": "adj",
+  "gloss": "空的；無內容物的"
+ },
+ "enable": {
+  "pos": "verb",
+  "gloss": "使成為可能；使能夠"
+ },
+ "encounter": {
+  "pos": "verb",
+  "gloss": "遭遇；經歷"
+ },
+ "encourage": {
+  "pos": "verb",
+  "gloss": "鼓勵；增強信心"
+ },
+ "end": {
+  "pos": "noun",
+  "gloss": "終點；結束"
+ },
+ "enemy": {
+  "pos": "noun",
+  "gloss": "想傷害他人的人"
+ },
+ "energy": {
+  "pos": "noun",
+  "gloss": "能量；精力"
+ },
+ "engage": {
+  "pos": "verb",
+  "gloss": "執行或參與；涉入"
+ },
+ "engine": {
+  "pos": "noun",
+  "gloss": "引擎；馬達"
+ },
+ "engineer": {
+  "pos": "noun",
+  "gloss": "設計及建造機械或建築物的專業人士"
+ },
+ "enhance": {
+  "pos": "verb",
+  "gloss": "使某事更好；改進"
+ },
+ "enjoy": {
+  "pos": "verb",
+  "gloss": "享受；樂於"
+ },
+ "enormous": {
+  "pos": "adj",
+  "gloss": "巨大；非常大"
+ },
+ "enough": {
+  "pos": "det",
+  "gloss": "等於所需的；所需的數量"
+ },
+ "ensure": {
+  "pos": "verb",
+  "gloss": "確保；保證"
+ },
+ "enter": {
+  "pos": "verb",
+  "gloss": "進入；進去"
+ },
+ "enterprise": {
+  "pos": "noun",
+  "gloss": "企業或組織"
+ },
+ "entertain": {
+  "pos": "verb",
+  "gloss": "招待；款待"
+ },
+ "entertainment": {
+  "pos": "noun",
+  "gloss": "使人快樂的活動；娛樂"
+ },
+ "entire": {
+  "pos": "adj",
+  "gloss": "完整的；全部"
+ },
+ "entirely": {
+  "pos": "adv",
+  "gloss": "完全地；彻底地"
+ },
+ "entitle": {
+  "pos": "verb",
+  "gloss": "賦予權利或資格"
+ },
+ "entrance": {
+  "pos": "noun",
+  "gloss": "入口；進入的方式"
+ },
+ "entry": {
+  "pos": "noun",
+  "gloss": "進入；入口"
+ },
+ "envelope": {
+  "pos": "noun",
+  "gloss": "信封；套套"
+ },
+ "environment": {
+  "pos": "noun",
+  "gloss": "環境；生態"
+ },
+ "environmental": {
+  "pos": "adj",
+  "gloss": "關於植物動物生存的自然世界"
+ },
+ "episode": {
+  "pos": "noun",
+  "gloss": "較大故事的一部分節目"
+ },
+ "equal": {
+  "pos": "adj",
+  "gloss": "形狀、大小或數量相同"
+ },
+ "equally": {
+  "pos": "adv",
+  "gloss": "以相等、相似或相同的方式"
+ },
+ "equation": {
+  "pos": "noun",
+  "gloss": "等式；方程式"
+ },
+ "equipment": {
+  "pos": "noun",
+  "gloss": "設備；工具材料"
+ },
+ "equivalent": {
+  "pos": "adj",
+  "gloss": "價值、用途或意義大致相等"
+ },
+ "era": {
+  "pos": "noun",
+  "gloss": "因特定原因而特殊的歷史時期"
+ },
+ "error": {
+  "pos": "noun",
+  "gloss": "錯誤；失誤"
+ },
+ "escape": {
+  "pos": "verb",
+  "gloss": "逃脫；逃離"
+ },
+ "especially": {
+  "pos": "adv",
+  "gloss": "尤其；特別是"
+ },
+ "essay": {
+  "pos": "noun",
+  "gloss": "展現個人對特定主題看法的短篇文章"
+ },
+ "essential": {
+  "pos": "adj",
+  "gloss": "極其重要且必要的"
+ },
+ "establish": {
+  "pos": "verb",
+  "gloss": "建立；創立"
+ },
+ "establishment": {
+  "pos": "noun",
+  "gloss": "機構；企業；組織"
+ },
+ "estate": {
+  "pos": "noun",
+  "gloss": "某人所擁有的土地"
+ },
+ "estimate": {
+  "pos": "noun",
+  "gloss": "對成本大小或價值的猜測或計算"
+ },
+ "ethnic": {
+  "pos": "adj",
+  "gloss": "民族的；文化的"
+ },
+ "evaluate": {
+  "pos": "verb",
+  "gloss": "仔細評估以形成看法"
+ },
+ "evaluation": {
+  "pos": "noun",
+  "gloss": "評估；評價"
+ },
+ "even": {
+  "pos": "adv",
+  "gloss": "甚至；也"
+ },
+ "evening": {
+  "pos": "noun",
+  "gloss": "傍晚；夜間"
+ },
+ "event": {
+  "pos": "noun",
+  "gloss": "事件；發生的事"
+ },
+ "eventually": {
+  "pos": "adv",
+  "gloss": "最終；終於"
+ },
+ "ever": {
+  "pos": "adv",
+  "gloss": "曾經；任何時候"
+ },
+ "every": {
+  "pos": "det",
+  "gloss": "每個；各個"
+ },
+ "everybody": {
+  "pos": "pron",
+  "gloss": "每個人；所有人"
+ },
+ "everyday": {
+  "pos": "adj",
+  "gloss": "日常使用的；普通的"
+ },
+ "everyone": {
+  "pos": "pron",
+  "gloss": "每個人；所有人"
+ },
+ "everything": {
+  "pos": "pron",
+  "gloss": "所有的事物；一切"
+ },
+ "everywhere": {
+  "pos": "adv",
+  "gloss": "各處；每個地方"
+ },
+ "evidence": {
+  "pos": "noun",
+  "gloss": "證據；憑證"
+ },
+ "evil": {
+  "pos": "adj",
+  "gloss": "道德敗壞的；造成傷害的"
+ },
+ "evolution": {
+  "pos": "noun",
+  "gloss": "演化；進化"
+ },
+ "evolve": {
+  "pos": "verb",
+  "gloss": "演變；進化"
+ },
+ "exact": {
+  "pos": "adj",
+  "gloss": "精確的；準確的"
+ },
+ "exactly": {
+  "pos": "adv",
+  "gloss": "恰好；正好"
+ },
+ "exam": {
+  "pos": "noun",
+  "gloss": "考試；知識測驗"
+ },
+ "examination": {
+  "pos": "noun",
+  "gloss": "考試；測驗"
+ },
+ "examine": {
+  "pos": "verb",
+  "gloss": "仔細查看；檢查"
+ },
+ "example": {
+  "pos": "noun",
+  "gloss": "代表；典型；範例"
+ },
+ "exceed": {
+  "pos": "verb",
+  "gloss": "超過；超出"
+ },
+ "excellent": {
+  "pos": "adj",
+  "gloss": "極好的；卓越"
+ },
+ "except": {
+  "pos": "prep",
+  "gloss": "除了；除外"
+ },
+ "exception": {
+  "pos": "noun",
+  "gloss": "例外；異例"
+ },
+ "excess": {
+  "pos": "noun",
+  "gloss": "過量；超額"
+ },
+ "exchange": {
+  "pos": "verb",
+  "gloss": "交換；互相交易"
+ },
+ "excite": {
+  "pos": "verb",
+  "gloss": "使興奮；激勵"
+ },
+ "excitement": {
+  "pos": "noun",
+  "gloss": "興奮；激動"
+ },
+ "exclude": {
+  "pos": "verb",
+  "gloss": "阻止進入某群體"
+ },
+ "excuse": {
+  "pos": "verb",
+  "gloss": "辯解；說明理由"
+ },
+ "executive": {
+  "pos": "noun",
+  "gloss": "高階主管；企業高層"
+ },
+ "exercise": {
+  "pos": "noun",
+  "gloss": "為變強健而進行的運動"
+ },
+ "exhaust": {
+  "pos": "verb",
+  "gloss": "耗盡；筋疲力盡"
+ },
+ "exhibit": {
+  "pos": "verb",
+  "gloss": "展示；展覽"
+ },
+ "exhibition": {
+  "pos": "noun",
+  "gloss": "公開展示物品的活動"
+ },
+ "exist": {
+  "pos": "verb",
+  "gloss": "存在；生存"
+ },
+ "existence": {
+  "pos": "noun",
+  "gloss": "存在；生活或真實的狀態"
+ },
+ "expand": {
+  "pos": "verb",
+  "gloss": "變得更大或更多"
+ },
+ "expansion": {
+  "pos": "noun",
+  "gloss": "擴張或變大的行為"
+ },
+ "expect": {
+  "pos": "verb",
+  "gloss": "預期；期望"
+ },
+ "expectation": {
+  "pos": "noun",
+  "gloss": "期望；預期"
+ },
+ "expenditure": {
+  "pos": "noun",
+  "gloss": "支出；花費"
+ },
+ "expense": {
+  "pos": "noun",
+  "gloss": "費用；所需金額"
+ },
+ "expensive": {
+  "pos": "adj",
+  "gloss": "昂貴的；花費很多"
+ },
+ "experience": {
+  "pos": "noun",
+  "gloss": "經驗；閱歷"
+ },
+ "experiment": {
+  "pos": "noun",
+  "gloss": "實驗；試驗"
+ },
+ "experimental": {
+  "pos": "adj",
+  "gloss": "實驗性；試驗性"
+ },
+ "expert": {
+  "pos": "noun",
+  "gloss": "專家；高手"
+ },
+ "explain": {
+  "pos": "verb",
+  "gloss": "解釋；說明"
+ },
+ "explanation": {
+  "pos": "noun",
+  "gloss": "說明；解釋"
+ },
+ "explore": {
+  "pos": "verb",
+  "gloss": "探索；深入研究"
+ },
+ "export": {
+  "pos": "verb",
+  "gloss": "將商品送往另一國家出售"
+ },
+ "expose": {
+  "pos": "verb",
+  "gloss": "顯露通常隱藏或受保護之物"
+ },
+ "exposure": {
+  "pos": "noun",
+  "gloss": "直接接觸；親身體驗"
+ },
+ "express": {
+  "pos": "verb",
+  "gloss": "表達；表現"
+ },
+ "expression": {
+  "pos": "noun",
+  "gloss": "表達思想和感受的行為"
+ },
+ "extend": {
+  "pos": "verb",
+  "gloss": "伸直或拉長某物；延伸"
+ },
+ "extension": {
+  "pos": "noun",
+  "gloss": "延期；額外給予的時間"
+ },
+ "extensive": {
+  "pos": "adj",
+  "gloss": "廣大的；完整的"
+ },
+ "extent": {
+  "pos": "noun",
+  "gloss": "範圍；程度"
+ },
+ "external": {
+  "pos": "adj",
+  "gloss": "在某物外部的；外部的"
+ },
+ "extra": {
+  "pos": "adj",
+  "gloss": "額外的；超過必要"
+ },
+ "extract": {
+  "pos": "verb",
+  "gloss": "取出；從中抽取"
+ },
+ "extraordinary": {
+  "pos": "adj",
+  "gloss": "超乎尋常；非常罕見；非凡"
+ },
+ "extreme": {
+  "pos": "adj",
+  "gloss": "程度非常高的"
+ },
+ "extremely": {
+  "pos": "adv",
+  "gloss": "以遠超平常的方式"
+ },
+ "eye": {
+  "pos": "noun",
+  "gloss": "眼睛；眼"
+ },
+ "face": {
+  "pos": "noun",
+  "gloss": "頭部的前面；眼睛、鼻子和嘴所在的位置"
+ },
+ "facility": {
+  "pos": "noun",
+  "gloss": "具特定用途的設備或建築物"
+ },
+ "fact": {
+  "pos": "noun",
+  "gloss": "已知或被證實為真的事物"
+ },
+ "factor": {
+  "pos": "noun",
+  "gloss": "因素；要素"
+ },
+ "factory": {
+  "pos": "noun",
+  "gloss": "工廠；製造廠"
+ },
+ "fade": {
+  "pos": "verb",
+  "gloss": "褪色；衰退"
+ },
+ "fail": {
+  "pos": "verb",
+  "gloss": "失敗；不成功"
+ },
+ "failure": {
+  "pos": "noun",
+  "gloss": "失敗；未達成目標的結果"
+ },
+ "fair": {
+  "pos": "adj",
+  "gloss": "公平的；同等對待"
+ },
+ "fairly": {
+  "pos": "adv",
+  "gloss": "相當地；相對地"
+ },
+ "faith": {
+  "pos": "noun",
+  "gloss": "信心；信仰"
+ },
+ "faithfully": {
+  "pos": "adv",
+  "gloss": "忠實地；誠實地"
+ },
+ "fall": {
+  "pos": "verb",
+  "gloss": "跌落；掉下"
+ },
+ "false": {
+  "pos": "adj",
+  "gloss": "不真實的；虛假的"
+ },
+ "familiar": {
+  "pos": "adj",
+  "gloss": "熟悉的；常見的"
+ },
+ "family": {
+  "pos": "noun",
+  "gloss": "家族；親屬"
+ },
+ "famous": {
+  "pos": "adj",
+  "gloss": "著名的；廣為人知"
+ },
+ "fan": {
+  "pos": "noun",
+  "gloss": "搧風用的工具"
+ },
+ "fancy": {
+  "pos": "adj",
+  "gloss": "豪華的；精緻的"
+ },
+ "fantastic": {
+  "pos": "adj",
+  "gloss": "奇異的；奇幻的"
+ },
+ "far": {
+  "pos": "adv",
+  "gloss": "距離很遠"
+ },
+ "farm": {
+  "pos": "noun",
+  "gloss": "農場；農業用地"
+ },
+ "farmer": {
+  "pos": "noun",
+  "gloss": "擁有或照管農場的人，即種植作物和飼養動物的地方"
+ },
+ "fascinate": {
+  "pos": "verb",
+  "gloss": "吸引或激起極大興趣"
+ },
+ "fashion": {
+  "pos": "noun",
+  "gloss": "時尚；風格"
+ },
+ "fast": {
+  "pos": "adj",
+  "gloss": "快速；迅速"
+ },
+ "fat": {
+  "pos": "noun",
+  "gloss": "脂肪；肥油"
+ },
+ "father": {
+  "pos": "noun",
+  "gloss": "父親；爸爸"
+ },
+ "fault": {
+  "pos": "noun",
+  "gloss": "缺點；過失"
+ },
+ "favor": {
+  "pos": "noun",
+  "gloss": "幫忙；善舉"
+ },
+ "favorite": {
+  "pos": "adj",
+  "gloss": "最喜愛的；最受歡迎的"
+ },
+ "fear": {
+  "pos": "noun",
+  "gloss": "恐懼；害怕"
+ },
+ "feature": {
+  "pos": "noun",
+  "gloss": "特徵；特點"
+ },
+ "federal": {
+  "pos": "adj",
+  "gloss": "聯邦的；聯邦制"
+ },
+ "fee": {
+  "pos": "noun",
+  "gloss": "費用；收費"
+ },
+ "feed": {
+  "pos": "verb",
+  "gloss": "餵食；供食"
+ },
+ "feel": {
+  "pos": "verb",
+  "gloss": "感受；經歷"
+ },
+ "fellow": {
+  "pos": "noun",
+  "gloss": "傢伙；同伴"
+ },
+ "female": {
+  "pos": "noun",
+  "gloss": "能生育嬰兒的性別的人"
+ },
+ "fence": {
+  "pos": "noun",
+  "gloss": "柵欄；圍籬"
+ },
+ "festival": {
+  "pos": "noun",
+  "gloss": "節慶；文化活動"
+ },
+ "few": {
+  "pos": "det",
+  "gloss": "少數；不多"
+ },
+ "fiction": {
+  "pos": "noun",
+  "gloss": "小說；虛構"
+ },
+ "field": {
+  "pos": "noun",
+  "gloss": "田地；空地"
+ },
+ "fight": {
+  "pos": "verb",
+  "gloss": "打鬥；爭鬥"
+ },
+ "figure": {
+  "pos": "verb",
+  "gloss": "想通；理解；推算出"
+ },
+ "file": {
+  "pos": "verb",
+  "gloss": "提交；備案"
+ },
+ "fill": {
+  "pos": "verb",
+  "gloss": "填滿；裝滿"
+ },
+ "film": {
+  "pos": "noun",
+  "gloss": "電影；影片"
+ },
+ "filter": {
+  "pos": "noun",
+  "gloss": "過濾器；濾網"
+ },
+ "final": {
+  "pos": "adj",
+  "gloss": "最後的；最終的"
+ },
+ "finally": {
+  "pos": "adv",
+  "gloss": "最後；終於"
+ },
+ "finance": {
+  "pos": "noun",
+  "gloss": "個人或企業所掌控的金錢管理"
+ },
+ "financial": {
+  "pos": "adj",
+  "gloss": "財務的；金融的"
+ },
+ "find": {
+  "pos": "verb",
+  "gloss": "找到；發現"
+ },
+ "fine": {
+  "pos": "adj",
+  "gloss": "好的；令人滿意的"
+ },
+ "finger": {
+  "pos": "noun",
+  "gloss": "手上五根長形的部分"
+ },
+ "finish": {
+  "pos": "verb",
+  "gloss": "結束；完成"
+ },
+ "fire": {
+  "pos": "noun",
+  "gloss": "火；火焰"
+ },
+ "firm": {
+  "pos": "adj",
+  "gloss": "堅硬；牢固"
+ },
+ "firmly": {
+  "pos": "adv",
+  "gloss": "堅定地；牢固地"
+ },
+ "first": {
+  "pos": "adj",
+  "gloss": "第一；最初"
+ },
+ "firstly": {
+  "pos": "adv",
+  "gloss": "首先；最初"
+ },
+ "fish": {
+  "pos": "noun",
+  "gloss": "魚"
+ },
+ "fit": {
+  "pos": "adj",
+  "gloss": "恰當的；適合的"
+ },
+ "fix": {
+  "pos": "verb",
+  "gloss": "修理；修復"
+ },
+ "flag": {
+  "pos": "noun",
+  "gloss": "旗；旗幟"
+ },
+ "flash": {
+  "pos": "noun",
+  "gloss": "閃光；一瞬間"
+ },
+ "flat": {
+  "pos": "adj",
+  "gloss": "平坦的；無凹凸"
+ },
+ "flexible": {
+  "pos": "adj",
+  "gloss": "有彈性的；易彎曲的"
+ },
+ "flight": {
+  "pos": "noun",
+  "gloss": "飛行的動作"
+ },
+ "float": {
+  "pos": "verb",
+  "gloss": "漂浮；浮起"
+ },
+ "flood": {
+  "pos": "noun",
+  "gloss": "洪水；大量水淹沒"
+ },
+ "floor": {
+  "pos": "noun",
+  "gloss": "地板；樓層"
+ },
+ "flow": {
+  "pos": "verb",
+  "gloss": "流動；穩定移向某方向"
+ },
+ "flower": {
+  "pos": "noun",
+  "gloss": "開花的植物；花朵"
+ },
+ "fly": {
+  "pos": "verb",
+  "gloss": "飛行；飛翔"
+ },
+ "focus": {
+  "pos": "noun",
+  "gloss": "焦點；中心"
+ },
+ "fold": {
+  "pos": "verb",
+  "gloss": "折疊；摺疊"
+ },
+ "folk": {
+  "pos": "noun",
+  "gloss": "民眾；人民"
+ },
+ "follow": {
+  "pos": "verb",
+  "gloss": "跟隨；受引導"
+ },
+ "food": {
+  "pos": "noun",
+  "gloss": "食物；食品"
+ },
+ "fool": {
+  "pos": "noun",
+  "gloss": "傻瓜；愚人"
+ },
+ "foot": {
+  "pos": "noun",
+  "gloss": "腳；足部"
+ },
+ "football": {
+  "pos": "noun",
+  "gloss": "兩隊踢球進球門的運動；足球"
+ },
+ "for": {
+  "pos": "prep",
+  "gloss": "為了；表示目的"
+ },
+ "force": {
+  "pos": "verb",
+  "gloss": "強制；迫使"
+ },
+ "forecast": {
+  "pos": "noun",
+  "gloss": "預報；預測"
+ },
+ "foreign": {
+  "pos": "adj",
+  "gloss": "外國的；異國的"
+ },
+ "forest": {
+  "pos": "noun",
+  "gloss": "森林；林地"
+ },
+ "forever": {
+  "pos": "adv",
+  "gloss": "永遠；永遠地"
+ },
+ "forget": {
+  "pos": "verb",
+  "gloss": "忘記；遺忘"
+ },
+ "form": {
+  "pos": "noun",
+  "gloss": "可見的形狀或風格；類型；種類"
+ },
+ "formal": {
+  "pos": "adj",
+  "gloss": "正式的；莊重的"
+ },
+ "format": {
+  "pos": "noun",
+  "gloss": "格式；形式"
+ },
+ "formation": {
+  "pos": "noun",
+  "gloss": "形成；創造過程"
+ },
+ "former": {
+  "pos": "adj",
+  "gloss": "以前的；前任的"
+ },
+ "formula": {
+  "pos": "noun",
+  "gloss": "做或製造某物的計畫、規則或方法"
+ },
+ "forth": {
+  "pos": "adv",
+  "gloss": "從一地出發；向前"
+ },
+ "fortunate": {
+  "pos": "adj",
+  "gloss": "幸運；運氣好"
+ },
+ "fortune": {
+  "pos": "noun",
+  "gloss": "運氣；好運"
+ },
+ "forward": {
+  "pos": "adv",
+  "gloss": "向前；前進"
+ },
+ "found": {
+  "pos": "verb",
+  "gloss": "創辦；建立"
+ },
+ "foundation": {
+  "pos": "noun",
+  "gloss": "建築物建造在其上的地下基礎"
+ },
+ "fragment": {
+  "pos": "noun",
+  "gloss": "碎片；片段"
+ },
+ "frame": {
+  "pos": "noun",
+  "gloss": "賦予物體形狀的基本結構；影片中的單一畫面"
+ },
+ "framework": {
+  "pos": "noun",
+  "gloss": "某物的基本結構"
+ },
+ "free": {
+  "pos": "adj",
+  "gloss": "免費的；不要錢"
+ },
+ "freedom": {
+  "pos": "noun",
+  "gloss": "自由的狀態；不被控制"
+ },
+ "freeze": {
+  "pos": "verb",
+  "gloss": "結冰；凍結"
+ },
+ "frequency": {
+  "pos": "noun",
+  "gloss": "頻率；發生次數"
+ },
+ "frequent": {
+  "pos": "adj",
+  "gloss": "經常的；頻繁的"
+ },
+ "frequently": {
+  "pos": "adv",
+  "gloss": "頻繁地；經常"
+ },
+ "fresh": {
+  "pos": "adj",
+  "gloss": "新鮮；最近製作或採收的"
+ },
+ "friend": {
+  "pos": "noun",
+  "gloss": "你喜歡且享受與之相伴的人"
+ },
+ "friendly": {
+  "pos": "adj",
+  "gloss": "表現得像朋友；友善且樂於幫助"
+ },
+ "friendship": {
+  "pos": "noun",
+  "gloss": "友誼；友情"
+ },
+ "frighten": {
+  "pos": "verb",
+  "gloss": "使害怕；使恐懼"
+ },
+ "from": {
+  "pos": "prep",
+  "gloss": "從；開始於"
+ },
+ "front": {
+  "pos": "noun",
+  "gloss": "前面；正面"
+ },
+ "fruit": {
+  "pos": "noun",
+  "gloss": "水果；果實"
+ },
+ "fuel": {
+  "pos": "noun",
+  "gloss": "燃料；能源物質"
+ },
+ "fulfill": {
+  "pos": "verb",
+  "gloss": "履行；完成"
+ },
+ "full": {
+  "pos": "adj",
+  "gloss": "滿的；充滿的"
+ },
+ "fully": {
+  "pos": "adv",
+  "gloss": "完全地；充分"
+ },
+ "fun": {
+  "pos": "adj",
+  "gloss": "有趣；令人愉快"
+ },
+ "function": {
+  "pos": "noun",
+  "gloss": "用途；功能"
+ },
+ "functional": {
+  "pos": "adj",
+  "gloss": "實用；有功能"
+ },
+ "fund": {
+  "pos": "verb",
+  "gloss": "資助；提供資金"
+ },
+ "fundamental": {
+  "pos": "adj",
+  "gloss": "基本的；根本的"
+ },
+ "funny": {
+  "pos": "adj",
+  "gloss": "引人發笑；有趣的"
+ },
+ "furniture": {
+  "pos": "noun",
+  "gloss": "桌、椅、床、櫥等家具物品"
+ },
+ "further": {
+  "pos": "adj",
+  "gloss": "更進一步的；額外的"
+ },
+ "furthermore": {
+  "pos": "adv",
+  "gloss": "此外；進一步"
+ },
+ "future": {
+  "pos": "noun",
+  "gloss": "未來；將來"
+ },
+ "gain": {
+  "pos": "verb",
+  "gloss": "獲得；得到所需之物"
+ },
+ "gallery": {
+  "pos": "noun",
+  "gloss": "畫廊；美術館"
+ },
+ "game": {
+  "pos": "noun",
+  "gloss": "遊戲；比賽"
+ },
+ "gap": {
+  "pos": "noun",
+  "gloss": "兩事物之間的空隙"
+ },
+ "garden": {
+  "pos": "noun",
+  "gloss": "庭院；花園；屋外種植植物的地方"
+ },
+ "gas": {
+  "pos": "noun",
+  "gloss": "氣體；氣"
+ },
+ "gate": {
+  "pos": "noun",
+  "gloss": "柵門；大門"
+ },
+ "gather": {
+  "pos": "verb",
+  "gloss": "把人或動物集合成一群"
+ },
+ "gay": {
+  "pos": "noun",
+  "gloss": "被同性吸引的人"
+ },
+ "gaze": {
+  "pos": "verb",
+  "gloss": "凝視；注視"
+ },
+ "gear": {
+  "pos": "noun",
+  "gloss": "裝備；工具；齒輪"
+ },
+ "gender": {
+  "pos": "noun",
+  "gloss": "性別；男女之分"
+ },
+ "gene": {
+  "pos": "noun",
+  "gloss": "基因；遺傳因子"
+ },
+ "general": {
+  "pos": "adj",
+  "gloss": "普遍的；通常的"
+ },
+ "generally": {
+  "pos": "adv",
+  "gloss": "通常；一般而言"
+ },
+ "generate": {
+  "pos": "verb",
+  "gloss": "產生；生成"
+ },
+ "generation": {
+  "pos": "noun",
+  "gloss": "在約同一時期出生和生活的人群"
+ },
+ "genetic": {
+  "pos": "adj",
+  "gloss": "遺傳的；基因的"
+ },
+ "gentle": {
+  "pos": "adj",
+  "gloss": "溫柔；和善；不粗暴"
+ },
+ "gentleman": {
+  "pos": "noun",
+  "gloss": "紳士；男士"
+ },
+ "gently": {
+  "pos": "adv",
+  "gloss": "溫柔地；輕輕地"
+ },
+ "genuine": {
+  "pos": "adj",
+  "gloss": "真正的；真實的"
+ },
+ "gesture": {
+  "pos": "noun",
+  "gloss": "手勢；姿態"
+ },
+ "get": {
+  "pos": "verb",
+  "gloss": "得到；獲得"
+ },
+ "giant": {
+  "pos": "adj",
+  "gloss": "巨大的；極其龐大"
+ },
+ "gift": {
+  "pos": "noun",
+  "gloss": "禮物；贈品"
+ },
+ "girl": {
+  "pos": "noun",
+  "gloss": "女孩；小女孩"
+ },
+ "give": {
+  "pos": "verb",
+  "gloss": "給；贈予"
+ },
+ "glad": {
+  "pos": "adj",
+  "gloss": "對發生的事感到高興；滿足"
+ },
+ "glance": {
+  "pos": "verb",
+  "gloss": "瞥見；一瞥"
+ },
+ "glass": {
+  "pos": "noun",
+  "gloss": "玻璃；透明硬質材料"
+ },
+ "global": {
+  "pos": "adj",
+  "gloss": "全球的；世界性"
+ },
+ "go": {
+  "pos": "verb",
+  "gloss": "去；移動"
+ },
+ "goal": {
+  "pos": "noun",
+  "gloss": "目標；目的"
+ },
+ "god": {
+  "pos": "noun",
+  "gloss": "神；超自然的存在"
+ },
+ "gold": {
+  "pos": "noun",
+  "gloss": "黃金；金色"
+ },
+ "golden": {
+  "pos": "adj",
+  "gloss": "金製的；黃金的"
+ },
+ "golf": {
+  "pos": "noun",
+  "gloss": "高爾夫球；高爾夫"
+ },
+ "good": {
+  "pos": "adj",
+  "gloss": "好；優良"
+ },
+ "govern": {
+  "pos": "verb",
+  "gloss": "統治；管理"
+ },
+ "government": {
+  "pos": "noun",
+  "gloss": "政府；政權"
+ },
+ "governor": {
+  "pos": "noun",
+  "gloss": "領導州或省的人"
+ },
+ "grab": {
+  "pos": "verb",
+  "gloss": "迅速伸手抓取"
+ },
+ "grade": {
+  "pos": "noun",
+  "gloss": "學生完成的學習級別"
+ },
+ "gradually": {
+  "pos": "adv",
+  "gloss": "緩慢地；隨時間逐漸進行"
+ },
+ "graduate": {
+  "pos": "verb",
+  "gloss": "畢業；取得學位"
+ },
+ "grain": {
+  "pos": "noun",
+  "gloss": "穀粒；穀物"
+ },
+ "grammar": {
+  "pos": "noun",
+  "gloss": "文法；語法"
+ },
+ "grand": {
+  "pos": "adj",
+  "gloss": "包含許多事物的；非常大的"
+ },
+ "grandmother": {
+  "pos": "noun",
+  "gloss": "祖母；外婆"
+ },
+ "grant": {
+  "pos": "verb",
+  "gloss": "給予；允許"
+ },
+ "grass": {
+  "pos": "noun",
+  "gloss": "草坪上栽種的窄葉綠色植物"
+ },
+ "grateful": {
+  "pos": "adj",
+  "gloss": "感謝的；感恩的"
+ },
+ "gray": {
+  "pos": "adj",
+  "gloss": "黑白之間的顏色"
+ },
+ "great": {
+  "pos": "adj",
+  "gloss": "很好的；極好的"
+ },
+ "greatly": {
+  "pos": "adv",
+  "gloss": "非常；大大地"
+ },
+ "green": {
+  "pos": "noun",
+  "gloss": "嫩葉的顏色"
+ },
+ "greet": {
+  "pos": "verb",
+  "gloss": "問候；迎接"
+ },
+ "grin": {
+  "pos": "verb",
+  "gloss": "咧嘴笑；露齒笑"
+ },
+ "ground": {
+  "pos": "noun",
+  "gloss": "地面；土地"
+ },
+ "group": {
+  "pos": "noun",
+  "gloss": "群體；集合"
+ },
+ "grow": {
+  "pos": "verb",
+  "gloss": "成長；增長"
+ },
+ "growth": {
+  "pos": "noun",
+  "gloss": "成長；增長"
+ },
+ "guarantee": {
+  "pos": "verb",
+  "gloss": "保證；正式承諾"
+ },
+ "guard": {
+  "pos": "verb",
+  "gloss": "守護；看守"
+ },
+ "guess": {
+  "pos": "verb",
+  "gloss": "猜測；不確定地作答"
+ },
+ "guest": {
+  "pos": "noun",
+  "gloss": "客人；訪客"
+ },
+ "guide": {
+  "pos": "verb",
+  "gloss": "帶領；引導"
+ },
+ "guideline": {
+  "pos": "noun",
+  "gloss": "指引；準則"
+ },
+ "guilty": {
+  "pos": "adj",
+  "gloss": "有罪的；做了壞事的"
+ },
+ "guitar": {
+  "pos": "noun",
+  "gloss": "吉他；木吉他"
+ },
+ "gun": {
+  "pos": "noun",
+  "gloss": "槍；槍支"
+ },
+ "guy": {
+  "pos": "noun",
+  "gloss": "男人；男孩"
+ },
+ "habit": {
+  "pos": "noun",
+  "gloss": "習慣；慣常行為"
+ },
+ "hair": {
+  "pos": "noun",
+  "gloss": "頭部或身體上的細長絲狀物"
+ },
+ "half": {
+  "pos": "noun",
+  "gloss": "一半；二分之一"
+ },
+ "hall": {
+  "pos": "noun",
+  "gloss": "大廳；走廊"
+ },
+ "hand": {
+  "pos": "noun",
+  "gloss": "手；手臂末端"
+ },
+ "handle": {
+  "pos": "verb",
+  "gloss": "應付；承擔責任"
+ },
+ "hang": {
+  "pos": "verb",
+  "gloss": "懸掛；貼掛於牆上"
+ },
+ "happen": {
+  "pos": "verb",
+  "gloss": "發生或進行"
+ },
+ "happiness": {
+  "pos": "noun",
+  "gloss": "快樂；幸福"
+ },
+ "happy": {
+  "pos": "adj",
+  "gloss": "快樂的；高興的"
+ },
+ "harbor": {
+  "pos": "noun",
+  "gloss": "港灣；海港"
+ },
+ "hard": {
+  "pos": "adj",
+  "gloss": "難以彎曲、破裂或切割的；堅固的"
+ },
+ "hardly": {
+  "pos": "adv",
+  "gloss": "明確地不；幾乎不"
+ },
+ "harm": {
+  "pos": "verb",
+  "gloss": "傷害；造成損害"
+ },
+ "hat": {
+  "pos": "noun",
+  "gloss": "帽子"
+ },
+ "hate": {
+  "pos": "verb",
+  "gloss": "對某物有極強的厭惡感"
+ },
+ "have": {
+  "pos": "verb",
+  "gloss": "擁有；持有"
+ },
+ "he": {
+  "pos": "pron",
+  "gloss": "他；前述男性"
+ },
+ "head": {
+  "pos": "noun",
+  "gloss": "頭；頭部"
+ },
+ "health": {
+  "pos": "noun",
+  "gloss": "健康；健康狀態"
+ },
+ "healthy": {
+  "pos": "adj",
+  "gloss": "身體健康；無病無痛"
+ },
+ "hear": {
+  "pos": "verb",
+  "gloss": "聽見；用耳朵感知"
+ },
+ "heart": {
+  "pos": "noun",
+  "gloss": "心臟；心"
+ },
+ "heat": {
+  "pos": "verb",
+  "gloss": "加熱；變熱"
+ },
+ "heavily": {
+  "pos": "adv",
+  "gloss": "大量地；非常地"
+ },
+ "heavy": {
+  "pos": "adj",
+  "gloss": "沉重的；重量很多"
+ },
+ "height": {
+  "pos": "noun",
+  "gloss": "高度；從底到頂的距離"
+ },
+ "hell": {
+  "pos": "noun",
+  "gloss": "充滿痛苦和苦難的地方"
+ },
+ "hello": {
+  "pos": "intj",
+  "gloss": "你好；招呼語"
+ },
+ "help": {
+  "pos": "verb",
+  "gloss": "幫助；協助"
+ },
+ "helpful": {
+  "pos": "adj",
+  "gloss": "提供幫助的；有益的"
+ },
+ "hence": {
+  "pos": "adv",
+  "gloss": "從現在起；晚於現在的時間"
+ },
+ "here": {
+  "pos": "adv",
+  "gloss": "這裡；此處"
+ },
+ "hero": {
+  "pos": "noun",
+  "gloss": "勇氣十足、拯救他人的人物"
+ },
+ "herself": {
+  "pos": "pron",
+  "gloss": "進行原始行動的女性"
+ },
+ "hesitate": {
+  "pos": "verb",
+  "gloss": "猶豫；遲疑"
+ },
+ "hi": {
+  "pos": "intj",
+  "gloss": "嗨；你好"
+ },
+ "hide": {
+  "pos": "verb",
+  "gloss": "藏匿；躲藏；使找不到"
+ },
+ "high": {
+  "pos": "adj",
+  "gloss": "高的；高聳"
+ },
+ "highlight": {
+  "pos": "noun",
+  "gloss": "精華；最精彩的部分"
+ },
+ "highly": {
+  "pos": "adv",
+  "gloss": "高度地；非常"
+ },
+ "hill": {
+  "pos": "noun",
+  "gloss": "山丘；丘陵"
+ },
+ "himself": {
+  "pos": "pron",
+  "gloss": "他自己"
+ },
+ "hint": {
+  "pos": "noun",
+  "gloss": "提示；線索"
+ },
+ "hire": {
+  "pos": "verb",
+  "gloss": "雇用；聘僱"
+ },
+ "historian": {
+  "pos": "noun",
+  "gloss": "歷史學家；歷史研究者"
+ },
+ "historic": {
+  "pos": "adj",
+  "gloss": "歷史性的；具有歷史意義的"
+ },
+ "historical": {
+  "pos": "adj",
+  "gloss": "歷史的；過去的"
+ },
+ "history": {
+  "pos": "noun",
+  "gloss": "歷史；過往"
+ },
+ "hit": {
+  "pos": "verb",
+  "gloss": "打；擊中"
+ },
+ "hold": {
+  "pos": "verb",
+  "gloss": "用手或臂膀來攜帶或保持某物"
+ },
+ "holder": {
+  "pos": "noun",
+  "gloss": "持有人；擁有者"
+ },
+ "hole": {
+  "pos": "noun",
+  "gloss": "洞；孔；開口"
+ },
+ "holiday": {
+  "pos": "noun",
+  "gloss": "假日；節日"
+ },
+ "home": {
+  "pos": "noun",
+  "gloss": "家；居住地"
+ },
+ "honest": {
+  "pos": "adj",
+  "gloss": "良好的；誠實不欺的"
+ },
+ "honor": {
+  "pos": "noun",
+  "gloss": "榮譽；尊敬"
+ },
+ "hook": {
+  "pos": "noun",
+  "gloss": "鉤子；掛鉤"
+ },
+ "hope": {
+  "pos": "noun",
+  "gloss": "希望某事發生的願望；你所希望的"
+ },
+ "hopefully": {
+  "pos": "adv",
+  "gloss": "希望地；但願"
+ },
+ "horrible": {
+  "pos": "adj",
+  "gloss": "可怕；令人厭惡"
+ },
+ "horse": {
+  "pos": "noun",
+  "gloss": "馬；馬匹"
+ },
+ "hospital": {
+  "pos": "noun",
+  "gloss": "醫院；醫療"
+ },
+ "host": {
+  "pos": "noun",
+  "gloss": "招待客人的人"
+ },
+ "hot": {
+  "pos": "adj",
+  "gloss": "熱的；高溫的"
+ },
+ "hotel": {
+  "pos": "noun",
+  "gloss": "飯店；旅館"
+ },
+ "hour": {
+  "pos": "noun",
+  "gloss": "60分鐘；一天中24個相等的時間單位之一"
+ },
+ "house": {
+  "pos": "noun",
+  "gloss": "房屋；住宅"
+ },
+ "household": {
+  "pos": "noun",
+  "gloss": "同住一戶的人；家庭成員"
+ },
+ "how": {
+  "pos": "adv",
+  "gloss": "如何；疑問方式"
+ },
+ "however": {
+  "pos": "conj",
+  "gloss": "表示與之前所說不同；但是"
+ },
+ "huge": {
+  "pos": "adj",
+  "gloss": "巨大的；龐大的"
+ },
+ "human": {
+  "pos": "noun",
+  "gloss": "人；人類"
+ },
+ "humor": {
+  "pos": "noun",
+  "gloss": "幽默；諷刺"
+ },
+ "hunger": {
+  "pos": "noun",
+  "gloss": "飢餓；需要進食"
+ },
+ "hunt": {
+  "pos": "verb",
+  "gloss": "狩獵；獵捕"
+ },
+ "hurry": {
+  "pos": "verb",
+  "gloss": "匆忙；急進"
+ },
+ "hurt": {
+  "pos": "verb",
+  "gloss": "傷害；使疼痛"
+ },
+ "husband": {
+  "pos": "noun",
+  "gloss": "丈夫；先生"
+ },
+ "hypothesis": {
+  "pos": "noun",
+  "gloss": "假說；推測"
+ },
+ "ice": {
+  "pos": "noun",
+  "gloss": "冰；冰塊"
+ },
+ "idea": {
+  "pos": "noun",
+  "gloss": "信念；想法；建議；意見或計畫"
+ },
+ "ideal": {
+  "pos": "adj",
+  "gloss": "理想的；完美的"
+ },
+ "identify": {
+  "pos": "verb",
+  "gloss": "辨識；指出是誰或是什麼"
+ },
+ "identity": {
+  "pos": "noun",
+  "gloss": "某人是誰；構成一個人的特質集合"
+ },
+ "if": {
+  "pos": "conj",
+  "gloss": "如果；條件"
+ },
+ "ignore": {
+  "pos": "verb",
+  "gloss": "忽視；不理"
+ },
+ "ill": {
+  "pos": "adj",
+  "gloss": "身體不適；患病"
+ },
+ "illegal": {
+  "pos": "adj",
+  "gloss": "非法的；違法的"
+ },
+ "illness": {
+  "pos": "noun",
+  "gloss": "疾病；生病"
+ },
+ "illustrate": {
+  "pos": "verb",
+  "gloss": "用例子解釋；便於理解"
+ },
+ "illustration": {
+  "pos": "noun",
+  "gloss": "插圖；說明"
+ },
+ "image": {
+  "pos": "noun",
+  "gloss": "圖像；畫像"
+ },
+ "imagination": {
+  "pos": "noun",
+  "gloss": "想像力；創意思維"
+ },
+ "imagine": {
+  "pos": "verb",
+  "gloss": "創意性思考；形成心像"
+ },
+ "immediate": {
+  "pos": "adj",
+  "gloss": "立即的；不延遲的"
+ },
+ "immediately": {
+  "pos": "adv",
+  "gloss": "沒有延遲；立即；就在之後或之前"
+ },
+ "immigrant": {
+  "pos": "noun",
+  "gloss": "移民；移居者"
+ },
+ "immigration": {
+  "pos": "noun",
+  "gloss": "移民；遷入"
+ },
+ "implement": {
+  "pos": "verb",
+  "gloss": "開始並執行計畫或政策"
+ },
+ "implementation": {
+  "pos": "noun",
+  "gloss": "實施；執行"
+ },
+ "implication": {
+  "pos": "noun",
+  "gloss": "影響；可能的後果"
+ },
+ "imply": {
+  "pos": "verb",
+  "gloss": "暗示；間接表達"
+ },
+ "import": {
+  "pos": "verb",
+  "gloss": "進口；輸入"
+ },
+ "importance": {
+  "pos": "noun",
+  "gloss": "重要性；重大意義"
+ },
+ "important": {
+  "pos": "adj",
+  "gloss": "重要的；有影響"
+ },
+ "impose": {
+  "pos": "verb",
+  "gloss": "強迫某人接受或遵守"
+ },
+ "impossible": {
+  "pos": "adj",
+  "gloss": "很難發生或存在的"
+ },
+ "impress": {
+  "pos": "verb",
+  "gloss": "使欽佩；令人敬服"
+ },
+ "impression": {
+  "pos": "noun",
+  "gloss": "印象；感受"
+ },
+ "impressive": {
+  "pos": "adj",
+  "gloss": "令人印象深刻的"
+ },
+ "improve": {
+  "pos": "verb",
+  "gloss": "改善；進步"
+ },
+ "improvement": {
+  "pos": "noun",
+  "gloss": "使事物更好的增加或改變"
+ },
+ "in": {
+  "pos": "prep",
+  "gloss": "在…裡面；內部"
+ },
+ "incentive": {
+  "pos": "noun",
+  "gloss": "誘因；激勵"
+ },
+ "inch": {
+  "pos": "noun",
+  "gloss": "長度單位；1/12英呎"
+ },
+ "incident": {
+  "pos": "noun",
+  "gloss": "發生的事件；特別是不好或異常的事"
+ },
+ "include": {
+  "pos": "verb",
+  "gloss": "包含；納入"
+ },
+ "income": {
+  "pos": "noun",
+  "gloss": "收入；所得"
+ },
+ "incorporate": {
+  "pos": "verb",
+  "gloss": "納入；包含於其中"
+ },
+ "increase": {
+  "pos": "verb",
+  "gloss": "使某物變得更大或更多"
+ },
+ "increasingly": {
+  "pos": "adv",
+  "gloss": "越來越；逐漸增加"
+ },
+ "indeed": {
+  "pos": "adv",
+  "gloss": "確實；的確"
+ },
+ "independence": {
+  "pos": "noun",
+  "gloss": "獨立；自主自由"
+ },
+ "independent": {
+  "pos": "adj",
+  "gloss": "獨立的；自主決定的"
+ },
+ "index": {
+  "pos": "noun",
+  "gloss": "索引；目錄"
+ },
+ "indicate": {
+  "pos": "verb",
+  "gloss": "指示；表示"
+ },
+ "indication": {
+  "pos": "noun",
+  "gloss": "跡象；表示"
+ },
+ "individual": {
+  "pos": "noun",
+  "gloss": "個人；單一人員"
+ },
+ "industrial": {
+  "pos": "adj",
+  "gloss": "工業的；產業的"
+ },
+ "industry": {
+  "pos": "noun",
+  "gloss": "工業；產業"
+ },
+ "infant": {
+  "pos": "noun",
+  "gloss": "嬰兒；幼兒"
+ },
+ "infection": {
+  "pos": "noun",
+  "gloss": "感染；罹患疾病"
+ },
+ "inflation": {
+  "pos": "noun",
+  "gloss": "通貨膨脹；物價上漲"
+ },
+ "influence": {
+  "pos": "verb",
+  "gloss": "影響；作用"
+ },
+ "inform": {
+  "pos": "verb",
+  "gloss": "告知；提供資訊"
+ },
+ "information": {
+  "pos": "noun",
+  "gloss": "資訊；資料；情報"
+ },
+ "initial": {
+  "pos": "adj",
+  "gloss": "開始時存在或發生的"
+ },
+ "initially": {
+  "pos": "adv",
+  "gloss": "在開始時；最初"
+ },
+ "initiative": {
+  "pos": "noun",
+  "gloss": "自己決定或行動的能力"
+ },
+ "injure": {
+  "pos": "verb",
+  "gloss": "傷害；受傷"
+ },
+ "injury": {
+  "pos": "noun",
+  "gloss": "身體或情感上的傷害"
+ },
+ "inner": {
+  "pos": "adj",
+  "gloss": "內部的；裡面的"
+ },
+ "innocent": {
+  "pos": "adj",
+  "gloss": "無辜；清白"
+ },
+ "innovation": {
+  "pos": "noun",
+  "gloss": "創造的新發明或想法"
+ },
+ "input": {
+  "pos": "noun",
+  "gloss": "輸入資訊、建議或意見"
+ },
+ "inquiry": {
+  "pos": "noun",
+  "gloss": "詢問；查詢"
+ },
+ "inside": {
+  "pos": "adv",
+  "gloss": "內部；裡面"
+ },
+ "insight": {
+  "pos": "noun",
+  "gloss": "洞察；深入理解"
+ },
+ "insist": {
+  "pos": "verb",
+  "gloss": "強烈堅定地陳述意見；要求某事必須發生"
+ },
+ "inspire": {
+  "pos": "verb",
+  "gloss": "激勵；激發意願"
+ },
+ "install": {
+  "pos": "verb",
+  "gloss": "安裝；設置"
+ },
+ "instance": {
+  "pos": "noun",
+  "gloss": "例子；案例"
+ },
+ "instead": {
+  "pos": "adv",
+  "gloss": "反而；代替"
+ },
+ "institution": {
+  "pos": "noun",
+  "gloss": "機構；組織"
+ },
+ "institutional": {
+  "pos": "adj",
+  "gloss": "機構性；制度性"
+ },
+ "instruction": {
+  "pos": "noun",
+  "gloss": "指示；說明"
+ },
+ "instrument": {
+  "pos": "noun",
+  "gloss": "樂器；儀器；工具"
+ },
+ "insurance": {
+  "pos": "noun",
+  "gloss": "保障損失傷害的保險費用"
+ },
+ "insure": {
+  "pos": "verb",
+  "gloss": "投保；購買保險"
+ },
+ "integrate": {
+  "pos": "verb",
+  "gloss": "整合；統一"
+ },
+ "intellectual": {
+  "pos": "adj",
+  "gloss": "智力的；理智的"
+ },
+ "intelligence": {
+  "pos": "noun",
+  "gloss": "智力；聰慧"
+ },
+ "intend": {
+  "pos": "verb",
+  "gloss": "計畫；想要做"
+ },
+ "intense": {
+  "pos": "adj",
+  "gloss": "強烈的；激烈的"
+ },
+ "intention": {
+  "pos": "noun",
+  "gloss": "意圖；目的；計畫"
+ },
+ "interaction": {
+  "pos": "noun",
+  "gloss": "兩個或多個人或事物相互影響的過程"
+ },
+ "interest": {
+  "pos": "verb",
+  "gloss": "使感興趣；引起興趣"
+ },
+ "interior": {
+  "pos": "noun",
+  "gloss": "內部；室內"
+ },
+ "internal": {
+  "pos": "adj",
+  "gloss": "內部的；裡面的"
+ },
+ "international": {
+  "pos": "adj",
+  "gloss": "國際的；跨國的"
+ },
+ "interpret": {
+  "pos": "verb",
+  "gloss": "翻譯；用另一語言轉述"
+ },
+ "interpretation": {
+  "pos": "noun",
+  "gloss": "解釋；詮釋"
+ },
+ "intervention": {
+  "pos": "noun",
+  "gloss": "干預；介入處理"
+ },
+ "interview": {
+  "pos": "noun",
+  "gloss": "訪談；面試"
+ },
+ "into": {
+  "pos": "prep",
+  "gloss": "進入；入內"
+ },
+ "introduce": {
+  "pos": "verb",
+  "gloss": "介紹；引進"
+ },
+ "introduction": {
+  "pos": "noun",
+  "gloss": "介紹人認識"
+ },
+ "invent": {
+  "pos": "verb",
+  "gloss": "發明；創造"
+ },
+ "invest": {
+  "pos": "verb",
+  "gloss": "投入資源以謀求未來發展"
+ },
+ "investigate": {
+  "pos": "verb",
+  "gloss": "努力查明事實；進行研究"
+ },
+ "investigation": {
+  "pos": "noun",
+  "gloss": "對某事進行的查調"
+ },
+ "investment": {
+  "pos": "noun",
+  "gloss": "投資；投資品"
+ },
+ "investor": {
+  "pos": "noun",
+  "gloss": "為企業成長而提供金錢以換取利潤的人"
+ },
+ "invitation": {
+  "pos": "noun",
+  "gloss": "邀請他人做某事或前往某處"
+ },
+ "invite": {
+  "pos": "verb",
+  "gloss": "邀請；請某人參加"
+ },
+ "involve": {
+  "pos": "verb",
+  "gloss": "涉及；包含"
+ },
+ "involvement": {
+  "pos": "noun",
+  "gloss": "參與；投入"
+ },
+ "iron": {
+  "pos": "noun",
+  "gloss": "鐵；製鋼硬金屬"
+ },
+ "island": {
+  "pos": "noun",
+  "gloss": "島；四面環水的陸地"
+ },
+ "isolate": {
+  "pos": "verb",
+  "gloss": "將某物與他人分開保持"
+ },
+ "issue": {
+  "pos": "noun",
+  "gloss": "被討論、辯論或爭論的重要主題"
+ },
+ "it": {
+  "pos": "pron",
+  "gloss": "它；前述事物"
+ },
+ "item": {
+  "pos": "noun",
+  "gloss": "項目；物品"
+ },
+ "itself": {
+  "pos": "pron",
+  "gloss": "它本身"
+ },
+ "jacket": {
+  "pos": "noun",
+  "gloss": "夾克；薄外套"
+ },
+ "jail": {
+  "pos": "noun",
+  "gloss": "監獄；牢房"
+ },
+ "job": {
+  "pos": "noun",
+  "gloss": "賺取金錢的經常性工作"
+ },
+ "join": {
+  "pos": "verb",
+  "gloss": "加入；連接"
+ },
+ "joint": {
+  "pos": "noun",
+  "gloss": "關節；接點"
+ },
+ "joke": {
+  "pos": "verb",
+  "gloss": "開玩笑；說笑話"
+ },
+ "journal": {
+  "pos": "noun",
+  "gloss": "日誌；期刊"
+ },
+ "journalist": {
+  "pos": "noun",
+  "gloss": "記者；新聞工作者"
+ },
+ "journey": {
+  "pos": "noun",
+  "gloss": "旅程；旅行"
+ },
+ "joy": {
+  "pos": "noun",
+  "gloss": "喜悅；快樂"
+ },
+ "judge": {
+  "pos": "verb",
+  "gloss": "評斷；仔細考量後形成意見"
+ },
+ "judgment": {
+  "pos": "noun",
+  "gloss": "判斷；深思後的意見"
+ },
+ "jump": {
+  "pos": "verb",
+  "gloss": "跳躍；用腿彈起"
+ },
+ "jury": {
+  "pos": "noun",
+  "gloss": "陪審團"
+ },
+ "just": {
+  "pos": "adv",
+  "gloss": "只是；恰好"
+ },
+ "justice": {
+  "pos": "noun",
+  "gloss": "正義；公正"
+ },
+ "justify": {
+  "pos": "verb",
+  "gloss": "說明理由；為……辯護"
+ },
+ "keen": {
+  "pos": "adj",
+  "gloss": "渴望的；熱切的"
+ },
+ "keep": {
+  "pos": "verb",
+  "gloss": "保持；持續擁有"
+ },
+ "key": {
+  "pos": "noun",
+  "gloss": "鑰匙；鑰"
+ },
+ "kick": {
+  "pos": "verb",
+  "gloss": "用腳踢某人或某物"
+ },
+ "kid": {
+  "pos": "noun",
+  "gloss": "小孩；孩童"
+ },
+ "kill": {
+  "pos": "verb",
+  "gloss": "殺死；結束生命"
+ },
+ "kind": {
+  "pos": "noun",
+  "gloss": "種類；類型"
+ },
+ "king": {
+  "pos": "noun",
+  "gloss": "有皇族的國家的男性統治者"
+ },
+ "kiss": {
+  "pos": "verb",
+  "gloss": "親吻；接吻"
+ },
+ "kitchen": {
+  "pos": "noun",
+  "gloss": "廚房"
+ },
+ "knee": {
+  "pos": "noun",
+  "gloss": "膝蓋；腿的彎曲部分"
+ },
+ "knife": {
+  "pos": "noun",
+  "gloss": "刀子；餐刀"
+ },
+ "knock": {
+  "pos": "verb",
+  "gloss": "敲打以吸引注意"
+ },
+ "know": {
+  "pos": "verb",
+  "gloss": "知道；認識"
+ },
+ "knowledge": {
+  "pos": "noun",
+  "gloss": "知識；學問"
+ },
+ "label": {
+  "pos": "noun",
+  "gloss": "標籤；標示紙"
+ },
+ "labor": {
+  "pos": "verb",
+  "gloss": "勞動；辛苦工作"
+ },
+ "laboratory": {
+  "pos": "noun",
+  "gloss": "實驗室；試驗所"
+ },
+ "lack": {
+  "pos": "noun",
+  "gloss": "缺乏；短缺"
+ },
+ "lady": {
+  "pos": "noun",
+  "gloss": "女性；婦女的另一種說法"
+ },
+ "lake": {
+  "pos": "noun",
+  "gloss": "湖泊"
+ },
+ "land": {
+  "pos": "noun",
+  "gloss": "陸地；土地"
+ },
+ "landscape": {
+  "pos": "noun",
+  "gloss": "景觀；風景"
+ },
+ "language": {
+  "pos": "noun",
+  "gloss": "語言；語言文字"
+ },
+ "large": {
+  "pos": "adj",
+  "gloss": "大的；尺寸很大的；寬、高、長或厚"
+ },
+ "largely": {
+  "pos": "adv",
+  "gloss": "在很大程度上；主要地；大部分"
+ },
+ "last": {
+  "pos": "adj",
+  "gloss": "前一個的；之前的"
+ },
+ "late": {
+  "pos": "adj",
+  "gloss": "晚的；接近終點"
+ },
+ "latter": {
+  "pos": "noun",
+  "gloss": "後者；最後提及的事物"
+ },
+ "laugh": {
+  "pos": "verb",
+  "gloss": "笑；發笑"
+ },
+ "laughter": {
+  "pos": "noun",
+  "gloss": "笑聲；笑的動作"
+ },
+ "launch": {
+  "pos": "verb",
+  "gloss": "發射；下水"
+ },
+ "law": {
+  "pos": "noun",
+  "gloss": "法律；法則"
+ },
+ "lawyer": {
+  "pos": "noun",
+  "gloss": "律師；法律顧問"
+ },
+ "lay": {
+  "pos": "verb",
+  "gloss": "放置；平放"
+ },
+ "layer": {
+  "pos": "noun",
+  "gloss": "覆蓋表面的一層物質"
+ },
+ "lazy": {
+  "pos": "adj",
+  "gloss": "不願工作；懶惰"
+ },
+ "lead": {
+  "pos": "verb",
+  "gloss": "指引方向或引導他人"
+ },
+ "leader": {
+  "pos": "noun",
+  "gloss": "領導者；首領"
+ },
+ "leadership": {
+  "pos": "noun",
+  "gloss": "引導或影響他人的能力"
+ },
+ "league": {
+  "pos": "noun",
+  "gloss": "聯盟；運動聯賽"
+ },
+ "lean": {
+  "pos": "verb",
+  "gloss": "傾斜；靠近"
+ },
+ "leap": {
+  "pos": "verb",
+  "gloss": "跳躍；躍起"
+ },
+ "learn": {
+  "pos": "verb",
+  "gloss": "通過學習或經驗獲得知識或技能"
+ },
+ "least": {
+  "pos": "adv",
+  "gloss": "以最小或最低的方式"
+ },
+ "leather": {
+  "pos": "noun",
+  "gloss": "皮革；皮料"
+ },
+ "leave": {
+  "pos": "verb",
+  "gloss": "離開；出發"
+ },
+ "lecture": {
+  "pos": "noun",
+  "gloss": "演講；講座"
+ },
+ "left": {
+  "pos": "adj",
+  "gloss": "心臟所在身體一側"
+ },
+ "leg": {
+  "pos": "noun",
+  "gloss": "腿；身體下肢部位"
+ },
+ "legal": {
+  "pos": "adj",
+  "gloss": "與法律相關；合法"
+ },
+ "legislation": {
+  "pos": "noun",
+  "gloss": "制定和通過法律的行為或過程"
+ },
+ "lend": {
+  "pos": "verb",
+  "gloss": "暫時借給他人"
+ },
+ "length": {
+  "pos": "noun",
+  "gloss": "長度；距離；時間長短"
+ },
+ "less": {
+  "pos": "adv",
+  "gloss": "更少的數量或程度"
+ },
+ "lesson": {
+  "pos": "noun",
+  "gloss": "課；上課時間"
+ },
+ "let": {
+  "pos": "verb",
+  "gloss": "允許；讓"
+ },
+ "letter": {
+  "pos": "noun",
+  "gloss": "信件；書信"
+ },
+ "level": {
+  "pos": "verb",
+  "gloss": "使物體變平或變平坦"
+ },
+ "liability": {
+  "pos": "noun",
+  "gloss": "債務；負債"
+ },
+ "liberal": {
+  "pos": "adj",
+  "gloss": "開放新想法；支持政府積極扶助社會"
+ },
+ "library": {
+  "pos": "noun",
+  "gloss": "圖書館；書館"
+ },
+ "license": {
+  "pos": "noun",
+  "gloss": "允許某人做或擁有某事的官方文件"
+ },
+ "lie": {
+  "pos": "verb",
+  "gloss": "說謊；欺騙"
+ },
+ "life": {
+  "pos": "noun",
+  "gloss": "生物；生命體"
+ },
+ "lift": {
+  "pos": "verb",
+  "gloss": "舉起；抬起"
+ },
+ "light": {
+  "pos": "adj",
+  "gloss": "輕的；不重"
+ },
+ "like": {
+  "pos": "verb",
+  "gloss": "喜歡；偏好"
+ },
+ "likely": {
+  "pos": "adj",
+  "gloss": "可能的；有望的"
+ },
+ "limit": {
+  "pos": "noun",
+  "gloss": "限度；界線"
+ },
+ "limitation": {
+  "pos": "noun",
+  "gloss": "限制；局限"
+ },
+ "line": {
+  "pos": "noun",
+  "gloss": "長、直且非常細的標記"
+ },
+ "link": {
+  "pos": "noun",
+  "gloss": "連結；鏈接"
+ },
+ "lip": {
+  "pos": "noun",
+  "gloss": "嘴唇；口部邊緣"
+ },
+ "liquid": {
+  "pos": "noun",
+  "gloss": "液體；流體"
+ },
+ "list": {
+  "pos": "noun",
+  "gloss": "列表；名單"
+ },
+ "listen": {
+  "pos": "verb",
+  "gloss": "聽；留心"
+ },
+ "listener": {
+  "pos": "noun",
+  "gloss": "聽眾；傾聽者"
+ },
+ "literally": {
+  "pos": "adv",
+  "gloss": "字面上；直譯"
+ },
+ "literary": {
+  "pos": "adj",
+  "gloss": "文學的；與文學相關的"
+ },
+ "literature": {
+  "pos": "noun",
+  "gloss": "文學；文學作品"
+ },
+ "little": {
+  "pos": "adj",
+  "gloss": "小的；少量的"
+ },
+ "live": {
+  "pos": "verb",
+  "gloss": "存活；活著"
+ },
+ "load": {
+  "pos": "noun",
+  "gloss": "負荷；貨物"
+ },
+ "loan": {
+  "pos": "noun",
+  "gloss": "貸款；借出之物"
+ },
+ "local": {
+  "pos": "adj",
+  "gloss": "與特定地區、城市或鎮有關或限制於其"
+ },
+ "locate": {
+  "pos": "verb",
+  "gloss": "定位；找到"
+ },
+ "location": {
+  "pos": "noun",
+  "gloss": "特定的位置或地區"
+ },
+ "lock": {
+  "pos": "verb",
+  "gloss": "上鎖；鎖住"
+ },
+ "log": {
+  "pos": "noun",
+  "gloss": "原木；砍下的樹木"
+ },
+ "logic": {
+  "pos": "noun",
+  "gloss": "邏輯；推理"
+ },
+ "long": {
+  "pos": "adj",
+  "gloss": "長的；距離遠的"
+ },
+ "look": {
+  "pos": "verb",
+  "gloss": "看；觀察"
+ },
+ "loose": {
+  "pos": "adj",
+  "gloss": "鬆動的；未固定的"
+ },
+ "lose": {
+  "pos": "verb",
+  "gloss": "遺失；找不到"
+ },
+ "loss": {
+  "pos": "noun",
+  "gloss": "失去；喪失"
+ },
+ "lot": {
+  "pos": "noun",
+  "gloss": "大量；許多"
+ },
+ "loud": {
+  "pos": "adj",
+  "gloss": "大聲的；製造噪音"
+ },
+ "love": {
+  "pos": "verb",
+  "gloss": "非常強烈而深刻地關心和喜歡某人"
+ },
+ "lovely": {
+  "pos": "adj",
+  "gloss": "有吸引力的；美麗的"
+ },
+ "lover": {
+  "pos": "noun",
+  "gloss": "愛好者；情人"
+ },
+ "low": {
+  "pos": "adj",
+  "gloss": "低的；靠近地面的"
+ },
+ "luck": {
+  "pos": "noun",
+  "gloss": "運氣；幸運"
+ },
+ "lucky": {
+  "pos": "adj",
+  "gloss": "幸運的；好運發生在你身上"
+ },
+ "lunch": {
+  "pos": "noun",
+  "gloss": "中午吃的清淡餐點"
+ },
+ "luxury": {
+  "pos": "noun",
+  "gloss": "奢侈品；奢華"
+ },
+ "machine": {
+  "pos": "noun",
+  "gloss": "機器；機械"
+ },
+ "mad": {
+  "pos": "adj",
+  "gloss": "憤怒的；瘋狂的"
+ },
+ "magazine": {
+  "pos": "noun",
+  "gloss": "雜誌；期刊"
+ },
+ "magic": {
+  "pos": "noun",
+  "gloss": "魔法；魔術"
+ },
+ "mail": {
+  "pos": "noun",
+  "gloss": "郵件；信件"
+ },
+ "main": {
+  "pos": "adj",
+  "gloss": "主要的；最重要的"
+ },
+ "mainly": {
+  "pos": "adv",
+  "gloss": "主要地；大多"
+ },
+ "maintain": {
+  "pos": "verb",
+  "gloss": "保持；保留；維持不變"
+ },
+ "maintenance": {
+  "pos": "noun",
+  "gloss": "維護；保養"
+ },
+ "major": {
+  "pos": "adj",
+  "gloss": "主要的；重大的"
+ },
+ "majority": {
+  "pos": "noun",
+  "gloss": "多數；超過半數"
+ },
+ "make": {
+  "pos": "verb",
+  "gloss": "做；製造"
+ },
+ "maker": {
+  "pos": "noun",
+  "gloss": "製造者；製作者"
+ },
+ "male": {
+  "pos": "adj",
+  "gloss": "男孩或男性的特徵"
+ },
+ "man": {
+  "pos": "noun",
+  "gloss": "成年男性"
+ },
+ "manage": {
+  "pos": "verb",
+  "gloss": "管理；經營"
+ },
+ "management": {
+  "pos": "noun",
+  "gloss": "管理；經營"
+ },
+ "manager": {
+  "pos": "noun",
+  "gloss": "經理；管理者"
+ },
+ "manner": {
+  "pos": "noun",
+  "gloss": "方式；態度"
+ },
+ "manufacture": {
+  "pos": "verb",
+  "gloss": "在工廠大量生產產品"
+ },
+ "manufacturer": {
+  "pos": "noun",
+  "gloss": "製造產品的人或公司"
+ },
+ "many": {
+  "pos": "det",
+  "gloss": "許多；多個"
+ },
+ "map": {
+  "pos": "noun",
+  "gloss": "顯示某地地理的圖片"
+ },
+ "march": {
+  "pos": "verb",
+  "gloss": "行進；行軍"
+ },
+ "margin": {
+  "pos": "noun",
+  "gloss": "頁邊；邊距"
+ },
+ "mark": {
+  "pos": "noun",
+  "gloss": "標記；痕跡"
+ },
+ "market": {
+  "pos": "noun",
+  "gloss": "市集；市場"
+ },
+ "marriage": {
+  "pos": "noun",
+  "gloss": "婚姻；夫妻間的正式關係"
+ },
+ "marry": {
+  "pos": "verb",
+  "gloss": "結婚；嫁娶"
+ },
+ "mass": {
+  "pos": "noun",
+  "gloss": "大量某物；無特定形狀"
+ },
+ "massive": {
+  "pos": "adj",
+  "gloss": "龐大的；巨大的"
+ },
+ "master": {
+  "pos": "noun",
+  "gloss": "在做某事方面非常熟練的人"
+ },
+ "match": {
+  "pos": "noun",
+  "gloss": "比賽；競賽"
+ },
+ "mate": {
+  "pos": "noun",
+  "gloss": "同事；同學；室友"
+ },
+ "material": {
+  "pos": "noun",
+  "gloss": "材料；物質"
+ },
+ "mathematics": {
+  "pos": "noun",
+  "gloss": "數學；數學科學"
+ },
+ "matter": {
+  "pos": "noun",
+  "gloss": "問題；關切"
+ },
+ "mature": {
+  "pos": "adj",
+  "gloss": "成熟的；發育完全"
+ },
+ "maximum": {
+  "pos": "noun",
+  "gloss": "最大的；最多的"
+ },
+ "may": {
+  "pos": "aux",
+  "gloss": "可能；或許"
+ },
+ "maybe": {
+  "pos": "adv",
+  "gloss": "也許；可能"
+ },
+ "mayor": {
+  "pos": "noun",
+  "gloss": "市長；鎮長"
+ },
+ "meal": {
+  "pos": "noun",
+  "gloss": "一餐；餐食"
+ },
+ "mean": {
+  "pos": "verb",
+  "gloss": "意思；表示"
+ },
+ "meanwhile": {
+  "pos": "adv",
+  "gloss": "同時；在此期間"
+ },
+ "measure": {
+  "pos": "verb",
+  "gloss": "測量；計算"
+ },
+ "measurement": {
+  "pos": "noun",
+  "gloss": "測量；尺寸"
+ },
+ "meat": {
+  "pos": "noun",
+  "gloss": "動物或鳥類的肌肉和軟部分食物"
+ },
+ "mechanism": {
+  "pos": "noun",
+  "gloss": "機器的部分或部件組合；特定功能"
+ },
+ "medical": {
+  "pos": "adj",
+  "gloss": "醫療的；與醫學相關"
+ },
+ "medicine": {
+  "pos": "noun",
+  "gloss": "用於治療疾病或疼痛的液體或藥丸"
+ },
+ "medium": {
+  "pos": "noun",
+  "gloss": "中等；中號"
+ },
+ "meet": {
+  "pos": "verb",
+  "gloss": "相聚；在某地相遇"
+ },
+ "member": {
+  "pos": "noun",
+  "gloss": "成員；會員"
+ },
+ "membership": {
+  "pos": "noun",
+  "gloss": "成員；俱樂部會員"
+ },
+ "memory": {
+  "pos": "noun",
+  "gloss": "被記住的事物"
+ },
+ "mental": {
+  "pos": "adj",
+  "gloss": "心智的；精神的"
+ },
+ "mention": {
+  "pos": "verb",
+  "gloss": "提及；談及"
+ },
+ "menu": {
+  "pos": "noun",
+  "gloss": "菜單；食譜"
+ },
+ "mere": {
+  "pos": "adj",
+  "gloss": "僅僅的；只是"
+ },
+ "merely": {
+  "pos": "adv",
+  "gloss": "僅僅；只不過"
+ },
+ "mess": {
+  "pos": "noun",
+  "gloss": "混亂；髒亂"
+ },
+ "message": {
+  "pos": "noun",
+  "gloss": "訊息；信息"
+ },
+ "metal": {
+  "pos": "noun",
+  "gloss": "堅硬閃亮的材料；如鐵、金、鋼"
+ },
+ "meter": {
+  "pos": "noun",
+  "gloss": "公尺；米"
+ },
+ "method": {
+  "pos": "noun",
+  "gloss": "方法；方式"
+ },
+ "middle": {
+  "pos": "noun",
+  "gloss": "中間；中點"
+ },
+ "might": {
+  "pos": "aux",
+  "gloss": "可能；也許"
+ },
+ "mile": {
+  "pos": "noun",
+  "gloss": "英里；哩"
+ },
+ "military": {
+  "pos": "adj",
+  "gloss": "軍事；軍隊"
+ },
+ "milk": {
+  "pos": "noun",
+  "gloss": "乳汁；奶水"
+ },
+ "mind": {
+  "pos": "noun",
+  "gloss": "心智；思想"
+ },
+ "mine": {
+  "pos": "pron",
+  "gloss": "屬於我的那個東西"
+ },
+ "minimum": {
+  "pos": "noun",
+  "gloss": "可能的最低數值或數量"
+ },
+ "minister": {
+  "pos": "noun",
+  "gloss": "部長；閣員"
+ },
+ "minor": {
+  "pos": "adj",
+  "gloss": "較小的；不重要的"
+ },
+ "minority": {
+  "pos": "noun",
+  "gloss": "少數；少數族群"
+ },
+ "minute": {
+  "pos": "noun",
+  "gloss": "分鐘；分"
+ },
+ "mirror": {
+  "pos": "noun",
+  "gloss": "鏡子；玻璃鏡面"
+ },
+ "miss": {
+  "pos": "verb",
+  "gloss": "錯過；未趕上"
+ },
+ "mission": {
+  "pos": "noun",
+  "gloss": "任務；使命"
+ },
+ "mistake": {
+  "pos": "noun",
+  "gloss": "錯誤；失誤"
+ },
+ "mix": {
+  "pos": "verb",
+  "gloss": "混合；將多物結合"
+ },
+ "mixture": {
+  "pos": "noun",
+  "gloss": "混合物；混合"
+ },
+ "mobile": {
+  "pos": "adj",
+  "gloss": "可移動的；可流動的"
+ },
+ "mode": {
+  "pos": "noun",
+  "gloss": "方式；做事的方法"
+ },
+ "model": {
+  "pos": "noun",
+  "gloss": "模型；典範"
+ },
+ "moderate": {
+  "pos": "adj",
+  "gloss": "中等的；適度的"
+ },
+ "modern": {
+  "pos": "adj",
+  "gloss": "當代的；最新的"
+ },
+ "modify": {
+  "pos": "verb",
+  "gloss": "修改；改進"
+ },
+ "module": {
+  "pos": "noun",
+  "gloss": "模組；單元"
+ },
+ "mom": {
+  "pos": "noun",
+  "gloss": "母親"
+ },
+ "moment": {
+  "pos": "noun",
+  "gloss": "片刻；剎那"
+ },
+ "money": {
+  "pos": "noun",
+  "gloss": "用來買東西的硬幣或紙幣"
+ },
+ "monitor": {
+  "pos": "noun",
+  "gloss": "能顯示影像的電子螢幕"
+ },
+ "month": {
+  "pos": "noun",
+  "gloss": "月；月份"
+ },
+ "monthly": {
+  "pos": "adj",
+  "gloss": "每月；按月"
+ },
+ "mood": {
+  "pos": "noun",
+  "gloss": "情緒；心理狀態；感受"
+ },
+ "moon": {
+  "pos": "noun",
+  "gloss": "月亮；月球"
+ },
+ "moral": {
+  "pos": "adj",
+  "gloss": "與人們關於正確或錯誤行為的信念相關"
+ },
+ "more": {
+  "pos": "adj",
+  "gloss": "更多；較多"
+ },
+ "moreover": {
+  "pos": "adv",
+  "gloss": "而且；此外"
+ },
+ "morning": {
+  "pos": "noun",
+  "gloss": "早晨；上午"
+ },
+ "mortgage": {
+  "pos": "noun",
+  "gloss": "抵押貸款；房貸"
+ },
+ "most": {
+  "pos": "det",
+  "gloss": "大部分；最多"
+ },
+ "mostly": {
+  "pos": "adv",
+  "gloss": "在大程度上；主要地"
+ },
+ "mother": {
+  "pos": "noun",
+  "gloss": "母親；媽媽"
+ },
+ "motion": {
+  "pos": "noun",
+  "gloss": "運動；事物移動的方式"
+ },
+ "motivate": {
+  "pos": "verb",
+  "gloss": "激勵；鼓舞"
+ },
+ "motivation": {
+  "pos": "noun",
+  "gloss": "動機；驅動力"
+ },
+ "motor": {
+  "pos": "noun",
+  "gloss": "馬達；引擎"
+ },
+ "mount": {
+  "pos": "verb",
+  "gloss": "組織發起；安裝"
+ },
+ "mountain": {
+  "pos": "noun",
+  "gloss": "非常高的陸地；山"
+ },
+ "mouse": {
+  "pos": "noun",
+  "gloss": "鼠；老鼠"
+ },
+ "mouth": {
+  "pos": "noun",
+  "gloss": "嘴；口腔"
+ },
+ "move": {
+  "pos": "verb",
+  "gloss": "移動；改變位置"
+ },
+ "movement": {
+  "pos": "noun",
+  "gloss": "樂曲的樂章"
+ },
+ "movie": {
+  "pos": "noun",
+  "gloss": "電影；影片"
+ },
+ "much": {
+  "pos": "det",
+  "gloss": "許多；大量"
+ },
+ "multiple": {
+  "pos": "adj",
+  "gloss": "許多事物或人"
+ },
+ "murder": {
+  "pos": "noun",
+  "gloss": "故意殺死他人的犯罪行為"
+ },
+ "muscle": {
+  "pos": "noun",
+  "gloss": "肌肉"
+ },
+ "museum": {
+  "pos": "noun",
+  "gloss": "展示藝術科學或歷史物品的建築"
+ },
+ "music": {
+  "pos": "noun",
+  "gloss": "音樂；樂曲"
+ },
+ "musical": {
+  "pos": "adj",
+  "gloss": "音樂的；悅耳的"
+ },
+ "musician": {
+  "pos": "noun",
+  "gloss": "音樂家；樂手"
+ },
+ "must": {
+  "pos": "aux",
+  "gloss": "必須；需要"
+ },
+ "mutual": {
+  "pos": "adj",
+  "gloss": "相互的；共同的"
+ },
+ "myself": {
+  "pos": "pron",
+  "gloss": "我自己"
+ },
+ "mystery": {
+  "pos": "noun",
+  "gloss": "懸疑；謎團"
+ },
+ "name": {
+  "pos": "noun",
+  "gloss": "某事物或某人被稱為的東西"
+ },
+ "narrative": {
+  "pos": "noun",
+  "gloss": "敘述；故事"
+ },
+ "narrow": {
+  "pos": "adj",
+  "gloss": "窄的；不寬的"
+ },
+ "nation": {
+  "pos": "noun",
+  "gloss": "國家；民族"
+ },
+ "national": {
+  "pos": "adj",
+  "gloss": "國家的；全國的"
+ },
+ "native": {
+  "pos": "adj",
+  "gloss": "本土的；原生的"
+ },
+ "natural": {
+  "pos": "adj",
+  "gloss": "天然的；非人工的"
+ },
+ "naturally": {
+  "pos": "adv",
+  "gloss": "如人所預期；不令人驚訝地"
+ },
+ "nature": {
+  "pos": "noun",
+  "gloss": "自然；天性"
+ },
+ "near": {
+  "pos": "prep",
+  "gloss": "接近；在...附近"
+ },
+ "nearby": {
+  "pos": "adj",
+  "gloss": "不遠的；鄰近的"
+ },
+ "nearly": {
+  "pos": "adv",
+  "gloss": "幾乎；差不多"
+ },
+ "necessarily": {
+  "pos": "adv",
+  "gloss": "必要地；無法避免地"
+ },
+ "necessary": {
+  "pos": "adj",
+  "gloss": "必要的；所需的"
+ },
+ "neck": {
+  "pos": "noun",
+  "gloss": "頸部；脖子"
+ },
+ "need": {
+  "pos": "verb",
+  "gloss": "需要；必須"
+ },
+ "negative": {
+  "pos": "adj",
+  "gloss": "負面的；有害的"
+ },
+ "neglect": {
+  "pos": "verb",
+  "gloss": "忽視；疏忽"
+ },
+ "negotiate": {
+  "pos": "verb",
+  "gloss": "正式討論以達成協議"
+ },
+ "negotiation": {
+  "pos": "noun",
+  "gloss": "談判；協商"
+ },
+ "neighbor": {
+  "pos": "noun",
+  "gloss": "住在你附近的人；鄰居"
+ },
+ "neighborhood": {
+  "pos": "noun",
+  "gloss": "鄰近地區；社區"
+ },
+ "neither": {
+  "pos": "det",
+  "gloss": "兩者都不；非其一"
+ },
+ "nerve": {
+  "pos": "noun",
+  "gloss": "神經；膽量"
+ },
+ "nervous": {
+  "pos": "adj",
+  "gloss": "容易焦慮的；緊張的"
+ },
+ "net": {
+  "pos": "noun",
+  "gloss": "網；漁網"
+ },
+ "network": {
+  "pos": "noun",
+  "gloss": "網路；網絡"
+ },
+ "never": {
+  "pos": "adv",
+  "gloss": "從不；絕不"
+ },
+ "nevertheless": {
+  "pos": "adv",
+  "gloss": "儘管剛才所述或所為；但是"
+ },
+ "new": {
+  "pos": "adj",
+  "gloss": "新；新近的"
+ },
+ "newly": {
+  "pos": "adv",
+  "gloss": "最近；新近完成"
+ },
+ "news": {
+  "pos": "noun",
+  "gloss": "新聞；消息"
+ },
+ "newspaper": {
+  "pos": "noun",
+  "gloss": "含新聞故事的紙張或線上刊物"
+ },
+ "next": {
+  "pos": "adj",
+  "gloss": "接下來的；隨後"
+ },
+ "nice": {
+  "pos": "adj",
+  "gloss": "好的；令人愉快的"
+ },
+ "night": {
+  "pos": "noun",
+  "gloss": "太陽不照耀的時間"
+ },
+ "no": {
+  "pos": "det",
+  "gloss": "沒有；無"
+ },
+ "nobody": {
+  "pos": "pron",
+  "gloss": "沒有人"
+ },
+ "noise": {
+  "pos": "noun",
+  "gloss": "噪音；聲音"
+ },
+ "none": {
+  "pos": "pron",
+  "gloss": "沒有一個；完全沒有"
+ },
+ "nor": {
+  "pos": "conj",
+  "gloss": "用來表示兩件事都不為真"
+ },
+ "normal": {
+  "pos": "adj",
+  "gloss": "正常的；標準的"
+ },
+ "normally": {
+  "pos": "adv",
+  "gloss": "通常；正常地"
+ },
+ "north": {
+  "pos": "noun",
+  "gloss": "面向日出時的左方方向"
+ },
+ "northern": {
+  "pos": "adj",
+  "gloss": "在北方或朝向北方"
+ },
+ "nose": {
+  "pos": "noun",
+  "gloss": "鼻子"
+ },
+ "not": {
+  "pos": "adv",
+  "gloss": "否定；不"
+ },
+ "note": {
+  "pos": "verb",
+  "gloss": "提及；指出；備註"
+ },
+ "nothing": {
+  "pos": "pron",
+  "gloss": "沒有什麼；無物"
+ },
+ "notice": {
+  "pos": "verb",
+  "gloss": "注意；留意"
+ },
+ "notion": {
+  "pos": "noun",
+  "gloss": "想法；概念"
+ },
+ "noun": {
+  "pos": "noun",
+  "gloss": "名詞；名詞類"
+ },
+ "novel": {
+  "pos": "noun",
+  "gloss": "小說；虛構故事作品"
+ },
+ "now": {
+  "pos": "adv",
+  "gloss": "現在；此刻"
+ },
+ "nowadays": {
+  "pos": "adv",
+  "gloss": "現在；現代"
+ },
+ "nowhere": {
+  "pos": "adv",
+  "gloss": "無處；任何地方都沒有"
+ },
+ "nuclear": {
+  "pos": "adj",
+  "gloss": "原子核的；核的"
+ },
+ "number": {
+  "pos": "noun",
+  "gloss": "數字；符號"
+ },
+ "numerous": {
+  "pos": "adj",
+  "gloss": "數量眾多的"
+ },
+ "nurse": {
+  "pos": "noun",
+  "gloss": "護理師；護士"
+ },
+ "object": {
+  "pos": "verb",
+  "gloss": "不同意；反對某個想法或計劃"
+ },
+ "objective": {
+  "pos": "noun",
+  "gloss": "目標；目的"
+ },
+ "obligation": {
+  "pos": "noun",
+  "gloss": "因職責或迫於感受而必須做的事"
+ },
+ "observation": {
+  "pos": "noun",
+  "gloss": "仔細觀察聆聽；對所注意事物的評論"
+ },
+ "observe": {
+  "pos": "verb",
+  "gloss": "觀察；仔細注視"
+ },
+ "obvious": {
+  "pos": "adj",
+  "gloss": "容易理解且清楚；明顯"
+ },
+ "obviously": {
+  "pos": "adv",
+  "gloss": "顯然；明顯地"
+ },
+ "occasion": {
+  "pos": "noun",
+  "gloss": "場合；時刻"
+ },
+ "occasionally": {
+  "pos": "adv",
+  "gloss": "偶爾；不常"
+ },
+ "occupy": {
+  "pos": "verb",
+  "gloss": "佔據；填滿"
+ },
+ "occur": {
+  "pos": "verb",
+  "gloss": "發生；出現"
+ },
+ "ocean": {
+  "pos": "noun",
+  "gloss": "海洋；大洋"
+ },
+ "odd": {
+  "pos": "adj",
+  "gloss": "古怪的；與通常或預期不同"
+ },
+ "of": {
+  "pos": "prep",
+  "gloss": "屬於；與…有關"
+ },
+ "off": {
+  "pos": "adv",
+  "gloss": "離開；不在上面"
+ },
+ "offense": {
+  "pos": "noun",
+  "gloss": "犯罪；冒犯"
+ },
+ "offer": {
+  "pos": "verb",
+  "gloss": "提供；給予機會"
+ },
+ "office": {
+  "pos": "noun",
+  "gloss": "辦公室；辦公處"
+ },
+ "officer": {
+  "pos": "noun",
+  "gloss": "官員；幹部"
+ },
+ "official": {
+  "pos": "adj",
+  "gloss": "官方的；正式的"
+ },
+ "often": {
+  "pos": "adv",
+  "gloss": "許多次；經常；在許多場合"
+ },
+ "oil": {
+  "pos": "noun",
+  "gloss": "油；石油"
+ },
+ "okay": {
+  "pos": "intj",
+  "gloss": "是；好的"
+ },
+ "old": {
+  "pos": "adj",
+  "gloss": "年紀大的；古老的"
+ },
+ "on": {
+  "pos": "prep",
+  "gloss": "在…表面上"
+ },
+ "once": {
+  "pos": "adv",
+  "gloss": "一次；一個實例"
+ },
+ "one": {
+  "pos": "num",
+  "gloss": "一；數字1"
+ },
+ "online": {
+  "pos": "adj",
+  "gloss": "連接到網際網路"
+ },
+ "only": {
+  "pos": "adv",
+  "gloss": "只；僅"
+ },
+ "onto": {
+  "pos": "prep",
+  "gloss": "到…上面"
+ },
+ "open": {
+  "pos": "adj",
+  "gloss": "開著的；未關閉的"
+ },
+ "opera": {
+  "pos": "noun",
+  "gloss": "歌劇；戲劇"
+ },
+ "operate": {
+  "pos": "verb",
+  "gloss": "正在運作或被使用"
+ },
+ "operation": {
+  "pos": "noun",
+  "gloss": "運作；操作"
+ },
+ "operator": {
+  "pos": "noun",
+  "gloss": "操作者；操作員"
+ },
+ "opinion": {
+  "pos": "noun",
+  "gloss": "意見；看法"
+ },
+ "opponent": {
+  "pos": "noun",
+  "gloss": "對手；敵手"
+ },
+ "opportunity": {
+  "pos": "noun",
+  "gloss": "機會；時機"
+ },
+ "oppose": {
+  "pos": "verb",
+  "gloss": "反對；對抗"
+ },
+ "opposite": {
+  "pos": "adj",
+  "gloss": "在...對面或相對的一側"
+ },
+ "opposition": {
+  "pos": "noun",
+  "gloss": "反對；對抗"
+ },
+ "option": {
+  "pos": "noun",
+  "gloss": "選項；選擇"
+ },
+ "or": {
+  "pos": "conj",
+  "gloss": "或；選擇"
+ },
+ "orange": {
+  "pos": "noun",
+  "gloss": "橙色；橘色"
+ },
+ "order": {
+  "pos": "verb",
+  "gloss": "要求購買某物（如餐點）"
+ },
+ "ordinary": {
+  "pos": "adj",
+  "gloss": "平凡的；普通的"
+ },
+ "organic": {
+  "pos": "adj",
+  "gloss": "有機；天然"
+ },
+ "organization": {
+  "pos": "noun",
+  "gloss": "組織；機構"
+ },
+ "organize": {
+  "pos": "verb",
+  "gloss": "組織；安排"
+ },
+ "origin": {
+  "pos": "noun",
+  "gloss": "起源；源頭"
+ },
+ "original": {
+  "pos": "adj",
+  "gloss": "最初製作思考或表演的；新穎"
+ },
+ "originally": {
+  "pos": "adv",
+  "gloss": "最初；原來"
+ },
+ "other": {
+  "pos": "adj",
+  "gloss": "其他；另外"
+ },
+ "otherwise": {
+  "pos": "adv",
+  "gloss": "否則；不然會有惡果"
+ },
+ "ought": {
+  "pos": "aux",
+  "gloss": "應該；應當"
+ },
+ "ourselves": {
+  "pos": "pron",
+  "gloss": "我們自己"
+ },
+ "out": {
+  "pos": "adv",
+  "gloss": "向外；出去"
+ },
+ "outcome": {
+  "pos": "noun",
+  "gloss": "結果；後果"
+ },
+ "outline": {
+  "pos": "noun",
+  "gloss": "概要；要點"
+ },
+ "output": {
+  "pos": "noun",
+  "gloss": "產量；輸出"
+ },
+ "outside": {
+  "pos": "noun",
+  "gloss": "外面；外部"
+ },
+ "over": {
+  "pos": "prep",
+  "gloss": "超過；跨越"
+ },
+ "overall": {
+  "pos": "adv",
+  "gloss": "整體上；總體而言"
+ },
+ "overcome": {
+  "pos": "verb",
+  "gloss": "克服；戰勝困難"
+ },
+ "overseas": {
+  "pos": "adv",
+  "gloss": "在海外；往國外"
+ },
+ "owe": {
+  "pos": "verb",
+  "gloss": "欠債；應付款項"
+ },
+ "own": {
+  "pos": "adj",
+  "gloss": "自己的；屬於自己"
+ },
+ "owner": {
+  "pos": "noun",
+  "gloss": "擁有或持有某物的人"
+ },
+ "ownership": {
+  "pos": "noun",
+  "gloss": "所有權；擁有權"
+ },
+ "pace": {
+  "pos": "noun",
+  "gloss": "某人或某物移動或發生的速度"
+ },
+ "pack": {
+  "pos": "verb",
+  "gloss": "打包行李；收拾行囊"
+ },
+ "package": {
+  "pos": "noun",
+  "gloss": "郵寄包裹；包裝盒"
+ },
+ "page": {
+  "pos": "noun",
+  "gloss": "頁面；紙張"
+ },
+ "pain": {
+  "pos": "noun",
+  "gloss": "疼痛；痛楚"
+ },
+ "paint": {
+  "pos": "verb",
+  "gloss": "塗；塗抹"
+ },
+ "pair": {
+  "pos": "noun",
+  "gloss": "一對；兩件相同物"
+ },
+ "pale": {
+  "pos": "adj",
+  "gloss": "蒼白；淡色"
+ },
+ "panel": {
+  "pos": "noun",
+  "gloss": "嵌板；討論小組"
+ },
+ "panic": {
+  "pos": "noun",
+  "gloss": "恐慌；驚慌"
+ },
+ "paper": {
+  "pos": "noun",
+  "gloss": "紙；紙張"
+ },
+ "paragraph": {
+  "pos": "noun",
+  "gloss": "段落；節段"
+ },
+ "parallel": {
+  "pos": "adj",
+  "gloss": "平行的；同時相似"
+ },
+ "parent": {
+  "pos": "noun",
+  "gloss": "某人的母親或父親"
+ },
+ "park": {
+  "pos": "verb",
+  "gloss": "停放；泊車"
+ },
+ "part": {
+  "pos": "noun",
+  "gloss": "部分；一部份"
+ },
+ "participant": {
+  "pos": "noun",
+  "gloss": "參與者；參加者"
+ },
+ "participate": {
+  "pos": "verb",
+  "gloss": "參與；參加"
+ },
+ "participation": {
+  "pos": "noun",
+  "gloss": "參與；參加"
+ },
+ "particular": {
+  "pos": "adj",
+  "gloss": "特定的；特殊的"
+ },
+ "particularly": {
+  "pos": "adv",
+  "gloss": "特別；尤其"
+ },
+ "partly": {
+  "pos": "adv",
+  "gloss": "部分地；不完全"
+ },
+ "partner": {
+  "pos": "noun",
+  "gloss": "夥伴；合作者"
+ },
+ "partnership": {
+  "pos": "noun",
+  "gloss": "合作；夥伴關係"
+ },
+ "party": {
+  "pos": "noun",
+  "gloss": "派對；聚會"
+ },
+ "pass": {
+  "pos": "verb",
+  "gloss": "經過；穿過"
+ },
+ "passage": {
+  "pos": "noun",
+  "gloss": "走廊；通道"
+ },
+ "passenger": {
+  "pos": "noun",
+  "gloss": "乘客；旅客"
+ },
+ "passion": {
+  "pos": "noun",
+  "gloss": "熱情；激情"
+ },
+ "past": {
+  "pos": "noun",
+  "gloss": "過去；往日"
+ },
+ "path": {
+  "pos": "noun",
+  "gloss": "用石頭或行走形成的路線"
+ },
+ "patient": {
+  "pos": "adj",
+  "gloss": "耐心的；有耐性"
+ },
+ "pattern": {
+  "pos": "noun",
+  "gloss": "模式；規律"
+ },
+ "pause": {
+  "pos": "verb",
+  "gloss": "暫停；停頓"
+ },
+ "pay": {
+  "pos": "verb",
+  "gloss": "為商品或完成的工作給予金錢"
+ },
+ "payment": {
+  "pos": "noun",
+  "gloss": "為某物支付的金額"
+ },
+ "peace": {
+  "pos": "noun",
+  "gloss": "和平；無戰爭"
+ },
+ "peak": {
+  "pos": "noun",
+  "gloss": "高峰；巔峰"
+ },
+ "peer": {
+  "pos": "noun",
+  "gloss": "年齡、階級或背景相同的人"
+ },
+ "pen": {
+  "pos": "noun",
+  "gloss": "筆；書寫工具"
+ },
+ "penalty": {
+  "pos": "noun",
+  "gloss": "處罰；懲罰"
+ },
+ "pension": {
+  "pos": "noun",
+  "gloss": "退休後定期領取的金錢"
+ },
+ "people": {
+  "pos": "noun",
+  "gloss": "人；人類"
+ },
+ "per": {
+  "pos": "prep",
+  "gloss": "每；各"
+ },
+ "perceive": {
+  "pos": "verb",
+  "gloss": "注意到；察覺"
+ },
+ "percent": {
+  "pos": "noun",
+  "gloss": "百分比；百分數"
+ },
+ "percentage": {
+  "pos": "noun",
+  "gloss": "百分比；百分率"
+ },
+ "perception": {
+  "pos": "noun",
+  "gloss": "認知；看法"
+ },
+ "perfect": {
+  "pos": "adj",
+  "gloss": "無法改善；完美的"
+ },
+ "perfectly": {
+  "pos": "adv",
+  "gloss": "完美無缺的方式"
+ },
+ "perform": {
+  "pos": "verb",
+  "gloss": "良好成功地執行一個行動"
+ },
+ "performance": {
+  "pos": "noun",
+  "gloss": "表演；演出"
+ },
+ "perhaps": {
+  "pos": "adv",
+  "gloss": "或許；也許"
+ },
+ "period": {
+  "pos": "noun",
+  "gloss": "時期；時間"
+ },
+ "permanent": {
+  "pos": "adj",
+  "gloss": "永久持續；非暫時或易變"
+ },
+ "permission": {
+  "pos": "noun",
+  "gloss": "許可；同意"
+ },
+ "permit": {
+  "pos": "verb",
+  "gloss": "允許某人做某事或讓某事發生"
+ },
+ "person": {
+  "pos": "noun",
+  "gloss": "男人、女人或小孩"
+ },
+ "personal": {
+  "pos": "adj",
+  "gloss": "個人的；私人的"
+ },
+ "personality": {
+  "pos": "noun",
+  "gloss": "性格；人格"
+ },
+ "personally": {
+  "pos": "adv",
+  "gloss": "由特定的人而非其他人"
+ },
+ "personnel": {
+  "pos": "noun",
+  "gloss": "員工；職員"
+ },
+ "perspective": {
+  "pos": "noun",
+  "gloss": "觀點；視角"
+ },
+ "persuade": {
+  "pos": "verb",
+  "gloss": "通過理由說服做或相信某事"
+ },
+ "phase": {
+  "pos": "noun",
+  "gloss": "階段；時期"
+ },
+ "phenomenon": {
+  "pos": "noun",
+  "gloss": "現象；可觀察的事實"
+ },
+ "philosophy": {
+  "pos": "noun",
+  "gloss": "哲學；生命理論研究"
+ },
+ "phone": {
+  "pos": "verb",
+  "gloss": "打電話；致電"
+ },
+ "photo": {
+  "pos": "noun",
+  "gloss": "相機拍攝的圖片；照片"
+ },
+ "photograph": {
+  "pos": "noun",
+  "gloss": "照片；相片"
+ },
+ "phrase": {
+  "pos": "noun",
+  "gloss": "構成單位並表達單一意義的詞組"
+ },
+ "physical": {
+  "pos": "adj",
+  "gloss": "身體的；物質的"
+ },
+ "piano": {
+  "pos": "noun",
+  "gloss": "鋼琴；琴"
+ },
+ "pick": {
+  "pos": "verb",
+  "gloss": "選擇；挑選"
+ },
+ "picture": {
+  "pos": "noun",
+  "gloss": "圖畫；照片"
+ },
+ "piece": {
+  "pos": "noun",
+  "gloss": "片段；部分"
+ },
+ "pig": {
+  "pos": "noun",
+  "gloss": "豬；豬隻"
+ },
+ "pile": {
+  "pos": "noun",
+  "gloss": "堆；堆積"
+ },
+ "pilot": {
+  "pos": "noun",
+  "gloss": "操縱飛機、航天器或船隻的人"
+ },
+ "pink": {
+  "pos": "noun",
+  "gloss": "粉紅色；淡紅色"
+ },
+ "pipe": {
+  "pos": "noun",
+  "gloss": "管；管子"
+ },
+ "pitch": {
+  "pos": "noun",
+  "gloss": "音高；球的投擲；推銷演說；黏性黑色物質"
+ },
+ "place": {
+  "pos": "verb",
+  "gloss": "放置；安置"
+ },
+ "plain": {
+  "pos": "adj",
+  "gloss": "簡單的；明白的"
+ },
+ "plan": {
+  "pos": "verb",
+  "gloss": "規劃；計畫"
+ },
+ "plane": {
+  "pos": "noun",
+  "gloss": "飛機；飛行器"
+ },
+ "planet": {
+  "pos": "noun",
+  "gloss": "行星；繞太陽的天體"
+ },
+ "plant": {
+  "pos": "noun",
+  "gloss": "植物；草木"
+ },
+ "plastic": {
+  "pos": "noun",
+  "gloss": "輕韌的化學合成材料"
+ },
+ "plate": {
+  "pos": "noun",
+  "gloss": "用於盛裝食物的平底盤子"
+ },
+ "platform": {
+  "pos": "noun",
+  "gloss": "供人站立的高起區域"
+ },
+ "play": {
+  "pos": "verb",
+  "gloss": "玩；運動"
+ },
+ "player": {
+  "pos": "noun",
+  "gloss": "運動員；選手"
+ },
+ "pleasant": {
+  "pos": "adj",
+  "gloss": "令人感到愉快的"
+ },
+ "please": {
+  "pos": "intj",
+  "gloss": "請；拜託"
+ },
+ "pleasure": {
+  "pos": "noun",
+  "gloss": "愉悅；快樂；滿足感"
+ },
+ "plenty": {
+  "pos": "noun",
+  "gloss": "大量；充足；許多"
+ },
+ "plot": {
+  "pos": "noun",
+  "gloss": "陰謀；密謀"
+ },
+ "plus": {
+  "pos": "adj",
+  "gloss": "正值的；大於零的"
+ },
+ "pocket": {
+  "pos": "noun",
+  "gloss": "縫在衣服裡盛放物品的小布袋"
+ },
+ "poem": {
+  "pos": "noun",
+  "gloss": "詩；韻文作品"
+ },
+ "poet": {
+  "pos": "noun",
+  "gloss": "詩人"
+ },
+ "poetry": {
+  "pos": "noun",
+  "gloss": "詩歌；詩集"
+ },
+ "point": {
+  "pos": "verb",
+  "gloss": "指向；用手指示"
+ },
+ "police": {
+  "pos": "noun",
+  "gloss": "警察；警方"
+ },
+ "policy": {
+  "pos": "noun",
+  "gloss": "政策；方針"
+ },
+ "political": {
+  "pos": "adj",
+  "gloss": "政治的；政治性"
+ },
+ "politician": {
+  "pos": "noun",
+  "gloss": "從事政治活動的人"
+ },
+ "politics": {
+  "pos": "noun",
+  "gloss": "影響政府政策的活動"
+ },
+ "poll": {
+  "pos": "noun",
+  "gloss": "民調；投票"
+ },
+ "pollution": {
+  "pos": "noun",
+  "gloss": "釋放到環境中的髒污或危險廢物"
+ },
+ "pool": {
+  "pos": "noun",
+  "gloss": "供人游泳的大容器或挖掘的水池"
+ },
+ "poor": {
+  "pos": "adj",
+  "gloss": "貧窮；缺乏金錢"
+ },
+ "pop": {
+  "pos": "verb",
+  "gloss": "使爆開；使突然打開"
+ },
+ "popular": {
+  "pos": "adj",
+  "gloss": "受歡迎；流行"
+ },
+ "population": {
+  "pos": "noun",
+  "gloss": "人口；人數"
+ },
+ "port": {
+  "pos": "noun",
+  "gloss": "港口；港都"
+ },
+ "portion": {
+  "pos": "noun",
+  "gloss": "部分；一份"
+ },
+ "portrait": {
+  "pos": "noun",
+  "gloss": "肖像；人像畫"
+ },
+ "pose": {
+  "pos": "verb",
+  "gloss": "擺姿勢讓人拍照"
+ },
+ "position": {
+  "pos": "noun",
+  "gloss": "位置；地點"
+ },
+ "positive": {
+  "pos": "adj",
+  "gloss": "正面的；肯定的"
+ },
+ "possess": {
+  "pos": "verb",
+  "gloss": "擁有；持有"
+ },
+ "possession": {
+  "pos": "noun",
+  "gloss": "擁有；所有物"
+ },
+ "possibility": {
+  "pos": "noun",
+  "gloss": "可能性；有機會發生之事"
+ },
+ "possible": {
+  "pos": "adj",
+  "gloss": "可能的；有機會發生的"
+ },
+ "possibly": {
+  "pos": "adv",
+  "gloss": "可能是真實的；但不確定"
+ },
+ "post": {
+  "pos": "verb",
+  "gloss": "用郵政服務寄送信件或包裹"
+ },
+ "pot": {
+  "pos": "noun",
+  "gloss": "鍋；容器"
+ },
+ "potato": {
+  "pos": "noun",
+  "gloss": "馬鈴薯；土豆"
+ },
+ "potential": {
+  "pos": "adj",
+  "gloss": "潛在的；可能的"
+ },
+ "potentially": {
+  "pos": "adv",
+  "gloss": "潛在地；可能地"
+ },
+ "pound": {
+  "pos": "noun",
+  "gloss": "磅；重量單位"
+ },
+ "pour": {
+  "pos": "verb",
+  "gloss": "使液體從一個容器流入另一個"
+ },
+ "poverty": {
+  "pos": "noun",
+  "gloss": "貧窮；缺乏金錢"
+ },
+ "power": {
+  "pos": "noun",
+  "gloss": "權力；權利"
+ },
+ "powerful": {
+  "pos": "adj",
+  "gloss": "對他人有控制或影響力"
+ },
+ "practical": {
+  "pos": "adj",
+  "gloss": "與合理、真實或有用相關，而不是想法或理論"
+ },
+ "practice": {
+  "pos": "noun",
+  "gloss": "練習；實踐"
+ },
+ "praise": {
+  "pos": "verb",
+  "gloss": "讚美；讚揚"
+ },
+ "pray": {
+  "pos": "verb",
+  "gloss": "祈禱；祈求"
+ },
+ "precise": {
+  "pos": "adj",
+  "gloss": "精確；準確"
+ },
+ "precisely": {
+  "pos": "adv",
+  "gloss": "精確地；恰好"
+ },
+ "predict": {
+  "pos": "verb",
+  "gloss": "猜測或推估將會或可能發生的事"
+ },
+ "prefer": {
+  "pos": "verb",
+  "gloss": "比起別的東西更喜歡某東西"
+ },
+ "preference": {
+  "pos": "noun",
+  "gloss": "偏好；較喜歡的事物"
+ },
+ "pregnancy": {
+  "pos": "noun",
+  "gloss": "懷孕；妊娠"
+ },
+ "pregnant": {
+  "pos": "adj",
+  "gloss": "懷孕的；妊娠中"
+ },
+ "premise": {
+  "pos": "noun",
+  "gloss": "前提；假設"
+ },
+ "preparation": {
+  "pos": "noun",
+  "gloss": "為某事做好準備"
+ },
+ "prepare": {
+  "pos": "verb",
+  "gloss": "準備；使準備好"
+ },
+ "presence": {
+  "pos": "noun",
+  "gloss": "出現；存在"
+ },
+ "present": {
+  "pos": "noun",
+  "gloss": "禮物；贈品"
+ },
+ "presentation": {
+  "pos": "noun",
+  "gloss": "報告；展示"
+ },
+ "preserve": {
+  "pos": "verb",
+  "gloss": "保存；維持原狀"
+ },
+ "president": {
+  "pos": "noun",
+  "gloss": "主席；總裁"
+ },
+ "presidential": {
+  "pos": "adj",
+  "gloss": "與總統相關的"
+ },
+ "press": {
+  "pos": "verb",
+  "gloss": "按；壓"
+ },
+ "pressure": {
+  "pos": "noun",
+  "gloss": "壓力；按壓的力"
+ },
+ "presumably": {
+  "pos": "adv",
+  "gloss": "大概；推測上"
+ },
+ "pretend": {
+  "pos": "verb",
+  "gloss": "假裝；偽裝"
+ },
+ "pretty": {
+  "pos": "adj",
+  "gloss": "漂亮；美麗"
+ },
+ "prevent": {
+  "pos": "verb",
+  "gloss": "阻止；防止發生"
+ },
+ "previous": {
+  "pos": "adj",
+  "gloss": "在現在之前存在或發生"
+ },
+ "previously": {
+  "pos": "adv",
+  "gloss": "先前；之前；以前"
+ },
+ "price": {
+  "pos": "verb",
+  "gloss": "定價；訂定售價"
+ },
+ "pride": {
+  "pos": "noun",
+  "gloss": "自尊；尊嚴"
+ },
+ "primarily": {
+  "pos": "adv",
+  "gloss": "主要地；首先"
+ },
+ "primary": {
+  "pos": "adj",
+  "gloss": "主要的；最重要的"
+ },
+ "prime": {
+  "pos": "adj",
+  "gloss": "主要的；最重要；最高品質"
+ },
+ "principal": {
+  "pos": "noun",
+  "gloss": "美國公立學校的負責人"
+ },
+ "principle": {
+  "pos": "noun",
+  "gloss": "原則；基本信念"
+ },
+ "print": {
+  "pos": "verb",
+  "gloss": "印刷；製作多份副本"
+ },
+ "printer": {
+  "pos": "noun",
+  "gloss": "印表機；列印機"
+ },
+ "prior": {
+  "pos": "adj",
+  "gloss": "較早的；在前的"
+ },
+ "priority": {
+  "pos": "noun",
+  "gloss": "在其他事務之前必須完成的重要事務"
+ },
+ "prison": {
+  "pos": "noun",
+  "gloss": "監獄；獄中"
+ },
+ "prisoner": {
+  "pos": "noun",
+  "gloss": "因犯罪而被監禁的人"
+ },
+ "private": {
+  "pos": "adj",
+  "gloss": "私人的；個人的"
+ },
+ "privilege": {
+  "pos": "noun",
+  "gloss": "特權；優待"
+ },
+ "prize": {
+  "pos": "noun",
+  "gloss": "競賽中贏得或頒發的獎品"
+ },
+ "pro": {
+  "pos": "noun",
+  "gloss": "專業人士；職業選手"
+ },
+ "probability": {
+  "pos": "noun",
+  "gloss": "機率；可能性"
+ },
+ "probably": {
+  "pos": "adv",
+  "gloss": "可能；大概"
+ },
+ "problem": {
+  "pos": "noun",
+  "gloss": "問題；困難"
+ },
+ "procedure": {
+  "pos": "noun",
+  "gloss": "程序；方法"
+ },
+ "proceed": {
+  "pos": "verb",
+  "gloss": "繼續做某事；往前進行"
+ },
+ "process": {
+  "pos": "verb",
+  "gloss": "進行一系列步驟以產生結果"
+ },
+ "produce": {
+  "pos": "verb",
+  "gloss": "製造；生產"
+ },
+ "producer": {
+  "pos": "noun",
+  "gloss": "製造或生產產品的公司"
+ },
+ "product": {
+  "pos": "noun",
+  "gloss": "產品；商品"
+ },
+ "production": {
+  "pos": "noun",
+  "gloss": "製造；生產"
+ },
+ "profession": {
+  "pos": "noun",
+  "gloss": "職業；專業"
+ },
+ "professional": {
+  "pos": "adj",
+  "gloss": "與醫生律師會計師等職業相關"
+ },
+ "professor": {
+  "pos": "noun",
+  "gloss": "大學或學院的高階教師"
+ },
+ "profile": {
+  "pos": "noun",
+  "gloss": "描述個人或群體基本資訊"
+ },
+ "profit": {
+  "pos": "noun",
+  "gloss": "利潤；收益"
+ },
+ "program": {
+  "pos": "noun",
+  "gloss": "計劃好的一系列行動；系統性的方案"
+ },
+ "progress": {
+  "pos": "verb",
+  "gloss": "向前移動；朝目標前進"
+ },
+ "project": {
+  "pos": "noun",
+  "gloss": "專案；計畫"
+ },
+ "promise": {
+  "pos": "verb",
+  "gloss": "承諾；約定"
+ },
+ "promote": {
+  "pos": "verb",
+  "gloss": "推銷；促銷；宣傳"
+ },
+ "promotion": {
+  "pos": "noun",
+  "gloss": "升職；晉升"
+ },
+ "prompt": {
+  "pos": "adj",
+  "gloss": "迅速的；立即的"
+ },
+ "proof": {
+  "pos": "noun",
+  "gloss": "證明某事真實的資訊"
+ },
+ "proper": {
+  "pos": "adj",
+  "gloss": "適當的；正確的"
+ },
+ "properly": {
+  "pos": "adv",
+  "gloss": "以正確或適當的方式"
+ },
+ "property": {
+  "pos": "noun",
+  "gloss": "被某人擁有的東西；財產"
+ },
+ "proportion": {
+  "pos": "noun",
+  "gloss": "比例；部分"
+ },
+ "proposal": {
+  "pos": "noun",
+  "gloss": "可決定的人的提議或計劃"
+ },
+ "propose": {
+  "pos": "verb",
+  "gloss": "提議；建議"
+ },
+ "prospect": {
+  "pos": "noun",
+  "gloss": "可能性；未來展望"
+ },
+ "protect": {
+  "pos": "verb",
+  "gloss": "防衛；保護免受傷害"
+ },
+ "protection": {
+  "pos": "noun",
+  "gloss": "保護；免受傷害"
+ },
+ "protein": {
+  "pos": "noun",
+  "gloss": "蛋白質；蛋白"
+ },
+ "protest": {
+  "pos": "verb",
+  "gloss": "抗議；表示反對"
+ },
+ "proud": {
+  "pos": "adj",
+  "gloss": "自豪的；驕傲的"
+ },
+ "prove": {
+  "pos": "verb",
+  "gloss": "證明；證實"
+ },
+ "provide": {
+  "pos": "verb",
+  "gloss": "使可得到；供應"
+ },
+ "province": {
+  "pos": "noun",
+  "gloss": "省份；地區"
+ },
+ "provision": {
+  "pos": "noun",
+  "gloss": "所需或需要的物資；法律或協議的條款"
+ },
+ "psychological": {
+  "pos": "adj",
+  "gloss": "心理的；精神的"
+ },
+ "pub": {
+  "pos": "noun",
+  "gloss": "販售酒類和食物的場所"
+ },
+ "public": {
+  "pos": "adj",
+  "gloss": "公眾的；關於整體社會的"
+ },
+ "publication": {
+  "pos": "noun",
+  "gloss": "出版書籍或雜誌的過程"
+ },
+ "publisher": {
+  "pos": "noun",
+  "gloss": "出版商；出版社"
+ },
+ "pull": {
+  "pos": "verb",
+  "gloss": "拉；拖"
+ },
+ "pump": {
+  "pos": "verb",
+  "gloss": "抽送；用泵輸送"
+ },
+ "pupil": {
+  "pos": "noun",
+  "gloss": "接受教育的兒童或年輕人；學生；眼睛中心的黑點"
+ },
+ "purchase": {
+  "pos": "verb",
+  "gloss": "購買；用錢買"
+ },
+ "pure": {
+  "pos": "adj",
+  "gloss": "純的；未混雜的"
+ },
+ "purpose": {
+  "pos": "noun",
+  "gloss": "目的；用途"
+ },
+ "pursue": {
+  "pos": "verb",
+  "gloss": "追趕；追求"
+ },
+ "push": {
+  "pos": "verb",
+  "gloss": "推；推動"
+ },
+ "put": {
+  "pos": "verb",
+  "gloss": "放置；安放"
+ },
+ "qualification": {
+  "pos": "noun",
+  "gloss": "資格；證書"
+ },
+ "qualify": {
+  "pos": "verb",
+  "gloss": "獲得做特定工作所需的技能或知識"
+ },
+ "quality": {
+  "pos": "noun",
+  "gloss": "品質；優良"
+ },
+ "quantity": {
+  "pos": "noun",
+  "gloss": "數量；份量"
+ },
+ "quarter": {
+  "pos": "noun",
+  "gloss": "四分之一；季度"
+ },
+ "question": {
+  "pos": "noun",
+  "gloss": "問題；詢問"
+ },
+ "quick": {
+  "pos": "adj",
+  "gloss": "迅速的；快速"
+ },
+ "quickly": {
+  "pos": "adv",
+  "gloss": "迅速地；快速"
+ },
+ "quiet": {
+  "pos": "adj",
+  "gloss": "安靜的；不吵鬧的"
+ },
+ "quietly": {
+  "pos": "adv",
+  "gloss": "安靜地；無聲地"
+ },
+ "quite": {
+  "pos": "adv",
+  "gloss": "非常；完全地"
+ },
+ "quote": {
+  "pos": "verb",
+  "gloss": "引用；引述"
+ },
+ "race": {
+  "pos": "noun",
+  "gloss": "競賽；賽跑"
+ },
+ "racial": {
+  "pos": "adj",
+  "gloss": "種族的；人種的"
+ },
+ "radical": {
+  "pos": "adj",
+  "gloss": "根本的；新穎與傳統不同"
+ },
+ "radio": {
+  "pos": "noun",
+  "gloss": "收音機；無線電傳送系統"
+ },
+ "rail": {
+  "pos": "noun",
+  "gloss": "軌道；欄杆"
+ },
+ "rain": {
+  "pos": "noun",
+  "gloss": "從雲中落下的水滴"
+ },
+ "raise": {
+  "pos": "verb",
+  "gloss": "提高；增加"
+ },
+ "random": {
+  "pos": "adj",
+  "gloss": "隨機的；無規律的"
+ },
+ "range": {
+  "pos": "noun",
+  "gloss": "範圍；界限"
+ },
+ "rank": {
+  "pos": "verb",
+  "gloss": "排名；按高低排列"
+ },
+ "rapid": {
+  "pos": "adj",
+  "gloss": "快速的；迅速的"
+ },
+ "rapidly": {
+  "pos": "adv",
+  "gloss": "迅速地；快速地"
+ },
+ "rare": {
+  "pos": "adj",
+  "gloss": "不常見或不尋常"
+ },
+ "rarely": {
+  "pos": "adv",
+  "gloss": "不經常地；罕見地"
+ },
+ "rat": {
+  "pos": "noun",
+  "gloss": "鼠；老鼠"
+ },
+ "rate": {
+  "pos": "noun",
+  "gloss": "速率；頻率"
+ },
+ "rather": {
+  "pos": "adv",
+  "gloss": "有幾分；相當；不那麼多"
+ },
+ "ratio": {
+  "pos": "noun",
+  "gloss": "比率；比例"
+ },
+ "raw": {
+  "pos": "adj",
+  "gloss": "生的；未煮過的"
+ },
+ "reach": {
+  "pos": "verb",
+  "gloss": "到達；抵達"
+ },
+ "react": {
+  "pos": "verb",
+  "gloss": "反應；做出回應"
+ },
+ "reaction": {
+  "pos": "noun",
+  "gloss": "對某事的感受或行動反應"
+ },
+ "read": {
+  "pos": "verb",
+  "gloss": "看著並理解文字的意思"
+ },
+ "reader": {
+  "pos": "noun",
+  "gloss": "讀者；閱讀者"
+ },
+ "ready": {
+  "pos": "adj",
+  "gloss": "準備好；就緒"
+ },
+ "real": {
+  "pos": "adj",
+  "gloss": "真實的；實際的"
+ },
+ "reality": {
+  "pos": "noun",
+  "gloss": "現實；事實"
+ },
+ "realize": {
+  "pos": "verb",
+  "gloss": "意識到；了解"
+ },
+ "really": {
+  "pos": "adv",
+  "gloss": "非常；很"
+ },
+ "rear": {
+  "pos": "adj",
+  "gloss": "後部的；後面的"
+ },
+ "reason": {
+  "pos": "noun",
+  "gloss": "原因；理由"
+ },
+ "reasonable": {
+  "pos": "adj",
+  "gloss": "公平且理性的；適當的"
+ },
+ "reasonably": {
+  "pos": "adv",
+  "gloss": "公平地；合理地"
+ },
+ "recall": {
+  "pos": "verb",
+  "gloss": "記起過去的事件或細節"
+ },
+ "receive": {
+  "pos": "verb",
+  "gloss": "接收；領取"
+ },
+ "recent": {
+  "pos": "adj",
+  "gloss": "最近的；近期的"
+ },
+ "recently": {
+  "pos": "adv",
+  "gloss": "最近；不久前"
+ },
+ "reckon": {
+  "pos": "verb",
+  "gloss": "認為；估算"
+ },
+ "recognition": {
+  "pos": "noun",
+  "gloss": "承認；認可"
+ },
+ "recognize": {
+  "pos": "verb",
+  "gloss": "認出；辨認"
+ },
+ "recommend": {
+  "pos": "verb",
+  "gloss": "推薦；建議選擇"
+ },
+ "recommendation": {
+  "pos": "noun",
+  "gloss": "關於某人或某物是良好選擇的建議"
+ },
+ "record": {
+  "pos": "adj",
+  "gloss": "最高的；創紀錄的"
+ },
+ "recover": {
+  "pos": "verb",
+  "gloss": "恢復；復原"
+ },
+ "recovery": {
+  "pos": "noun",
+  "gloss": "復原；恢復過程"
+ },
+ "recruit": {
+  "pos": "verb",
+  "gloss": "招募人員工作、加入或學習"
+ },
+ "red": {
+  "pos": "adj",
+  "gloss": "紅色；紅"
+ },
+ "reduce": {
+  "pos": "verb",
+  "gloss": "減少；降低"
+ },
+ "reduction": {
+  "pos": "noun",
+  "gloss": "縮減；減少"
+ },
+ "refer": {
+  "pos": "verb",
+  "gloss": "提及；談論；書面提到"
+ },
+ "reference": {
+  "pos": "noun",
+  "gloss": "參考；引用"
+ },
+ "reflect": {
+  "pos": "verb",
+  "gloss": "從表面反彈；光線等反射"
+ },
+ "reflection": {
+  "pos": "noun",
+  "gloss": "倒影；映像"
+ },
+ "reform": {
+  "pos": "verb",
+  "gloss": "移除濫用和不公義改善社會"
+ },
+ "refugee": {
+  "pos": "noun",
+  "gloss": "難民；逃難者"
+ },
+ "refuse": {
+  "pos": "verb",
+  "gloss": "拒絕接受"
+ },
+ "regard": {
+  "pos": "verb",
+  "gloss": "注意；關注"
+ },
+ "regardless": {
+  "pos": "adv",
+  "gloss": "不管；儘管"
+ },
+ "region": {
+  "pos": "noun",
+  "gloss": "地區；區域"
+ },
+ "regional": {
+  "pos": "adj",
+  "gloss": "與特定地區相關的"
+ },
+ "register": {
+  "pos": "verb",
+  "gloss": "註冊；登記"
+ },
+ "registration": {
+  "pos": "noun",
+  "gloss": "登記；註冊"
+ },
+ "regret": {
+  "pos": "verb",
+  "gloss": "後悔；遺憾"
+ },
+ "regular": {
+  "pos": "adj",
+  "gloss": "經常發生的；規則的"
+ },
+ "regularly": {
+  "pos": "adv",
+  "gloss": "定期；按時間規律"
+ },
+ "regulate": {
+  "pos": "verb",
+  "gloss": "調節；規管"
+ },
+ "regulation": {
+  "pos": "noun",
+  "gloss": "規則；規定"
+ },
+ "reject": {
+  "pos": "verb",
+  "gloss": "拒絕相信、接受或考慮"
+ },
+ "relate": {
+  "pos": "verb",
+  "gloss": "感同身受；理解並產生共鳴"
+ },
+ "relation": {
+  "pos": "noun",
+  "gloss": "關係；往來"
+ },
+ "relationship": {
+  "pos": "noun",
+  "gloss": "人際關係；互動方式"
+ },
+ "relative": {
+  "pos": "adj",
+  "gloss": "相對的；比較而言"
+ },
+ "relatively": {
+  "pos": "adv",
+  "gloss": "相對地；比較而言"
+ },
+ "relax": {
+  "pos": "verb",
+  "gloss": "放鬆；休息"
+ },
+ "release": {
+  "pos": "verb",
+  "gloss": "釋放；發行"
+ },
+ "relevant": {
+  "pos": "adj",
+  "gloss": "與主題直接相關且程度相當"
+ },
+ "reliable": {
+  "pos": "adj",
+  "gloss": "可靠的；可信的"
+ },
+ "relief": {
+  "pos": "noun",
+  "gloss": "寬慰；解脫"
+ },
+ "religion": {
+  "pos": "noun",
+  "gloss": "宗教；信仰體系"
+ },
+ "religious": {
+  "pos": "adj",
+  "gloss": "與宗教或信仰有關"
+ },
+ "rely": {
+  "pos": "verb",
+  "gloss": "能夠依賴"
+ },
+ "remain": {
+  "pos": "verb",
+  "gloss": "留下；保持"
+ },
+ "remark": {
+  "pos": "verb",
+  "gloss": "說出意見或對某事評論"
+ },
+ "remarkable": {
+  "pos": "adj",
+  "gloss": "值得注意的；出乎意料的"
+ },
+ "remember": {
+  "pos": "verb",
+  "gloss": "記得；想起"
+ },
+ "remind": {
+  "pos": "verb",
+  "gloss": "提醒；使想起"
+ },
+ "remote": {
+  "pos": "adj",
+  "gloss": "遙遠的；偏遠的"
+ },
+ "remove": {
+  "pos": "verb",
+  "gloss": "移除；取走抹去"
+ },
+ "rent": {
+  "pos": "verb",
+  "gloss": "為使用某物而支付金錢"
+ },
+ "repair": {
+  "pos": "verb",
+  "gloss": "修理破損的東西"
+ },
+ "repeat": {
+  "pos": "verb",
+  "gloss": "重複說；再說一次"
+ },
+ "replace": {
+  "pos": "verb",
+  "gloss": "改用別的東西；代替"
+ },
+ "reply": {
+  "pos": "verb",
+  "gloss": "回答；答覆"
+ },
+ "report": {
+  "pos": "noun",
+  "gloss": "報告；陳述"
+ },
+ "reporter": {
+  "pos": "noun",
+  "gloss": "記者；新聞工作者"
+ },
+ "represent": {
+  "pos": "verb",
+  "gloss": "代表；代理"
+ },
+ "representation": {
+  "pos": "noun",
+  "gloss": "代表他人正式發言或行動"
+ },
+ "representative": {
+  "pos": "adj",
+  "gloss": "典型的；代表性的"
+ },
+ "reputation": {
+  "pos": "noun",
+  "gloss": "名聲；聲譽"
+ },
+ "request": {
+  "pos": "verb",
+  "gloss": "請求；要求"
+ },
+ "require": {
+  "pos": "verb",
+  "gloss": "需要；必須"
+ },
+ "requirement": {
+  "pos": "noun",
+  "gloss": "必需的東西；要求"
+ },
+ "rescue": {
+  "pos": "verb",
+  "gloss": "營救；拯救"
+ },
+ "research": {
+  "pos": "noun",
+  "gloss": "研究；調查"
+ },
+ "researcher": {
+  "pos": "noun",
+  "gloss": "研究者；學者"
+ },
+ "reserve": {
+  "pos": "verb",
+  "gloss": "預訂；保留"
+ },
+ "resident": {
+  "pos": "noun",
+  "gloss": "住在特定地點的人"
+ },
+ "resign": {
+  "pos": "verb",
+  "gloss": "辭職；離職"
+ },
+ "resist": {
+  "pos": "verb",
+  "gloss": "抵抗；反抗"
+ },
+ "resistance": {
+  "pos": "noun",
+  "gloss": "抵抗；反對新事物"
+ },
+ "resolution": {
+  "pos": "noun",
+  "gloss": "由一群人決定的正式協議或聲明"
+ },
+ "resolve": {
+  "pos": "verb",
+  "gloss": "找到解決問題的方法"
+ },
+ "resort": {
+  "pos": "noun",
+  "gloss": "度假地；休閒勝地"
+ },
+ "resource": {
+  "pos": "noun",
+  "gloss": "必要的供應；資源"
+ },
+ "respect": {
+  "pos": "verb",
+  "gloss": "尊敬；敬重"
+ },
+ "respectively": {
+  "pos": "adv",
+  "gloss": "按提到的順序分別"
+ },
+ "respond": {
+  "pos": "verb",
+  "gloss": "回應；答覆"
+ },
+ "response": {
+  "pos": "noun",
+  "gloss": "回應；答覆"
+ },
+ "responsibility": {
+  "pos": "noun",
+  "gloss": "可靠；盡責；負責任的狀態"
+ },
+ "responsible": {
+  "pos": "adj",
+  "gloss": "負責的；應負責任"
+ },
+ "rest": {
+  "pos": "noun",
+  "gloss": "休息；靜止"
+ },
+ "restaurant": {
+  "pos": "noun",
+  "gloss": "能點餐購買和用餐的地方"
+ },
+ "restore": {
+  "pos": "verb",
+  "gloss": "恢復存在或使用；修復"
+ },
+ "restrict": {
+  "pos": "verb",
+  "gloss": "阻止做某事；限制"
+ },
+ "restriction": {
+  "pos": "noun",
+  "gloss": "限制人們行為的規則或法律"
+ },
+ "result": {
+  "pos": "noun",
+  "gloss": "由其他原因和效應產生的結果"
+ },
+ "retail": {
+  "pos": "noun",
+  "gloss": "向公眾銷售商品的業務"
+ },
+ "retain": {
+  "pos": "verb",
+  "gloss": "保留；保持"
+ },
+ "retire": {
+  "pos": "verb",
+  "gloss": "退休；停止工作"
+ },
+ "retirement": {
+  "pos": "noun",
+  "gloss": "退休"
+ },
+ "return": {
+  "pos": "verb",
+  "gloss": "回到；返回"
+ },
+ "reveal": {
+  "pos": "verb",
+  "gloss": "揭露；顯示"
+ },
+ "revenue": {
+  "pos": "noun",
+  "gloss": "營收；收入"
+ },
+ "reverse": {
+  "pos": "verb",
+  "gloss": "往相反方向移動"
+ },
+ "review": {
+  "pos": "verb",
+  "gloss": "仔細審查；評估品質"
+ },
+ "revise": {
+  "pos": "verb",
+  "gloss": "修訂；修改"
+ },
+ "revolution": {
+  "pos": "noun",
+  "gloss": "革命；劇變"
+ },
+ "reward": {
+  "pos": "verb",
+  "gloss": "因某人出色工作而給予報酬"
+ },
+ "rice": {
+  "pos": "noun",
+  "gloss": "米；稻米"
+ },
+ "rich": {
+  "pos": "adj",
+  "gloss": "富有；擁有許多金錢"
+ },
+ "rid": {
+  "pos": "verb",
+  "gloss": "擺脫；清除"
+ },
+ "ride": {
+  "pos": "verb",
+  "gloss": "騎乘；駕馭交通工具"
+ },
+ "right": {
+  "pos": "adj",
+  "gloss": "右邊；正確"
+ },
+ "ring": {
+  "pos": "noun",
+  "gloss": "由鈴鐘警報或電話發出聲音；戴在手指上的珠寶"
+ },
+ "rise": {
+  "pos": "verb",
+  "gloss": "上升；升起"
+ },
+ "risk": {
+  "pos": "verb",
+  "gloss": "冒險；承擔風險"
+ },
+ "rival": {
+  "pos": "noun",
+  "gloss": "競爭對手；敵手"
+ },
+ "river": {
+  "pos": "noun",
+  "gloss": "河流；河川"
+ },
+ "road": {
+  "pos": "noun",
+  "gloss": "道路；公路"
+ },
+ "rock": {
+  "pos": "noun",
+  "gloss": "大塊石頭；構成山脈的堅硬物質"
+ },
+ "role": {
+  "pos": "noun",
+  "gloss": "角色；職責"
+ },
+ "roll": {
+  "pos": "verb",
+  "gloss": "滾動；轉動"
+ },
+ "romantic": {
+  "pos": "adj",
+  "gloss": "浪漫的；愛情的"
+ },
+ "roof": {
+  "pos": "noun",
+  "gloss": "建築物的頂部；屋頂"
+ },
+ "room": {
+  "pos": "noun",
+  "gloss": "建築物由牆壁圍起的部分（如廚房）"
+ },
+ "root": {
+  "pos": "noun",
+  "gloss": "植物的根；根部"
+ },
+ "rose": {
+  "pos": "noun",
+  "gloss": "玫瑰；玫瑰花"
+ },
+ "rough": {
+  "pos": "adj",
+  "gloss": "不光滑的；粗糙的"
+ },
+ "roughly": {
+  "pos": "adv",
+  "gloss": "粗略地；大約"
+ },
+ "round": {
+  "pos": "adj",
+  "gloss": "圓形的；球形的"
+ },
+ "route": {
+  "pos": "noun",
+  "gloss": "路線；路徑"
+ },
+ "routine": {
+  "pos": "adj",
+  "gloss": "定期進行的；經常性的"
+ },
+ "row": {
+  "pos": "noun",
+  "gloss": "一排；列隊"
+ },
+ "royal": {
+  "pos": "adj",
+  "gloss": "皇家；王室"
+ },
+ "ruin": {
+  "pos": "verb",
+  "gloss": "毀壞；使報廢"
+ },
+ "rule": {
+  "pos": "noun",
+  "gloss": "規則；法則"
+ },
+ "run": {
+  "pos": "verb",
+  "gloss": "跑；比走快"
+ },
+ "rural": {
+  "pos": "adj",
+  "gloss": "鄉村的；農村的"
+ },
+ "rush": {
+  "pos": "verb",
+  "gloss": "匆忙；急著"
+ },
+ "sad": {
+  "pos": "adj",
+  "gloss": "悲傷的；不開心的"
+ },
+ "safe": {
+  "pos": "adj",
+  "gloss": "安全的；無危險"
+ },
+ "safety": {
+  "pos": "noun",
+  "gloss": "安全；平安"
+ },
+ "sail": {
+  "pos": "verb",
+  "gloss": "乘船在水上航行"
+ },
+ "sake": {
+  "pos": "noun",
+  "gloss": "緣故；利益"
+ },
+ "salary": {
+  "pos": "noun",
+  "gloss": "員工每年獲得的報酬"
+ },
+ "sale": {
+  "pos": "noun",
+  "gloss": "販售；銷售"
+ },
+ "salt": {
+  "pos": "noun",
+  "gloss": "鹽；食鹽"
+ },
+ "same": {
+  "pos": "adj",
+  "gloss": "相同的；一樣的"
+ },
+ "sample": {
+  "pos": "verb",
+  "gloss": "試用；品嚐試吃"
+ },
+ "sanction": {
+  "pos": "noun",
+  "gloss": "制裁；懲罰"
+ },
+ "sand": {
+  "pos": "noun",
+  "gloss": "沙子；砂粒"
+ },
+ "satisfaction": {
+  "pos": "noun",
+  "gloss": "因完成某事而感到的愉悅感"
+ },
+ "satisfy": {
+  "pos": "verb",
+  "gloss": "滿足；使滿意"
+ },
+ "save": {
+  "pos": "verb",
+  "gloss": "救援；拯救"
+ },
+ "say": {
+  "pos": "verb",
+  "gloss": "說；述說"
+ },
+ "scale": {
+  "pos": "noun",
+  "gloss": "磅秤；體重計；量重裝置"
+ },
+ "scan": {
+  "pos": "verb",
+  "gloss": "掃描；仔細查看"
+ },
+ "scare": {
+  "pos": "verb",
+  "gloss": "使某人感到害怕或擔心"
+ },
+ "scene": {
+  "pos": "noun",
+  "gloss": "場景；戲劇的一幕"
+ },
+ "schedule": {
+  "pos": "verb",
+  "gloss": "與他人安排做某事的時間"
+ },
+ "scheme": {
+  "pos": "noun",
+  "gloss": "通常是不誠實的計畫"
+ },
+ "scholar": {
+  "pos": "noun",
+  "gloss": "學者；專家"
+ },
+ "school": {
+  "pos": "noun",
+  "gloss": "學校；教室建築"
+ },
+ "science": {
+  "pos": "noun",
+  "gloss": "基於事實的物理世界知識"
+ },
+ "scientific": {
+  "pos": "adj",
+  "gloss": "與科學相關"
+ },
+ "scientist": {
+  "pos": "noun",
+  "gloss": "科學家"
+ },
+ "scope": {
+  "pos": "noun",
+  "gloss": "範圍；範疇"
+ },
+ "score": {
+  "pos": "verb",
+  "gloss": "得分；進球"
+ },
+ "scream": {
+  "pos": "verb",
+  "gloss": "發出突然的大聲叫喊"
+ },
+ "screen": {
+  "pos": "noun",
+  "gloss": "顯示影像的平面；螢幕"
+ },
+ "sea": {
+  "pos": "noun",
+  "gloss": "有大量鹽水的地方；海"
+ },
+ "seal": {
+  "pos": "verb",
+  "gloss": "密封；防止洩漏"
+ },
+ "search": {
+  "pos": "verb",
+  "gloss": "搜尋；尋找"
+ },
+ "season": {
+  "pos": "noun",
+  "gloss": "季節；季候"
+ },
+ "seat": {
+  "pos": "noun",
+  "gloss": "座位；椅子"
+ },
+ "second": {
+  "pos": "adj",
+  "gloss": "第二；緊跟在第一之後的"
+ },
+ "secondary": {
+  "pos": "adj",
+  "gloss": "不如其他重要的"
+ },
+ "secondly": {
+  "pos": "adv",
+  "gloss": "第二；其次"
+ },
+ "secret": {
+  "pos": "noun",
+  "gloss": "不想讓他人知道的事；秘密"
+ },
+ "secretary": {
+  "pos": "noun",
+  "gloss": "秘書；助理"
+ },
+ "section": {
+  "pos": "noun",
+  "gloss": "部分；區段"
+ },
+ "sector": {
+  "pos": "noun",
+  "gloss": "行業；產業領域"
+ },
+ "secure": {
+  "pos": "verb",
+  "gloss": "保護某物免受危害；保持事物安全"
+ },
+ "security": {
+  "pos": "noun",
+  "gloss": "安全；防衛"
+ },
+ "see": {
+  "pos": "verb",
+  "gloss": "看；觀看"
+ },
+ "seed": {
+  "pos": "noun",
+  "gloss": "植物的種子；事物的開始"
+ },
+ "seek": {
+  "pos": "verb",
+  "gloss": "尋求；尋找"
+ },
+ "seem": {
+  "pos": "verb",
+  "gloss": "似乎；看起來"
+ },
+ "segment": {
+  "pos": "noun",
+  "gloss": "部分；片段"
+ },
+ "select": {
+  "pos": "verb",
+  "gloss": "選擇；挑選"
+ },
+ "selection": {
+  "pos": "noun",
+  "gloss": "選擇；精選"
+ },
+ "self": {
+  "pos": "pron",
+  "gloss": "你真正的人格"
+ },
+ "sell": {
+  "pos": "verb",
+  "gloss": "賣；販售"
+ },
+ "send": {
+  "pos": "verb",
+  "gloss": "寄送；傳送"
+ },
+ "senior": {
+  "pos": "adj",
+  "gloss": "資深的；地位較高的"
+ },
+ "sense": {
+  "pos": "verb",
+  "gloss": "感知；察覺"
+ },
+ "sensitive": {
+  "pos": "adj",
+  "gloss": "容易受傷的；敏感的"
+ },
+ "sentence": {
+  "pos": "noun",
+  "gloss": "句子；完整語句"
+ },
+ "separate": {
+  "pos": "verb",
+  "gloss": "分開；分離"
+ },
+ "sequence": {
+  "pos": "noun",
+  "gloss": "序列；順序"
+ },
+ "series": {
+  "pos": "noun",
+  "gloss": "系列；一連串"
+ },
+ "serious": {
+  "pos": "adj",
+  "gloss": "認真；嚴肅"
+ },
+ "seriously": {
+  "pos": "adv",
+  "gloss": "以認真的方式；以顯示某事重要的方式"
+ },
+ "servant": {
+  "pos": "noun",
+  "gloss": "僕人；傭人"
+ },
+ "serve": {
+  "pos": "verb",
+  "gloss": "提供；服侍"
+ },
+ "server": {
+  "pos": "noun",
+  "gloss": "服務生；侍者"
+ },
+ "service": {
+  "pos": "verb",
+  "gloss": "保養；維修"
+ },
+ "session": {
+  "pos": "noun",
+  "gloss": "期間；某活動進行的時段"
+ },
+ "set": {
+  "pos": "noun",
+  "gloss": "組合；一套"
+ },
+ "settle": {
+  "pos": "verb",
+  "gloss": "移居新地方並適應"
+ },
+ "settlement": {
+  "pos": "noun",
+  "gloss": "和解；協議"
+ },
+ "several": {
+  "pos": "det",
+  "gloss": "幾個；若干"
+ },
+ "severe": {
+  "pos": "adj",
+  "gloss": "嚴重的；極端的"
+ },
+ "sex": {
+  "pos": "noun",
+  "gloss": "性別；男性或女性"
+ },
+ "sexual": {
+  "pos": "adj",
+  "gloss": "性的；生殖的"
+ },
+ "shade": {
+  "pos": "noun",
+  "gloss": "陰影；遮光"
+ },
+ "shadow": {
+  "pos": "noun",
+  "gloss": "影子；遮光產生的暗影"
+ },
+ "shake": {
+  "pos": "verb",
+  "gloss": "搖動；震動"
+ },
+ "shall": {
+  "pos": "aux",
+  "gloss": "表示未來時態"
+ },
+ "shape": {
+  "pos": "noun",
+  "gloss": "某物的外形；外觀"
+ },
+ "share": {
+  "pos": "noun",
+  "gloss": "股票；股份"
+ },
+ "shareholder": {
+  "pos": "noun",
+  "gloss": "股東；公司股份擁有者"
+ },
+ "sharp": {
+  "pos": "adj",
+  "gloss": "邊緣或尖端細銳能切割"
+ },
+ "she": {
+  "pos": "pron",
+  "gloss": "她；前述女性"
+ },
+ "sheep": {
+  "pos": "noun",
+  "gloss": "羊；綿羊"
+ },
+ "sheet": {
+  "pos": "noun",
+  "gloss": "床單；覆蓋用的大布"
+ },
+ "shelf": {
+  "pos": "noun",
+  "gloss": "架子；書架"
+ },
+ "shell": {
+  "pos": "noun",
+  "gloss": "殼；外殼"
+ },
+ "shelter": {
+  "pos": "noun",
+  "gloss": "避難所；庇護所"
+ },
+ "shift": {
+  "pos": "verb",
+  "gloss": "移動；改變位置或方向"
+ },
+ "shine": {
+  "pos": "verb",
+  "gloss": "發光；閃耀"
+ },
+ "ship": {
+  "pos": "noun",
+  "gloss": "船；大型船隻"
+ },
+ "shirt": {
+  "pos": "noun",
+  "gloss": "襯衫；上衣"
+ },
+ "shock": {
+  "pos": "noun",
+  "gloss": "震驚；突如其來的壞感受"
+ },
+ "shoe": {
+  "pos": "noun",
+  "gloss": "鞋；鞋子"
+ },
+ "shoot": {
+  "pos": "verb",
+  "gloss": "射門；朝球門踢或投球"
+ },
+ "shop": {
+  "pos": "noun",
+  "gloss": "商店；店鋪"
+ },
+ "shore": {
+  "pos": "noun",
+  "gloss": "海岸；岸邊"
+ },
+ "short": {
+  "pos": "adj",
+  "gloss": "短的；簡短的"
+ },
+ "shot": {
+  "pos": "noun",
+  "gloss": "開槍、踢球或投擲球到目標的行為"
+ },
+ "should": {
+  "pos": "aux",
+  "gloss": "應該；應當"
+ },
+ "shoulder": {
+  "pos": "noun",
+  "gloss": "肩膀；肩部"
+ },
+ "shout": {
+  "pos": "verb",
+  "gloss": "呼喊；大聲說"
+ },
+ "show": {
+  "pos": "verb",
+  "gloss": "示範；講解；教導"
+ },
+ "shower": {
+  "pos": "noun",
+  "gloss": "淋浴；沖澡"
+ },
+ "shut": {
+  "pos": "verb",
+  "gloss": "關閉某事物"
+ },
+ "sick": {
+  "pos": "adj",
+  "gloss": "生病的；身體不適的"
+ },
+ "side": {
+  "pos": "noun",
+  "gloss": "物體的直邊"
+ },
+ "sigh": {
+  "pos": "verb",
+  "gloss": "嘆氣；嘆息"
+ },
+ "sight": {
+  "pos": "noun",
+  "gloss": "視力；看見的能力"
+ },
+ "sign": {
+  "pos": "noun",
+  "gloss": "跡象；標誌"
+ },
+ "signal": {
+  "pos": "noun",
+  "gloss": "提供某事訊息的行動、變化或過程"
+ },
+ "significance": {
+  "pos": "noun",
+  "gloss": "重要性；意義"
+ },
+ "significant": {
+  "pos": "adj",
+  "gloss": "重要；顯著"
+ },
+ "significantly": {
+  "pos": "adv",
+  "gloss": "顯著地；重要地"
+ },
+ "silence": {
+  "pos": "noun",
+  "gloss": "沉默；無聲"
+ },
+ "silent": {
+  "pos": "adj",
+  "gloss": "無聲的；安靜的"
+ },
+ "silly": {
+  "pos": "adj",
+  "gloss": "愚蠢；不認真"
+ },
+ "silver": {
+  "pos": "noun",
+  "gloss": "昂貴的近白色金屬；銀"
+ },
+ "similar": {
+  "pos": "adj",
+  "gloss": "相似的；類似的"
+ },
+ "similarly": {
+  "pos": "adv",
+  "gloss": "相似地；同樣方式"
+ },
+ "simple": {
+  "pos": "adj",
+  "gloss": "簡單；容易"
+ },
+ "simply": {
+  "pos": "adv",
+  "gloss": "簡單地；清楚地"
+ },
+ "since": {
+  "pos": "prep",
+  "gloss": "自從；從...以後"
+ },
+ "sing": {
+  "pos": "verb",
+  "gloss": "唱歌；歌唱"
+ },
+ "singer": {
+  "pos": "noun",
+  "gloss": "經常以職業身分唱歌的人"
+ },
+ "single": {
+  "pos": "adj",
+  "gloss": "單一的；唯一的"
+ },
+ "sink": {
+  "pos": "verb",
+  "gloss": "沉入水、泥等表面以下"
+ },
+ "sir": {
+  "pos": "noun",
+  "gloss": "先生；對男性的尊稱"
+ },
+ "sister": {
+  "pos": "noun",
+  "gloss": "姊妹；共同父母的女性"
+ },
+ "sit": {
+  "pos": "verb",
+  "gloss": "坐著；就座"
+ },
+ "site": {
+  "pos": "noun",
+  "gloss": "地點；場所"
+ },
+ "situate": {
+  "pos": "verb",
+  "gloss": "安置；位於"
+ },
+ "situation": {
+  "pos": "noun",
+  "gloss": "情況；狀況"
+ },
+ "size": {
+  "pos": "noun",
+  "gloss": "大小；尺寸"
+ },
+ "ski": {
+  "pos": "noun",
+  "gloss": "滑雪板；滑雪"
+ },
+ "skill": {
+  "pos": "noun",
+  "gloss": "技能；本領"
+ },
+ "skin": {
+  "pos": "noun",
+  "gloss": "皮膚；外皮"
+ },
+ "skirt": {
+  "pos": "noun",
+  "gloss": "裙子"
+ },
+ "sky": {
+  "pos": "noun",
+  "gloss": "天空；雲所在之處"
+ },
+ "slave": {
+  "pos": "noun",
+  "gloss": "奴隸；奴役者"
+ },
+ "sleep": {
+  "pos": "verb",
+  "gloss": "睡眠；就寢"
+ },
+ "slice": {
+  "pos": "noun",
+  "gloss": "切片；薄片"
+ },
+ "slide": {
+  "pos": "verb",
+  "gloss": "光滑輕易地移動通常沿表面"
+ },
+ "slight": {
+  "pos": "adj",
+  "gloss": "很小程度或數量的"
+ },
+ "slightly": {
+  "pos": "adv",
+  "gloss": "輕微地；略微"
+ },
+ "slip": {
+  "pos": "verb",
+  "gloss": "滑出位置；意外跌落"
+ },
+ "slope": {
+  "pos": "noun",
+  "gloss": "斜坡；坡度"
+ },
+ "slow": {
+  "pos": "adj",
+  "gloss": "緩慢的；不快速"
+ },
+ "slowly": {
+  "pos": "adv",
+  "gloss": "緩慢地；慢慢地"
+ },
+ "small": {
+  "pos": "adj",
+  "gloss": "小的；不大"
+ },
+ "smart": {
+  "pos": "adj",
+  "gloss": "聰明的；頭腦好的"
+ },
+ "smell": {
+  "pos": "verb",
+  "gloss": "用鼻子感知某物"
+ },
+ "smile": {
+  "pos": "verb",
+  "gloss": "微笑；上揚嘴角表示開心"
+ },
+ "smoke": {
+  "pos": "verb",
+  "gloss": "吸入菸草然後吐出"
+ },
+ "smooth": {
+  "pos": "adj",
+  "gloss": "光滑的；平順的"
+ },
+ "snap": {
+  "pos": "verb",
+  "gloss": "折斷；使斷裂"
+ },
+ "snow": {
+  "pos": "noun",
+  "gloss": "雪；雪花"
+ },
+ "so": {
+  "pos": "conj",
+  "gloss": "所以；因此"
+ },
+ "social": {
+  "pos": "adj",
+  "gloss": "社交的；社會的"
+ },
+ "society": {
+  "pos": "noun",
+  "gloss": "社會；群體"
+ },
+ "soft": {
+  "pos": "adj",
+  "gloss": "柔軟；易壓；不堅硬"
+ },
+ "software": {
+  "pos": "noun",
+  "gloss": "軟體；電腦程式"
+ },
+ "soil": {
+  "pos": "noun",
+  "gloss": "植物生長的地層；土壤"
+ },
+ "solar": {
+  "pos": "adj",
+  "gloss": "太陽；日光"
+ },
+ "soldier": {
+  "pos": "noun",
+  "gloss": "在軍隊中服役的人"
+ },
+ "solid": {
+  "pos": "adj",
+  "gloss": "堅硬的；非氣體或液體的"
+ },
+ "solution": {
+  "pos": "noun",
+  "gloss": "解決；方案"
+ },
+ "solve": {
+  "pos": "verb",
+  "gloss": "找到解決問題的方法"
+ },
+ "some": {
+  "pos": "det",
+  "gloss": "某些；一些"
+ },
+ "somebody": {
+  "pos": "pron",
+  "gloss": "未知名或未指明的人"
+ },
+ "somehow": {
+  "pos": "adv",
+  "gloss": "不知怎地；以某種方式"
+ },
+ "someone": {
+  "pos": "pron",
+  "gloss": "某人；有人"
+ },
+ "something": {
+  "pos": "pron",
+  "gloss": "某物；某事"
+ },
+ "sometimes": {
+  "pos": "adv",
+  "gloss": "有時；偶爾"
+ },
+ "somewhat": {
+  "pos": "adv",
+  "gloss": "有些；稍微"
+ },
+ "somewhere": {
+  "pos": "adv",
+  "gloss": "在某個不確定的地方"
+ },
+ "son": {
+  "pos": "noun",
+  "gloss": "兒子；男孩"
+ },
+ "song": {
+  "pos": "noun",
+  "gloss": "有歌詞的音樂作品"
+ },
+ "soon": {
+  "pos": "adv",
+  "gloss": "不久；很快"
+ },
+ "sorry": {
+  "pos": "intj",
+  "gloss": "抱歉；對不起"
+ },
+ "sort": {
+  "pos": "noun",
+  "gloss": "種類；類型"
+ },
+ "soul": {
+  "pos": "noun",
+  "gloss": "靈魂；精神"
+ },
+ "sound": {
+  "pos": "noun",
+  "gloss": "聲音；音聲"
+ },
+ "source": {
+  "pos": "noun",
+  "gloss": "來源；源頭"
+ },
+ "south": {
+  "pos": "noun",
+  "gloss": "南方；南向"
+ },
+ "southern": {
+  "pos": "adj",
+  "gloss": "南方的；南部的"
+ },
+ "space": {
+  "pos": "noun",
+  "gloss": "空間；地區"
+ },
+ "spare": {
+  "pos": "adj",
+  "gloss": "備用的；需要時可使用的額外物品"
+ },
+ "speak": {
+  "pos": "verb",
+  "gloss": "說話；表達想法"
+ },
+ "speaker": {
+  "pos": "noun",
+  "gloss": "在群眾前發表演講的人"
+ },
+ "special": {
+  "pos": "adj",
+  "gloss": "特殊的；特別的"
+ },
+ "specialist": {
+  "pos": "noun",
+  "gloss": "專攻某一具體領域的人"
+ },
+ "specialize": {
+  "pos": "verb",
+  "gloss": "專攻；專門從事"
+ },
+ "species": {
+  "pos": "noun",
+  "gloss": "物種；種類"
+ },
+ "specific": {
+  "pos": "adj",
+  "gloss": "特定；具體"
+ },
+ "specifically": {
+  "pos": "adv",
+  "gloss": "明確地；特別是"
+ },
+ "specify": {
+  "pos": "verb",
+  "gloss": "明確指出；詳細說明"
+ },
+ "speech": {
+  "pos": "noun",
+  "gloss": "演講；言論"
+ },
+ "speed": {
+  "pos": "noun",
+  "gloss": "快速；迅速的特性"
+ },
+ "spell": {
+  "pos": "verb",
+  "gloss": "拼寫；拼讀"
+ },
+ "spend": {
+  "pos": "verb",
+  "gloss": "花費；付錢"
+ },
+ "spin": {
+  "pos": "verb",
+  "gloss": "旋轉；轉動"
+ },
+ "spirit": {
+  "pos": "noun",
+  "gloss": "人非物質的部分；靈魂"
+ },
+ "split": {
+  "pos": "verb",
+  "gloss": "分裂；分開"
+ },
+ "sponsor": {
+  "pos": "verb",
+  "gloss": "贊助；財務支持"
+ },
+ "sport": {
+  "pos": "noun",
+  "gloss": "運動；競技活動"
+ },
+ "spot": {
+  "pos": "verb",
+  "gloss": "看見；發現"
+ },
+ "spread": {
+  "pos": "verb",
+  "gloss": "展開；鋪開"
+ },
+ "spring": {
+  "pos": "noun",
+  "gloss": "冬天之後植物開始生長的季節"
+ },
+ "square": {
+  "pos": "noun",
+  "gloss": "正方形；廣場"
+ },
+ "stability": {
+  "pos": "noun",
+  "gloss": "穩定性；穩定"
+ },
+ "stable": {
+  "pos": "adj",
+  "gloss": "穩定的；不易改變的"
+ },
+ "staff": {
+  "pos": "noun",
+  "gloss": "職員；員工"
+ },
+ "stage": {
+  "pos": "noun",
+  "gloss": "舞臺；場地"
+ },
+ "stain": {
+  "pos": "noun",
+  "gloss": "污漬；汙點"
+ },
+ "stair": {
+  "pos": "noun",
+  "gloss": "樓梯；階梯"
+ },
+ "stake": {
+  "pos": "noun",
+  "gloss": "樁；木樁"
+ },
+ "stamp": {
+  "pos": "noun",
+  "gloss": "郵票；戳章"
+ },
+ "stand": {
+  "pos": "verb",
+  "gloss": "站立；直立"
+ },
+ "standard": {
+  "pos": "noun",
+  "gloss": "標準；基準"
+ },
+ "star": {
+  "pos": "noun",
+  "gloss": "星星；恆星"
+ },
+ "stare": {
+  "pos": "verb",
+  "gloss": "長時間凝視某人或某物"
+ },
+ "start": {
+  "pos": "noun",
+  "gloss": "開始；起點"
+ },
+ "state": {
+  "pos": "noun",
+  "gloss": "州；有自己政府的區域"
+ },
+ "statement": {
+  "pos": "noun",
+  "gloss": "陳述；聲明"
+ },
+ "station": {
+  "pos": "noun",
+  "gloss": "車站；站點"
+ },
+ "statistic": {
+  "pos": "noun",
+  "gloss": "統計；數據資訊"
+ },
+ "status": {
+  "pos": "noun",
+  "gloss": "身份；地位"
+ },
+ "stay": {
+  "pos": "verb",
+  "gloss": "停留；逗留"
+ },
+ "steady": {
+  "pos": "adj",
+  "gloss": "穩固的；不搖晃、不易跌倒的"
+ },
+ "steal": {
+  "pos": "verb",
+  "gloss": "暗地竊取他人財物"
+ },
+ "steel": {
+  "pos": "noun",
+  "gloss": "由鐵及其他物質混合而成的堅硬金屬"
+ },
+ "stem": {
+  "pos": "noun",
+  "gloss": "植物的莖；支撑葉花的部分"
+ },
+ "step": {
+  "pos": "noun",
+  "gloss": "台階；階梯"
+ },
+ "stick": {
+  "pos": "noun",
+  "gloss": "木棒；樹枝"
+ },
+ "still": {
+  "pos": "adv",
+  "gloss": "仍然；持續"
+ },
+ "stimulate": {
+  "pos": "verb",
+  "gloss": "刺激；激發"
+ },
+ "stir": {
+  "pos": "verb",
+  "gloss": "攪拌；攪動"
+ },
+ "stock": {
+  "pos": "noun",
+  "gloss": "股票；股份"
+ },
+ "stomach": {
+  "pos": "noun",
+  "gloss": "胃；腹部"
+ },
+ "stone": {
+  "pos": "noun",
+  "gloss": "堅硬的岩石固體塊"
+ },
+ "stop": {
+  "pos": "verb",
+  "gloss": "停止；中止"
+ },
+ "storage": {
+  "pos": "noun",
+  "gloss": "儲存；收納"
+ },
+ "store": {
+  "pos": "noun",
+  "gloss": "商店；店鋪"
+ },
+ "storm": {
+  "pos": "noun",
+  "gloss": "暴風雨；風暴"
+ },
+ "story": {
+  "pos": "noun",
+  "gloss": "故事；敘述"
+ },
+ "straight": {
+  "pos": "adj",
+  "gloss": "筆直的；無彎曲"
+ },
+ "strain": {
+  "pos": "noun",
+  "gloss": "對人或系統的過度壓力可能造成問題"
+ },
+ "strange": {
+  "pos": "adj",
+  "gloss": "不尋常或奇異；令人意外"
+ },
+ "stranger": {
+  "pos": "noun",
+  "gloss": "陌生人；生客"
+ },
+ "strategy": {
+  "pos": "noun",
+  "gloss": "策略；計畫"
+ },
+ "stream": {
+  "pos": "noun",
+  "gloss": "小河；溪流"
+ },
+ "street": {
+  "pos": "noun",
+  "gloss": "街道；街路"
+ },
+ "strength": {
+  "pos": "noun",
+  "gloss": "強壯的品質；力量"
+ },
+ "strengthen": {
+  "pos": "verb",
+  "gloss": "加強；強化"
+ },
+ "stress": {
+  "pos": "noun",
+  "gloss": "壓力；心理緊張狀態"
+ },
+ "stretch": {
+  "pos": "verb",
+  "gloss": "伸展；拉長"
+ },
+ "strict": {
+  "pos": "adj",
+  "gloss": "嚴格的；嚴苛的"
+ },
+ "strike": {
+  "pos": "verb",
+  "gloss": "擊打；打擊"
+ },
+ "string": {
+  "pos": "noun",
+  "gloss": "細繩；細線"
+ },
+ "strip": {
+  "pos": "verb",
+  "gloss": "剝奪；奪走"
+ },
+ "stroke": {
+  "pos": "verb",
+  "gloss": "撫摸；輕輕觸碰"
+ },
+ "strong": {
+  "pos": "adj",
+  "gloss": "強壯的；有力的"
+ },
+ "strongly": {
+  "pos": "adv",
+  "gloss": "以強有力的方式；非常認真地"
+ },
+ "structural": {
+  "pos": "adj",
+  "gloss": "結構性；結構的"
+ },
+ "structure": {
+  "pos": "noun",
+  "gloss": "結構；組織"
+ },
+ "struggle": {
+  "pos": "verb",
+  "gloss": "奮力；努力"
+ },
+ "student": {
+  "pos": "noun",
+  "gloss": "在學校學習的人"
+ },
+ "studio": {
+  "pos": "noun",
+  "gloss": "工作室；製作室"
+ },
+ "study": {
+  "pos": "verb",
+  "gloss": "學習；研究"
+ },
+ "stuff": {
+  "pos": "noun",
+  "gloss": "東西；物質"
+ },
+ "stupid": {
+  "pos": "adj",
+  "gloss": "愚蠢的；不聰慧的"
+ },
+ "style": {
+  "pos": "noun",
+  "gloss": "風格；方式"
+ },
+ "subject": {
+  "pos": "noun",
+  "gloss": "主題；話題"
+ },
+ "submit": {
+  "pos": "verb",
+  "gloss": "屈服；順從"
+ },
+ "subsequent": {
+  "pos": "adj",
+  "gloss": "其後的；隨後發生"
+ },
+ "subsequently": {
+  "pos": "adv",
+  "gloss": "隨後；之後"
+ },
+ "substance": {
+  "pos": "noun",
+  "gloss": "物質；材料；物體"
+ },
+ "substantial": {
+  "pos": "adj",
+  "gloss": "數量或規模大的"
+ },
+ "substitute": {
+  "pos": "noun",
+  "gloss": "替代物；代用品"
+ },
+ "succeed": {
+  "pos": "verb",
+  "gloss": "最終達成您試圖達成的事"
+ },
+ "success": {
+  "pos": "noun",
+  "gloss": "成功；成就"
+ },
+ "successful": {
+  "pos": "adj",
+  "gloss": "成功的；圓滿的"
+ },
+ "successfully": {
+  "pos": "adv",
+  "gloss": "成功地；圓滿地"
+ },
+ "such": {
+  "pos": "det",
+  "gloss": "這樣；如此"
+ },
+ "sudden": {
+  "pos": "adj",
+  "gloss": "突然的；意外的"
+ },
+ "suddenly": {
+  "pos": "adv",
+  "gloss": "突然地；出乎意料地"
+ },
+ "suffer": {
+  "pos": "verb",
+  "gloss": "遭受；忍受"
+ },
+ "sufficient": {
+  "pos": "adj",
+  "gloss": "足夠的；充分的"
+ },
+ "sugar": {
+  "pos": "noun",
+  "gloss": "糖；甜味物質"
+ },
+ "suggest": {
+  "pos": "verb",
+  "gloss": "建議；提議"
+ },
+ "suggestion": {
+  "pos": "noun",
+  "gloss": "某人應做的想法；建議"
+ },
+ "suit": {
+  "pos": "verb",
+  "gloss": "適合；相稱"
+ },
+ "suitable": {
+  "pos": "adj",
+  "gloss": "合適；適當"
+ },
+ "sum": {
+  "pos": "noun",
+  "gloss": "加總後的金額或總數"
+ },
+ "summarize": {
+  "pos": "verb",
+  "gloss": "總結；概括"
+ },
+ "summary": {
+  "pos": "noun",
+  "gloss": "摘要；簡述"
+ },
+ "summer": {
+  "pos": "noun",
+  "gloss": "夏季；夏天"
+ },
+ "sun": {
+  "pos": "noun",
+  "gloss": "地球所繞行的炎熱發光星體"
+ },
+ "supplement": {
+  "pos": "noun",
+  "gloss": "補充物；補充"
+ },
+ "supplier": {
+  "pos": "noun",
+  "gloss": "提供產品或服務的機構"
+ },
+ "supply": {
+  "pos": "verb",
+  "gloss": "供應；提供"
+ },
+ "support": {
+  "pos": "verb",
+  "gloss": "支援；協助；給予幫助"
+ },
+ "supporter": {
+  "pos": "noun",
+  "gloss": "支持者；擁護者"
+ },
+ "suppose": {
+  "pos": "verb",
+  "gloss": "猜測；想象"
+ },
+ "sure": {
+  "pos": "adj",
+  "gloss": "確定的；毫無疑問的"
+ },
+ "surely": {
+  "pos": "adv",
+  "gloss": "肯定地；無疑地"
+ },
+ "surface": {
+  "pos": "noun",
+  "gloss": "表面；上層"
+ },
+ "surgery": {
+  "pos": "noun",
+  "gloss": "手術；外科治療"
+ },
+ "surprise": {
+  "pos": "verb",
+  "gloss": "使驚訝；出人意料"
+ },
+ "surprisingly": {
+  "pos": "adv",
+  "gloss": "令人驚訝地；出乎意料"
+ },
+ "surround": {
+  "pos": "verb",
+  "gloss": "包圍；環繞"
+ },
+ "survey": {
+  "pos": "verb",
+  "gloss": "調查；詢問眾人意見"
+ },
+ "survival": {
+  "pos": "noun",
+  "gloss": "生存；存活"
+ },
+ "survive": {
+  "pos": "verb",
+  "gloss": "儘管患病或困難仍繼續活著"
+ },
+ "suspect": {
+  "pos": "verb",
+  "gloss": "懷疑；猜測"
+ },
+ "suspend": {
+  "pos": "verb",
+  "gloss": "暫停；中止"
+ },
+ "sustain": {
+  "pos": "verb",
+  "gloss": "維持；持續進行"
+ },
+ "swear": {
+  "pos": "verb",
+  "gloss": "發誓；起誓"
+ },
+ "sweep": {
+  "pos": "verb",
+  "gloss": "用掃帚或刷子清除表面的灰塵或污垢"
+ },
+ "sweet": {
+  "pos": "adj",
+  "gloss": "嚐起來像糖；含有糖分"
+ },
+ "swim": {
+  "pos": "verb",
+  "gloss": "游泳；在水中移動"
+ },
+ "swing": {
+  "pos": "verb",
+  "gloss": "搖擺；揮動"
+ },
+ "switch": {
+  "pos": "noun",
+  "gloss": "開關；轉換"
+ },
+ "symbol": {
+  "pos": "noun",
+  "gloss": "象徵；代表特定意義的事物"
+ },
+ "symptom": {
+  "pos": "noun",
+  "gloss": "表示患病或問題的變化"
+ },
+ "system": {
+  "pos": "noun",
+  "gloss": "系統；組織體系"
+ },
+ "table": {
+  "pos": "noun",
+  "gloss": "桌子；台子"
+ },
+ "tackle": {
+  "pos": "verb",
+  "gloss": "處理；著手解決難題"
+ },
+ "tail": {
+  "pos": "noun",
+  "gloss": "尾巴；尾端"
+ },
+ "take": {
+  "pos": "verb",
+  "gloss": "拿；取"
+ },
+ "tale": {
+  "pos": "noun",
+  "gloss": "故事；傳奇"
+ },
+ "talent": {
+  "pos": "noun",
+  "gloss": "人天生擅長做某事的能力"
+ },
+ "talk": {
+  "pos": "verb",
+  "gloss": "說話；交談"
+ },
+ "tall": {
+  "pos": "adj",
+  "gloss": "身高高於平均值"
+ },
+ "tank": {
+  "pos": "noun",
+  "gloss": "槽；儲存液體或氣體的容器"
+ },
+ "tap": {
+  "pos": "verb",
+  "gloss": "輕敲；輕拍"
+ },
+ "tape": {
+  "pos": "verb",
+  "gloss": "用黏性條帶將物品粘在一起"
+ },
+ "target": {
+  "pos": "noun",
+  "gloss": "目標；靶子"
+ },
+ "task": {
+  "pos": "noun",
+  "gloss": "任務；工作"
+ },
+ "taste": {
+  "pos": "noun",
+  "gloss": "味道；風味"
+ },
+ "tax": {
+  "pos": "noun",
+  "gloss": "稅；稅金"
+ },
+ "taxi": {
+  "pos": "noun",
+  "gloss": "計程車；出租車"
+ },
+ "tea": {
+  "pos": "noun",
+  "gloss": "將乾燥葉片放入熱水製成的飲品"
+ },
+ "teach": {
+  "pos": "verb",
+  "gloss": "教導；傳授"
+ },
+ "teacher": {
+  "pos": "noun",
+  "gloss": "教師；老師"
+ },
+ "team": {
+  "pos": "noun",
+  "gloss": "隊伍；團隊"
+ },
+ "tear": {
+  "pos": "verb",
+  "gloss": "撕裂；扯破"
+ },
+ "technical": {
+  "pos": "adj",
+  "gloss": "技術的；專業的"
+ },
+ "technique": {
+  "pos": "noun",
+  "gloss": "運用特殊知識或技巧的方式"
+ },
+ "technology": {
+  "pos": "noun",
+  "gloss": "科技；技術"
+ },
+ "teenager": {
+  "pos": "noun",
+  "gloss": "青少年；十三至十九歲的人"
+ },
+ "telephone": {
+  "pos": "noun",
+  "gloss": "電話；遠距通話機器"
+ },
+ "television": {
+  "pos": "noun",
+  "gloss": "電視；電視機"
+ },
+ "tell": {
+  "pos": "verb",
+  "gloss": "告知；傳達資訊"
+ },
+ "temperature": {
+  "pos": "noun",
+  "gloss": "溫度；溫度計"
+ },
+ "temporary": {
+  "pos": "adj",
+  "gloss": "持續時間有限；非永久性的"
+ },
+ "tend": {
+  "pos": "verb",
+  "gloss": "傾向；通常"
+ },
+ "tendency": {
+  "pos": "noun",
+  "gloss": "傾向；趨勢"
+ },
+ "tender": {
+  "pos": "adj",
+  "gloss": "溫柔；溫情"
+ },
+ "tennis": {
+  "pos": "noun",
+  "gloss": "網球；網球運動"
+ },
+ "tension": {
+  "pos": "noun",
+  "gloss": "焦慮；緊張感"
+ },
+ "tent": {
+  "pos": "noun",
+  "gloss": "帳篷；營帳"
+ },
+ "term": {
+  "pos": "noun",
+  "gloss": "學校學習的固定週期"
+ },
+ "terrible": {
+  "pos": "adj",
+  "gloss": "可怕的；糟糕的"
+ },
+ "territory": {
+  "pos": "noun",
+  "gloss": "由政府或個人擁有或控制的陸地或海域"
+ },
+ "terrorist": {
+  "pos": "noun",
+  "gloss": "為達政治目的使用恐懼或暴力的人"
+ },
+ "test": {
+  "pos": "noun",
+  "gloss": "考試；測驗"
+ },
+ "text": {
+  "pos": "noun",
+  "gloss": "文本；著作的文字部分"
+ },
+ "than": {
+  "pos": "conj",
+  "gloss": "比；比較"
+ },
+ "thank": {
+  "pos": "verb",
+  "gloss": "告訴某人你對他們心懷感激"
+ },
+ "that": {
+  "pos": "det",
+  "gloss": "那個；指定事物"
+ },
+ "the": {
+  "pos": "det",
+  "gloss": "指已提及的人或事物"
+ },
+ "theater": {
+  "pos": "noun",
+  "gloss": "上演舞台表演的場所"
+ },
+ "theme": {
+  "pos": "noun",
+  "gloss": "討論或描述的主要主題"
+ },
+ "themselves": {
+  "pos": "pron",
+  "gloss": "他們自己"
+ },
+ "then": {
+  "pos": "adv",
+  "gloss": "那時；當時"
+ },
+ "theoretical": {
+  "pos": "adj",
+  "gloss": "理論；理論性"
+ },
+ "theory": {
+  "pos": "noun",
+  "gloss": "理論；學說"
+ },
+ "therapy": {
+  "pos": "noun",
+  "gloss": "治療；療法"
+ },
+ "there": {
+  "pos": "adv",
+  "gloss": "那裡；彼處"
+ },
+ "therefore": {
+  "pos": "adv",
+  "gloss": "因此；所以"
+ },
+ "they": {
+  "pos": "pron",
+  "gloss": "他們；複數人或物"
+ },
+ "thick": {
+  "pos": "adj",
+  "gloss": "厚的；粗的"
+ },
+ "thin": {
+  "pos": "adj",
+  "gloss": "薄的；瘦的"
+ },
+ "thing": {
+  "pos": "noun",
+  "gloss": "東西；事物"
+ },
+ "think": {
+  "pos": "verb",
+  "gloss": "想；思考"
+ },
+ "thirst": {
+  "pos": "noun",
+  "gloss": "口渴；需要飲水"
+ },
+ "this": {
+  "pos": "det",
+  "gloss": "這個；近處事物"
+ },
+ "though": {
+  "pos": "conj",
+  "gloss": "儘管；儘管事實上"
+ },
+ "threat": {
+  "pos": "noun",
+  "gloss": "威脅；警告"
+ },
+ "threaten": {
+  "pos": "verb",
+  "gloss": "威脅；揚言傷害他人"
+ },
+ "throat": {
+  "pos": "noun",
+  "gloss": "喉嚨；咽喉"
+ },
+ "through": {
+  "pos": "prep",
+  "gloss": "穿過；從一端到另一端"
+ },
+ "throughout": {
+  "pos": "prep",
+  "gloss": "遍及；自始至終"
+ },
+ "throw": {
+  "pos": "verb",
+  "gloss": "投擲；丟出"
+ },
+ "thus": {
+  "pos": "adv",
+  "gloss": "因此；所以"
+ },
+ "ticket": {
+  "pos": "noun",
+  "gloss": "入場券；票"
+ },
+ "tie": {
+  "pos": "verb",
+  "gloss": "綁；將繩子兩端繫在一起"
+ },
+ "tight": {
+  "pos": "adj",
+  "gloss": "緊密結合的；難以移動的"
+ },
+ "till": {
+  "pos": "prep",
+  "gloss": "直到；到…為止"
+ },
+ "time": {
+  "pos": "noun",
+  "gloss": "時間；時刻"
+ },
+ "tiny": {
+  "pos": "adj",
+  "gloss": "極小；微小"
+ },
+ "tip": {
+  "pos": "noun",
+  "gloss": "提示；尖端"
+ },
+ "tire": {
+  "pos": "verb",
+  "gloss": "感到疲倦；失去精力"
+ },
+ "tissue": {
+  "pos": "noun",
+  "gloss": "衛生紙；紙巾"
+ },
+ "title": {
+  "pos": "noun",
+  "gloss": "標題；名稱"
+ },
+ "to": {
+  "pos": "prep",
+  "gloss": "朝向；指向"
+ },
+ "today": {
+  "pos": "noun",
+  "gloss": "在這一天；在正在發生的時刻"
+ },
+ "together": {
+  "pos": "adv",
+  "gloss": "靠近；在同一地方；在家族或群體中"
+ },
+ "tomorrow": {
+  "pos": "noun",
+  "gloss": "明天"
+ },
+ "tone": {
+  "pos": "noun",
+  "gloss": "語調；聲調"
+ },
+ "tongue": {
+  "pos": "noun",
+  "gloss": "舌頭；舌"
+ },
+ "tonight": {
+  "pos": "noun",
+  "gloss": "今晚；今夜"
+ },
+ "too": {
+  "pos": "adv",
+  "gloss": "過度；太"
+ },
+ "tool": {
+  "pos": "noun",
+  "gloss": "用來製造東西的裝置；工具"
+ },
+ "tooth": {
+  "pos": "noun",
+  "gloss": "牙齒"
+ },
+ "top": {
+  "pos": "noun",
+  "gloss": "頂部；最上面"
+ },
+ "topic": {
+  "pos": "noun",
+  "gloss": "主題；話題"
+ },
+ "total": {
+  "pos": "noun",
+  "gloss": "總數；全部"
+ },
+ "totally": {
+  "pos": "adv",
+  "gloss": "完全地；絕對地"
+ },
+ "touch": {
+  "pos": "verb",
+  "gloss": "觸碰；接觸"
+ },
+ "tough": {
+  "pos": "adj",
+  "gloss": "困難的；棘手的"
+ },
+ "tour": {
+  "pos": "noun",
+  "gloss": "旅遊；遊覽之旅"
+ },
+ "tourism": {
+  "pos": "noun",
+  "gloss": "觀光；旅遊業"
+ },
+ "tourist": {
+  "pos": "noun",
+  "gloss": "遊客；觀光客"
+ },
+ "tournament": {
+  "pos": "noun",
+  "gloss": "錦標賽；比賽"
+ },
+ "toward": {
+  "pos": "prep",
+  "gloss": "朝向；趨向"
+ },
+ "tower": {
+  "pos": "noun",
+  "gloss": "高塔；塔樓"
+ },
+ "town": {
+  "pos": "noun",
+  "gloss": "鎮；小城鎮"
+ },
+ "toy": {
+  "pos": "noun",
+  "gloss": "玩具；玩物"
+ },
+ "trace": {
+  "pos": "verb",
+  "gloss": "通過調查尋找、描述或發現"
+ },
+ "track": {
+  "pos": "verb",
+  "gloss": "跟蹤某人以看其行動"
+ },
+ "trade": {
+  "pos": "noun",
+  "gloss": "貿易；交易"
+ },
+ "tradition": {
+  "pos": "noun",
+  "gloss": "傳統；慣例"
+ },
+ "traditional": {
+  "pos": "adj",
+  "gloss": "涉及傳統的；世代相傳"
+ },
+ "traffic": {
+  "pos": "noun",
+  "gloss": "通訊系統上的活動量"
+ },
+ "trail": {
+  "pos": "noun",
+  "gloss": "鄉村中供人行走的小徑"
+ },
+ "train": {
+  "pos": "noun",
+  "gloss": "在鐵軌上行駛且運載人的車輛"
+ },
+ "transfer": {
+  "pos": "verb",
+  "gloss": "移動；轉移"
+ },
+ "transform": {
+  "pos": "verb",
+  "gloss": "完全改變某物的形狀"
+ },
+ "transition": {
+  "pos": "noun",
+  "gloss": "從一種狀態逐漸改變至另一狀態"
+ },
+ "translate": {
+  "pos": "verb",
+  "gloss": "翻譯；將文字轉換為另一語言"
+ },
+ "transport": {
+  "pos": "verb",
+  "gloss": "將事物從一處運到另一處"
+ },
+ "transportation": {
+  "pos": "noun",
+  "gloss": "運輸；交通"
+ },
+ "trap": {
+  "pos": "noun",
+  "gloss": "捕獸器；陷阱"
+ },
+ "travel": {
+  "pos": "verb",
+  "gloss": "前往遠地；旅行"
+ },
+ "treat": {
+  "pos": "verb",
+  "gloss": "以某種方式對待"
+ },
+ "treatment": {
+  "pos": "noun",
+  "gloss": "對待方式；待遇"
+ },
+ "tree": {
+  "pos": "noun",
+  "gloss": "樹；樹木"
+ },
+ "trend": {
+  "pos": "noun",
+  "gloss": "趨勢；走向"
+ },
+ "trial": {
+  "pos": "adj",
+  "gloss": "試驗的；測試用"
+ },
+ "trick": {
+  "pos": "verb",
+  "gloss": "欺騙；耍花招"
+ },
+ "trigger": {
+  "pos": "verb",
+  "gloss": "引發；觸發"
+ },
+ "trip": {
+  "pos": "noun",
+  "gloss": "旅程；出遊"
+ },
+ "troop": {
+  "pos": "noun",
+  "gloss": "部隊；軍隊"
+ },
+ "trouble": {
+  "pos": "noun",
+  "gloss": "困難；麻煩"
+ },
+ "truck": {
+  "pos": "noun",
+  "gloss": "用於運輸貨物的大型車輛"
+ },
+ "true": {
+  "pos": "adj",
+  "gloss": "真實的；正確的"
+ },
+ "truly": {
+  "pos": "adv",
+  "gloss": "基於真實或事實"
+ },
+ "trust": {
+  "pos": "verb",
+  "gloss": "信任；相信可靠"
+ },
+ "truth": {
+  "pos": "noun",
+  "gloss": "真實的事實"
+ },
+ "try": {
+  "pos": "verb",
+  "gloss": "嘗試；努力"
+ },
+ "tube": {
+  "pos": "noun",
+  "gloss": "管子；長形中空物"
+ },
+ "tune": {
+  "pos": "noun",
+  "gloss": "構成優美音樂的音符組合"
+ },
+ "turn": {
+  "pos": "verb",
+  "gloss": "轉動；改變方向"
+ },
+ "twice": {
+  "pos": "adv",
+  "gloss": "兩次"
+ },
+ "twin": {
+  "pos": "noun",
+  "gloss": "雙胞胎；孿生子"
+ },
+ "twist": {
+  "pos": "verb",
+  "gloss": "扭轉；旋轉"
+ },
+ "type": {
+  "pos": "noun",
+  "gloss": "類型；種類"
+ },
+ "typical": {
+  "pos": "adj",
+  "gloss": "正常的；通常的；預期的"
+ },
+ "typically": {
+  "pos": "adv",
+  "gloss": "通常；正常地"
+ },
+ "ugly": {
+  "pos": "adj",
+  "gloss": "醜陋；難看"
+ },
+ "ultimately": {
+  "pos": "adv",
+  "gloss": "最終；到底"
+ },
+ "unable": {
+  "pos": "adj",
+  "gloss": "不能做某事"
+ },
+ "uncertainty": {
+  "pos": "noun",
+  "gloss": "不確定；疑慮"
+ },
+ "uncle": {
+  "pos": "noun",
+  "gloss": "叔叔；舅舅"
+ },
+ "unclear": {
+  "pos": "adj",
+  "gloss": "不清楚的；模糊的"
+ },
+ "under": {
+  "pos": "prep",
+  "gloss": "在...下方；較低位置"
+ },
+ "undergo": {
+  "pos": "verb",
+  "gloss": "經歷；承受"
+ },
+ "underlie": {
+  "pos": "verb",
+  "gloss": "位於……之下；潛藏於"
+ },
+ "understand": {
+  "pos": "verb",
+  "gloss": "理解；明白語意"
+ },
+ "undertake": {
+  "pos": "verb",
+  "gloss": "著手進行；承擔"
+ },
+ "unemployment": {
+  "pos": "noun",
+  "gloss": "失業；失業率"
+ },
+ "unfortunately": {
+  "pos": "adv",
+  "gloss": "令人遺憾的方式；不幸地"
+ },
+ "uniform": {
+  "pos": "noun",
+  "gloss": "顯示身份的成套服裝"
+ },
+ "union": {
+  "pos": "noun",
+  "gloss": "有相同利益或目標的人群組織"
+ },
+ "unique": {
+  "pos": "adj",
+  "gloss": "與其他事物不同；唯一類似的"
+ },
+ "unit": {
+  "pos": "noun",
+  "gloss": "單位；個體"
+ },
+ "unite": {
+  "pos": "verb",
+  "gloss": "聯合；合併"
+ },
+ "universal": {
+  "pos": "adj",
+  "gloss": "普遍的；通用的"
+ },
+ "universe": {
+  "pos": "noun",
+  "gloss": "宇宙；星空"
+ },
+ "university": {
+  "pos": "noun",
+  "gloss": "高級教育機構；大學"
+ },
+ "unknown": {
+  "pos": "adj",
+  "gloss": "不熟悉的；不著名的"
+ },
+ "unless": {
+  "pos": "conj",
+  "gloss": "除非；如果不"
+ },
+ "unlike": {
+  "pos": "prep",
+  "gloss": "與…不同；相異"
+ },
+ "unlikely": {
+  "pos": "adj",
+  "gloss": "不可能發生的；不太真實的"
+ },
+ "until": {
+  "pos": "prep",
+  "gloss": "直到；指示某事發生時的時間點"
+ },
+ "unusual": {
+  "pos": "adj",
+  "gloss": "不尋常的；與眾不同的"
+ },
+ "up": {
+  "pos": "adv",
+  "gloss": "向上；上升"
+ },
+ "update": {
+  "pos": "verb",
+  "gloss": "更新；補充最新資訊"
+ },
+ "upon": {
+  "pos": "prep",
+  "gloss": "在…上；於"
+ },
+ "upper": {
+  "pos": "adj",
+  "gloss": "上面的；上層的"
+ },
+ "upset": {
+  "pos": "adj",
+  "gloss": "心煩的；焦慮的"
+ },
+ "urban": {
+  "pos": "adj",
+  "gloss": "城市的；都市的"
+ },
+ "urge": {
+  "pos": "verb",
+  "gloss": "強烈勸說；敦促"
+ },
+ "use": {
+  "pos": "verb",
+  "gloss": "用；使用"
+ },
+ "useful": {
+  "pos": "adj",
+  "gloss": "有用的；有助益的"
+ },
+ "user": {
+  "pos": "noun",
+  "gloss": "使用者；用戶"
+ },
+ "usual": {
+  "pos": "adj",
+  "gloss": "平常的；一般的"
+ },
+ "usually": {
+  "pos": "adv",
+  "gloss": "通常；一般"
+ },
+ "valley": {
+  "pos": "noun",
+  "gloss": "山谷；河谷"
+ },
+ "valuable": {
+  "pos": "adj",
+  "gloss": "價值很高的；值錢的"
+ },
+ "value": {
+  "pos": "verb",
+  "gloss": "估值；評估價值"
+ },
+ "van": {
+  "pos": "noun",
+  "gloss": "貨車；密閉貨車"
+ },
+ "variable": {
+  "pos": "adj",
+  "gloss": "具有改變或變化的能力"
+ },
+ "variation": {
+  "pos": "noun",
+  "gloss": "略有不同的東西；變異"
+ },
+ "variety": {
+  "pos": "noun",
+  "gloss": "各種不同的事物或人"
+ },
+ "various": {
+  "pos": "adj",
+  "gloss": "各種；多樣的"
+ },
+ "vary": {
+  "pos": "verb",
+  "gloss": "變化；可升可降地改變"
+ },
+ "vast": {
+  "pos": "adj",
+  "gloss": "非常大的；廣闊的"
+ },
+ "vegetable": {
+  "pos": "noun",
+  "gloss": "蔬菜；食用植物"
+ },
+ "vehicle": {
+  "pos": "noun",
+  "gloss": "車輛；運輸工具"
+ },
+ "venture": {
+  "pos": "noun",
+  "gloss": "冒險；風險事業"
+ },
+ "verb": {
+  "pos": "noun",
+  "gloss": "動詞；謂詞"
+ },
+ "version": {
+  "pos": "noun",
+  "gloss": "版本；某事物的特定形式"
+ },
+ "versus": {
+  "pos": "prep",
+  "gloss": "對比；相對"
+ },
+ "very": {
+  "pos": "adv",
+  "gloss": "很；非常"
+ },
+ "vessel": {
+  "pos": "noun",
+  "gloss": "容器；盛器"
+ },
+ "veteran": {
+  "pos": "noun",
+  "gloss": "老兵；資深人士"
+ },
+ "via": {
+  "pos": "prep",
+  "gloss": "經由；通過"
+ },
+ "vice": {
+  "pos": "noun",
+  "gloss": "惡習；邪惡行為"
+ },
+ "victim": {
+  "pos": "noun",
+  "gloss": "遭受犯罪、惡劣情況或事件傷害的人"
+ },
+ "victory": {
+  "pos": "noun",
+  "gloss": "在戰爭、遊戲或競賽中的勝利"
+ },
+ "video": {
+  "pos": "noun",
+  "gloss": "影片；含聲音的動作記錄"
+ },
+ "view": {
+  "pos": "noun",
+  "gloss": "你能從特定地點看到的事物"
+ },
+ "village": {
+  "pos": "noun",
+  "gloss": "鄉村；小鎮"
+ },
+ "violence": {
+  "pos": "noun",
+  "gloss": "暴力；暴行"
+ },
+ "violent": {
+  "pos": "adj",
+  "gloss": "暴力的；猛烈的"
+ },
+ "virtually": {
+  "pos": "adv",
+  "gloss": "幾乎完全地"
+ },
+ "virus": {
+  "pos": "noun",
+  "gloss": "病毒；引發疾病的微生物"
+ },
+ "visible": {
+  "pos": "adj",
+  "gloss": "看得見的；明顯的"
+ },
+ "vision": {
+  "pos": "noun",
+  "gloss": "視力；視覺"
+ },
+ "visit": {
+  "pos": "verb",
+  "gloss": "訪問；造訪"
+ },
+ "visitor": {
+  "pos": "noun",
+  "gloss": "前往某地參觀的人"
+ },
+ "visual": {
+  "pos": "adj",
+  "gloss": "視覺的；看得見的"
+ },
+ "vital": {
+  "pos": "adj",
+  "gloss": "必需的；至關重要的"
+ },
+ "voice": {
+  "pos": "noun",
+  "gloss": "聲音；嗓音"
+ },
+ "volume": {
+  "pos": "noun",
+  "gloss": "收音機電視等發出的聲音大小"
+ },
+ "voluntary": {
+  "pos": "adj",
+  "gloss": "自願；志願"
+ },
+ "volunteer": {
+  "pos": "noun",
+  "gloss": "志願者；自願者"
+ },
+ "vote": {
+  "pos": "verb",
+  "gloss": "投票；表決"
+ },
+ "voter": {
+  "pos": "noun",
+  "gloss": "可以在選舉中投票的人"
+ },
+ "wage": {
+  "pos": "noun",
+  "gloss": "因工作時數支付給勞工的金錢"
+ },
+ "wait": {
+  "pos": "verb",
+  "gloss": "等待；靜候"
+ },
+ "wake": {
+  "pos": "verb",
+  "gloss": "醒來；使人醒來"
+ },
+ "walk": {
+  "pos": "verb",
+  "gloss": "行走；散步"
+ },
+ "wall": {
+  "pos": "noun",
+  "gloss": "牆；牆壁"
+ },
+ "wander": {
+  "pos": "verb",
+  "gloss": "漫步；閒逛"
+ },
+ "want": {
+  "pos": "verb",
+  "gloss": "想要；希望"
+ },
+ "war": {
+  "pos": "noun",
+  "gloss": "戰爭；戰鬥"
+ },
+ "warm": {
+  "pos": "adj",
+  "gloss": "溫暖的；稍熱"
+ },
+ "warn": {
+  "pos": "verb",
+  "gloss": "警告；提醒"
+ },
+ "wash": {
+  "pos": "verb",
+  "gloss": "清洗；用水和肥皂洗"
+ },
+ "waste": {
+  "pos": "verb",
+  "gloss": "浪費；無效使用有價值之物"
+ },
+ "watch": {
+  "pos": "verb",
+  "gloss": "觀看；注視"
+ },
+ "water": {
+  "pos": "noun",
+  "gloss": "水"
+ },
+ "wave": {
+  "pos": "verb",
+  "gloss": "揮手；揮動"
+ },
+ "way": {
+  "pos": "noun",
+  "gloss": "方式；道路"
+ },
+ "we": {
+  "pos": "pron",
+  "gloss": "我們；說話者及他人"
+ },
+ "weak": {
+  "pos": "adj",
+  "gloss": "虛弱的；無力的"
+ },
+ "weakness": {
+  "pos": "noun",
+  "gloss": "弱點；虛弱"
+ },
+ "wealth": {
+  "pos": "noun",
+  "gloss": "大量金錢和財產"
+ },
+ "wealthy": {
+  "pos": "adj",
+  "gloss": "富有的；有錢的"
+ },
+ "weapon": {
+  "pos": "noun",
+  "gloss": "武器；兵器"
+ },
+ "wear": {
+  "pos": "verb",
+  "gloss": "穿著；佩戴"
+ },
+ "weather": {
+  "pos": "noun",
+  "gloss": "天氣；大氣狀況"
+ },
+ "web": {
+  "pos": "noun",
+  "gloss": "蜘蛛網；互相連結的網絡"
+ },
+ "website": {
+  "pos": "noun",
+  "gloss": "網站；網頁"
+ },
+ "wed": {
+  "pos": "verb",
+  "gloss": "結婚；與某人結婚"
+ },
+ "week": {
+  "pos": "noun",
+  "gloss": "週；七天時期"
+ },
+ "weekend": {
+  "pos": "noun",
+  "gloss": "週末；星期六和星期日"
+ },
+ "weekly": {
+  "pos": "adj",
+  "gloss": "每週的；周報"
+ },
+ "weigh": {
+  "pos": "verb",
+  "gloss": "稱重；衡量"
+ },
+ "weight": {
+  "pos": "noun",
+  "gloss": "某物有多重"
+ },
+ "weird": {
+  "pos": "adj",
+  "gloss": "奇怪；詭異"
+ },
+ "welcome": {
+  "pos": "intj",
+  "gloss": "歡迎；友善迎接"
+ },
+ "welfare": {
+  "pos": "noun",
+  "gloss": "政府救濟；社會福利"
+ },
+ "well": {
+  "pos": "adv",
+  "gloss": "好地；良好"
+ },
+ "west": {
+  "pos": "noun",
+  "gloss": "太陽落下的方向；東方的相反方向"
+ },
+ "western": {
+  "pos": "adj",
+  "gloss": "來自、位於或朝向西方的"
+ },
+ "wet": {
+  "pos": "adj",
+  "gloss": "被液體覆蓋或浸濕的；未乾的"
+ },
+ "what": {
+  "pos": "pron",
+  "gloss": "什麼；疑問詞"
+ },
+ "whatever": {
+  "pos": "det",
+  "gloss": "無論什麼；任何"
+ },
+ "wheel": {
+  "pos": "noun",
+  "gloss": "輪子；車輪"
+ },
+ "when": {
+  "pos": "adv",
+  "gloss": "何時；疑問時間"
+ },
+ "whenever": {
+  "pos": "conj",
+  "gloss": "在任何或每一次…的時候"
+ },
+ "where": {
+  "pos": "adv",
+  "gloss": "哪裡；疑問地點"
+ },
+ "whereas": {
+  "pos": "conj",
+  "gloss": "考慮到；鑑於"
+ },
+ "wherever": {
+  "pos": "adv",
+  "gloss": "無論哪裡；隨處"
+ },
+ "whether": {
+  "pos": "conj",
+  "gloss": "某事是否會發生"
+ },
+ "which": {
+  "pos": "det",
+  "gloss": "哪個；疑問詞"
+ },
+ "while": {
+  "pos": "conj",
+  "gloss": "在...期間；同時"
+ },
+ "whilst": {
+  "pos": "conj",
+  "gloss": "當；在…期間"
+ },
+ "whisper": {
+  "pos": "verb",
+  "gloss": "低聲說；耳語"
+ },
+ "white": {
+  "pos": "adj",
+  "gloss": "白色的；潔白的"
+ },
+ "who": {
+  "pos": "pron",
+  "gloss": "誰；疑問代詞"
+ },
+ "whole": {
+  "pos": "adj",
+  "gloss": "完整的；全部的"
+ },
+ "why": {
+  "pos": "adv",
+  "gloss": "為什麼；何故"
+ },
+ "wide": {
+  "pos": "adj",
+  "gloss": "寬；廣"
+ },
+ "widely": {
+  "pos": "adv",
+  "gloss": "被許多人所知或接受"
+ },
+ "wife": {
+  "pos": "noun",
+  "gloss": "已婚女性；妻子"
+ },
+ "wild": {
+  "pos": "adj",
+  "gloss": "在自然界生活的；未馴化的"
+ },
+ "will": {
+  "pos": "aux",
+  "gloss": "將；未來時標記"
+ },
+ "win": {
+  "pos": "verb",
+  "gloss": "獲勝；贏得"
+ },
+ "wind": {
+  "pos": "noun",
+  "gloss": "風；空氣流動"
+ },
+ "window": {
+  "pos": "noun",
+  "gloss": "窗戶；窗口"
+ },
+ "wine": {
+  "pos": "noun",
+  "gloss": "用葡萄汁釀製的酒精飲料"
+ },
+ "wing": {
+  "pos": "noun",
+  "gloss": "翅膀；翼"
+ },
+ "winner": {
+  "pos": "noun",
+  "gloss": "贏家；勝者"
+ },
+ "winter": {
+  "pos": "noun",
+  "gloss": "一年中最冷的季節"
+ },
+ "wipe": {
+  "pos": "verb",
+  "gloss": "擦拭；擦乾"
+ },
+ "wire": {
+  "pos": "noun",
+  "gloss": "細柔的金屬線"
+ },
+ "wise": {
+  "pos": "adj",
+  "gloss": "明智的；聰慧的"
+ },
+ "wish": {
+  "pos": "verb",
+  "gloss": "希望；想要"
+ },
+ "with": {
+  "pos": "prep",
+  "gloss": "與；伴同"
+ },
+ "withdraw": {
+  "pos": "verb",
+  "gloss": "拉回；從某處移開或後退"
+ },
+ "within": {
+  "pos": "prep",
+  "gloss": "不超過特定空間、時間或範圍的限制"
+ },
+ "without": {
+  "pos": "prep",
+  "gloss": "沒有某物或某物不在某地方"
+ },
+ "witness": {
+  "pos": "noun",
+  "gloss": "目擊者；證人"
+ },
+ "woman": {
+  "pos": "noun",
+  "gloss": "女性；成年女人"
+ },
+ "wonder": {
+  "pos": "noun",
+  "gloss": "驚奇；奇蹟"
+ },
+ "wonderful": {
+  "pos": "adj",
+  "gloss": "奇妙的；令人愉快"
+ },
+ "wood": {
+  "pos": "noun",
+  "gloss": "木材；木頭"
+ },
+ "wooden": {
+  "pos": "adj",
+  "gloss": "木製的；木頭的"
+ },
+ "word": {
+  "pos": "noun",
+  "gloss": "具有意義的語言單位"
+ },
+ "work": {
+  "pos": "noun",
+  "gloss": "工作；勞動"
+ },
+ "worker": {
+  "pos": "noun",
+  "gloss": "工人；勞動者"
+ },
+ "world": {
+  "pos": "noun",
+  "gloss": "世界；地球上的人類活動"
+ },
+ "worry": {
+  "pos": "verb",
+  "gloss": "擔心；憂慮"
+ },
+ "worth": {
+  "pos": "noun",
+  "gloss": "價值；值錢的程度"
+ },
+ "would": {
+  "pos": "aux",
+  "gloss": "會；過去將來時"
+ },
+ "wound": {
+  "pos": "noun",
+  "gloss": "由破損皮膚引起的身體創傷"
+ },
+ "wrap": {
+  "pos": "verb",
+  "gloss": "用包裹；用紙包住"
+ },
+ "write": {
+  "pos": "verb",
+  "gloss": "書寫；記錄"
+ },
+ "writer": {
+  "pos": "noun",
+  "gloss": "作家；職業寫作者"
+ },
+ "wrong": {
+  "pos": "adj",
+  "gloss": "錯誤的；不對的"
+ },
+ "yard": {
+  "pos": "noun",
+  "gloss": "院子；庭院"
+ },
+ "yeah": {
+  "pos": "intj",
+  "gloss": "是（非正式用語）"
+ },
+ "year": {
+  "pos": "noun",
+  "gloss": "年；一年"
+ },
+ "yellow": {
+  "pos": "noun",
+  "gloss": "檸檬或太陽的顏色"
+ },
+ "yes": {
+  "pos": "intj",
+  "gloss": "表示同意或願意做某事的方式"
+ },
+ "yesterday": {
+  "pos": "noun",
+  "gloss": "昨天"
+ },
+ "yet": {
+  "pos": "adv",
+  "gloss": "至今；到目前為止"
+ },
+ "yield": {
+  "pos": "verb",
+  "gloss": "屈服於某人或某事"
+ },
+ "you": {
+  "pos": "pron",
+  "gloss": "你；對方"
+ },
+ "young": {
+  "pos": "adj",
+  "gloss": "年輕的；未成熟的"
+ },
+ "yourself": {
+  "pos": "pron",
+  "gloss": "你自己"
+ },
+ "youth": {
+  "pos": "noun",
+  "gloss": "年輕時期；年輕人"
+ },
+ "zone": {
+  "pos": "noun",
+  "gloss": "為特定目的使用的區域"
+ }
+}

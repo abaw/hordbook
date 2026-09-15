@@ -1,0 +1,1 @@
+[{"lemma":"snap","pos":"verb","gloss":"折斷；使斷裂"},{"lemma":"gentle","pos":"adj","gloss":"溫柔；和善；不粗暴"},{"lemma":"alongside","pos":"prep","gloss":"在…旁邊；與…並排"},{"lemma":"attachment","pos":"noun","gloss":"深厚情感；依戀；眷戀"}]

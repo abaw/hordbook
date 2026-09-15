@@ -63,6 +63,7 @@ def build_from(stats: Path, defs: Path, **overrides):
         definitions=read_definitions_xlsx(defs),
         ipa=ipa,
         glosses=overrides.pop("glosses", {}),
+        pos=overrides.pop("pos", {}),
         built_at=overrides.pop("built_at", "2026-09-11"),
         **overrides,
     )
@@ -153,6 +154,20 @@ class TestMetadata:
         doc = build_from(*five_word_sources, glosses={"abandon": "遺棄；拋棄"})
         word = next(w for w in doc["words"] if w["lemma"] == "abandon")
         assert word["gloss"] == "遺棄；拋棄"
+
+    def test_pos_is_attached_when_provided(self, five_word_sources):
+        doc = build_from(*five_word_sources, pos={"abandon": "verb"})
+        by_lemma = {w["lemma"]: w for w in doc["words"]}
+        assert by_lemma["abandon"]["pos"] == "verb"
+        assert by_lemma["the"]["pos"] is None
+
+    def test_pos_outside_vocabulary_fails_the_build(self, five_word_sources):
+        with pytest.raises(BuildError, match="article"):
+            build_from(*five_word_sources, pos={"abandon": "article"})
+
+    def test_pos_for_unknown_lemma_fails_the_build(self, five_word_sources):
+        with pytest.raises(BuildError, match="ghost"):
+            build_from(*five_word_sources, pos={"ghost": "noun"})
 
     def test_gloss_for_unknown_lemma_fails_the_build(self, five_word_sources):
         with pytest.raises(BuildError, match="ghost"):

@@ -1,0 +1,13 @@
+```json
+[
+  {"lemma": "alright", "pos": "adj", "gloss": "好的；可以接受"},
+  {"lemma": "lazy", "pos": "adj", "gloss": "不願工作；懶惰"},
+  {"lemma": "hello", "pos": "intj", "gloss": "你好；招呼語"},
+  {"lemma": "hunger", "pos": "noun", "gloss": "飢餓；需要進食"},
+  {"lemma": "insure", "pos": "verb", "gloss": "投保；購買保險"},
+  {"lemma": "ashamed", "pos": "adj", "gloss": "感到羞愧；內疚"},
+  {"lemma": "found", "pos": "verb", "gloss": "創辦；建立"},
+  {"lemma": "blog", "pos": "noun", "gloss": "部落格；網誌"},
+  {"lemma": "thirst", "pos": "noun", "gloss": "口渴；需要飲水"}
+]
+```
