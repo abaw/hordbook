@@ -84,6 +84,7 @@ def enrich_from_wiktionary(
 
 
 def write_json(path: Path, payload: object) -> None:
+    """Write UTF-8 JSON with a trailing newline (shared by the pipeline runners)."""
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(
         json.dumps(payload, ensure_ascii=False, indent=1, sort_keys=False) + "\n",

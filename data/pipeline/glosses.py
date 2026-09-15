@@ -12,7 +12,6 @@ import re
 from dataclasses import dataclass
 from typing import Any, Iterable, Mapping
 
-from .wiktionary import NON_LEXICAL_POS, Entry
 
 # Part-of-speech vocabulary used by the NGSL learning materials.
 NGSL_POS: tuple[str, ...] = (
@@ -33,8 +32,6 @@ WIKTIONARY_TO_NGSL: dict[str, str] = {
     "intj": "intj",
     "num": "num",
 }
-
-MANDARIN_CODES = frozenset({"cmn", "zh"})
 
 # Parts of speech whose glosses are expected to overlap with dictionary
 # translations. Function words get descriptive glosses instead.
@@ -111,13 +108,7 @@ def parse_response(text: str, *, expected: list[str]) -> dict[str, GlossRecord]:
     payload = extract_json_array(text)
     records: dict[str, GlossRecord] = {}
     for item in payload:
-        if not isinstance(item, dict):
-            raise ParseError(f"array item is not an object: {item!r}")
-        record = GlossRecord(
-            lemma=_string_field(item, "lemma"),
-            pos=_string_field(item, "pos"),
-            gloss=_string_field(item, "gloss"),
-        )
+        record = record_from_item(item)
         records[record.lemma] = record
     missing = sorted(set(expected) - set(records))
     unexpected = sorted(set(records) - set(expected))
@@ -145,6 +136,17 @@ def extract_json_array(text: str) -> list[Any]:
     if not isinstance(payload, list):
         raise ParseError("JSON payload is not an array")
     return payload
+
+
+def record_from_item(item: Any) -> GlossRecord:
+    """The one place a decoded JSON item becomes a :class:`GlossRecord`."""
+    if not isinstance(item, dict):
+        raise ParseError(f"array item is not an object: {item!r}")
+    return GlossRecord(
+        lemma=_string_field(item, "lemma"),
+        pos=_string_field(item, "pos"),
+        gloss=_string_field(item, "gloss"),
+    )
 
 
 def _string_field(item: dict[str, Any], key: str) -> str:
@@ -197,26 +199,6 @@ def _shares_cjk_character(gloss: str, translations: list[str]) -> bool:
     return any(gloss_chars & set(_CJK.findall(t)) for t in translations)
 
 
-def extract_zh_translations(entries: list[Entry]) -> list[str]:
-    """Mandarin translation forms from kaikki entries, both scripts, deduplicated.
-
-    kaikki writes paired forms as ``"放棄 /放弃"``; some entries list the
-    scripts as separate translations instead. Both shapes are handled.
-    """
-    forms: list[str] = []
-    for entry in entries:
-        if entry.get("pos") in NON_LEXICAL_POS:
-            continue
-        for translation in entry.get("translations", []) or []:
-            if translation.get("code") not in MANDARIN_CODES:
-                continue
-            for form in str(translation.get("word", "")).split("/"):
-                form = form.strip()
-                if form and form not in forms:
-                    forms.append(form)
-    return forms
-
-
 def assemble(
     records: Mapping[str, GlossRecord],
     *,
@@ -237,6 +219,8 @@ def assemble(
         record = records[lemma]
         override = overrides.get(lemma, {})
         if "gloss" in override or "pos" in override:
+            if not ("gloss" in override and "pos" in override):
+                raise ValueError(f"override for '{lemma}' must set both pos and gloss")
             record = GlossRecord(lemma=lemma, pos=str(override["pos"]), gloss=str(override["gloss"]))
         waived = set(override.get("waive", []))
         problems = [

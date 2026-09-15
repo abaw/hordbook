@@ -19,11 +19,12 @@ from pipeline.glosses import (
     allowed_pos,
     assemble,
     check_record,
-    extract_zh_translations,
     make_batches,
     parse_response,
+    record_from_item,
     render_prompt,
 )
+from pipeline.wiktionary import extract_zh_translations
 
 FIXTURES = Path(__file__).parent / "fixtures"
 
@@ -55,6 +56,11 @@ class TestPrompt:
 
 
 class TestParse:
+    def test_record_from_item_is_the_single_place_items_become_records(self):
+        assert record_from_item({"lemma": " a ", "pos": "det ", "gloss": " 一"}) == GlossRecord("a", "det", "一")
+        with pytest.raises(ParseError, match="gloss"):
+            record_from_item({"lemma": "a", "pos": "det"})
+
     def test_parses_plain_json_array(self):
         text = json.dumps([{"lemma": "abandon", "pos": "verb", "gloss": "遺棄；拋棄"}])
         records = parse_response(text, expected=["abandon"])
@@ -212,6 +218,11 @@ class TestAssemble:
             overrides={"zone": {"waive": ["no-wiktionary-overlap"]}},
         )
         assert queue[0]["problems"] == ["simplified-characters"]
+
+    def test_partial_override_is_rejected_with_a_clear_error(self):
+        records = {"zone": GlossRecord("zone", "noun", "地区")}
+        with pytest.raises(ValueError, match="zone.*both"):
+            assemble(records, candidates={}, translations={}, overrides={"zone": {"gloss": "地區"}})
 
     def test_override_that_still_fails_checks_stays_in_queue(self):
         records = {"zone": GlossRecord("zone", "noun", "地区")}

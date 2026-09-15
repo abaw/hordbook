@@ -19,6 +19,7 @@ Entry = dict[str, Any]
 NON_LEXICAL_POS = frozenset({"character", "symbol", "name", "punct", "letter"})
 
 US_TAGS = frozenset({"US", "General-American", "GenAm", "GA"})
+MANDARIN_CODES = frozenset({"cmn", "zh"})
 
 
 def kaikki_url(lemma: str) -> str:
@@ -100,3 +101,21 @@ def extract_pos_candidates(entries: list[Entry]) -> list[str]:
         if pos and pos not in seen:
             seen.append(pos)
     return seen
+
+
+def extract_zh_translations(entries: list[Entry]) -> list[str]:
+    """Mandarin translation forms from kaikki entries, both scripts, deduplicated.
+
+    kaikki writes paired forms as ``"放棄 /放弃"``; some entries list the
+    scripts as separate translations instead. Both shapes are handled.
+    """
+    forms: list[str] = []
+    for entry in _lexical(entries):
+        for translation in entry.get("translations", []) or []:
+            if translation.get("code") not in MANDARIN_CODES:
+                continue
+            for form in str(translation.get("word", "")).split("/"):
+                form = form.strip()
+                if form and form not in forms:
+                    forms.append(form)
+    return forms

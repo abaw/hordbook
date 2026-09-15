@@ -28,19 +28,19 @@ from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 from typing import Any
 
-from .build_ngsl import CACHE_DIR, DATA_DIR, DERIVED_DIR, OUTPUT_FILE
+from .build_ngsl import CACHE_DIR, DATA_DIR, DERIVED_DIR, OUTPUT_FILE, write_json
 from .glosses import (
     GlossRecord,
     ParseError,
     WordInput,
     assemble,
     extract_json_array,
-    extract_zh_translations,
     make_batches,
     parse_response,
+    record_from_item,
     render_prompt,
 )
-from .wiktionary import fetch_entries
+from .wiktionary import extract_zh_translations, fetch_entries
 
 GLOSSES_DIR = DATA_DIR / "glosses"
 RAW_DIR = GLOSSES_DIR / "raw"
@@ -141,17 +141,13 @@ def load_cached_review_records(words_by_lemma: dict[str, WordInput]) -> dict[str
         except ParseError:
             continue
         for item in payload:
-            if not isinstance(item, dict):
+            try:
+                record = record_from_item(item)
+            except ParseError:
                 continue
-            lemma = str(item.get("lemma", "")).strip()
-            if lemma in words_by_lemma and isinstance(item.get("pos"), str) and isinstance(item.get("gloss"), str):
-                merged[lemma] = GlossRecord(lemma=lemma, pos=item["pos"].strip(), gloss=item["gloss"].strip())
+            if record.lemma in words_by_lemma:
+                merged[record.lemma] = record
     return merged
-
-
-def write_json(path: Path, payload: Any) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(payload, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -192,8 +188,9 @@ def main(argv: list[str] | None = None) -> int:
         try:
             for offset, batch in enumerate(review_batches, existing + 1):
                 raw_file = RAW_DIR / f"review-{offset:03d}.txt"
-                records.update(run_batch(batch, raw_file, agent=REVIEW_AGENT))
-                print(f"  {raw_file.name}: {len(batch)} records")
+                reviewed = run_batch(batch, raw_file, agent=REVIEW_AGENT)
+                records.update(reviewed)
+                print(f"  {raw_file.name}: {len(reviewed)} records")
         except (ParseError, RuntimeError) as error:
             print(f"review failed: {error}", file=sys.stderr)
             return 1
