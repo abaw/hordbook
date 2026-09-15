@@ -1,0 +1,108 @@
+/* Base styles: follow the system for colour scheme and text size. */
+
+:root {
+  color-scheme: light dark;
+
+  --bg: #f6f4ef;
+  --surface: #ffffff;
+  --text: #1c1b18;
+  --muted: #6b675e;
+  --accent: #b5541c;
+  --accent-text: #ffffff;
+  --border: #e2ddd2;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #111318;
+    --surface: #1b1e26;
+    --text: #ece9e2;
+    --muted: #9b978d;
+    --accent: #e08a4f;
+    --accent-text: #161616;
+    --border: #2a2e39;
+  }
+}
+
+html {
+  /* Opts into iOS Dynamic Type: the base size follows the user's text-size setting. */
+  font: -apple-system-body;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang TC",
+    "Noto Sans TC", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  background: var(--bg);
+  color: var(--text);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100dvh;
+  line-height: 1.45;
+  -webkit-font-smoothing: antialiased;
+  overscroll-behavior-y: none;
+}
+
+.screen {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: calc(env(safe-area-inset-top) + 1rem) calc(env(safe-area-inset-right) + 1rem)
+    calc(env(safe-area-inset-bottom) + 1.5rem) calc(env(safe-area-inset-left) + 1rem);
+}
+
+.screen__header h1 {
+  margin: 0;
+  font-size: 1.75em;
+  letter-spacing: -0.01em;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.card,
+.hint {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 0.875rem;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.card h2,
+.hint__title {
+  margin: 0 0 0.25rem;
+  font-size: 1.125em;
+}
+
+.card p,
+.hint p {
+  margin: 0.25rem 0;
+}
+
+.button {
+  display: inline-block;
+  min-height: 44px; /* iOS minimum comfortable tap target */
+  min-width: 44px;
+  padding: 0.6rem 1rem;
+  margin-top: 0.5rem;
+  border: 0;
+  border-radius: 0.625rem;
+  background: var(--accent);
+  color: var(--accent-text);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.button:focus-visible {
+  outline: 3px solid var(--text);
+  outline-offset: 2px;
+}
