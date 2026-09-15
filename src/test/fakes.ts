@@ -1,4 +1,10 @@
-import type { Collection, Platform, ProgressStore, Word } from "../ports";
+import type { Collection, License, Platform, ProgressStore, Word } from "../ports";
+
+export const CC_BY_SA_4: License = {
+  spdx: "CC-BY-SA-4.0",
+  name: "CC BY-SA 4.0",
+  url: "https://creativecommons.org/licenses/by-sa/4.0/",
+};
 
 export function fixtureWord(overrides: Partial<Word> = {}): Word {
   return {
@@ -27,7 +33,7 @@ export function fixtureCollection(
     id: "fx",
     name: "Fixture Collection",
     source: { name: "Fixture", version: "0", urls: ["https://example.test/"] },
-    license: { spdx: "CC-BY-SA-4.0", name: "CC BY-SA 4.0", url: "https://creativecommons.org/licenses/by-sa/4.0/" },
+    license: CC_BY_SA_4,
     attribution: "Fixture attribution",
     builtAt: "2026-01-01",
     sortKey: "rank",

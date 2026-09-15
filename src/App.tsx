@@ -48,7 +48,7 @@ export function App({ collection, progressStore, platform }: Ports) {
       <section class="card" aria-labelledby="collection-title">
         <h2 id="collection-title">{collection.name}</h2>
         <p>{collection.words.length.toLocaleString("en")} words, sorted by {collection.sortKey}</p>
-        <p class="muted">Word list coming next.</p>
+        <p class="muted">Browsing the words by rank comes next.</p>
       </section>
     </main>
   );

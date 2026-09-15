@@ -1,12 +1,12 @@
-import type { Collection, PartOfSpeech, Word } from "./ports";
+import { isPartOfSpeech, type Collection, type License, type Source, type Word } from "./ports";
 
 /** Shape of `collections/*.json` as written by the data pipeline (schema version 1). */
 export interface CollectionFile {
   schema_version: number;
   id: string;
   name: string;
-  source: { name: string; version: string; urls: string[] };
-  license: { spdx: string; name: string; url: string };
+  source: Source;
+  license: License;
   attribution: string;
   built_at: string;
   sort_key: string;
@@ -52,10 +52,13 @@ export function collectionFromFile(file: CollectionFile): Collection {
 }
 
 function wordFromFile(word: CollectionFile["words"][number]): Word {
+  if (word.pos !== null && !isPartOfSpeech(word.pos)) {
+    throw new Error(`unsupported pos "${word.pos}" on word ${word.id}`);
+  }
   return {
     id: word.id,
     lemma: word.lemma,
-    pos: word.pos as PartOfSpeech | null,
+    pos: word.pos,
     rank: word.rank,
     ipa: word.ipa,
     definition: word.definition,

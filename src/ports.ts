@@ -7,18 +7,39 @@
  */
 
 /** The NGSL part-of-speech vocabulary used by collection files. */
-export type PartOfSpeech =
-  | "noun"
-  | "verb"
-  | "adj"
-  | "adv"
-  | "prep"
-  | "pron"
-  | "conj"
-  | "det"
-  | "aux"
-  | "intj"
-  | "num";
+export const PARTS_OF_SPEECH = [
+  "noun",
+  "verb",
+  "adj",
+  "adv",
+  "prep",
+  "pron",
+  "conj",
+  "det",
+  "aux",
+  "intj",
+  "num",
+] as const;
+
+export type PartOfSpeech = (typeof PARTS_OF_SPEECH)[number];
+
+export function isPartOfSpeech(value: unknown): value is PartOfSpeech {
+  return typeof value === "string" && (PARTS_OF_SPEECH as readonly string[]).includes(value);
+}
+
+/** Where a collection's words came from. */
+export interface Source {
+  name: string;
+  version: string;
+  urls: string[];
+}
+
+/** The licence a collection's data is redistributed under. */
+export interface License {
+  spdx: string;
+  name: string;
+  url: string;
+}
 
 export interface Word {
   /** Stable, collection-namespaced identifier, e.g. `ngsl:abandon`. */
@@ -37,8 +58,8 @@ export interface Collection {
   schemaVersion: number;
   id: string;
   name: string;
-  source: { name: string; version: string; urls: string[] };
-  license: { spdx: string; name: string; url: string };
+  source: Source;
+  license: License;
   attribution: string;
   builtAt: string;
   sortKey: "rank";

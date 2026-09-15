@@ -1,13 +1,14 @@
 import { describe, expect, it } from "vitest";
 
 import { collectionFromFile } from "./collectionFile";
+import { CC_BY_SA_4 } from "./test/fakes";
 
 const file = {
   schema_version: 1,
   id: "ngsl",
   name: "New General Service List 1.2",
   source: { name: "New General Service List", version: "1.2", urls: ["https://example.test/"] },
-  license: { spdx: "CC-BY-SA-4.0", name: "CC BY-SA 4.0", url: "https://creativecommons.org/licenses/by-sa/4.0/" },
+  license: CC_BY_SA_4,
   attribution: "attribution text",
   built_at: "2026-09-11",
   sort_key: "rank",
@@ -43,6 +44,11 @@ describe("collectionFromFile", () => {
 
   it("rejects a file whose schema version it does not understand", () => {
     expect(() => collectionFromFile({ ...file, schema_version: 2 })).toThrow(/schema version 2/);
+  });
+
+  it("rejects a word whose part of speech is outside the vocabulary", () => {
+    const words = [{ ...file.words[0]!, pos: "article" }, file.words[1]!];
+    expect(() => collectionFromFile({ ...file, words, word_count: 2 })).toThrow(/pos "article".*ngsl:the/);
   });
 
   it("rejects a file whose word count disagrees with its words", () => {
