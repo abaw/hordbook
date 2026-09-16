@@ -1,8 +1,9 @@
-import { useEffect, useState } from "preact/hooks";
+import { useEffect, useMemo, useState } from "preact/hooks";
 
 import hintFigure from "../assets/hint-add-to-home-screen.png";
-import type { Collection, Platform, ProgressStore } from "../ports";
+import { isPartOfSpeech, type Collection, type PartOfSpeech, type Platform, type ProgressStore, type Word } from "../ports";
 import { routes } from "../route";
+import { filterLevels, levelsOf, PART_OF_SPEECH_LABELS, partsOfSpeechIn } from "../wordList";
 
 const HINT_DISMISSED_KEY = "hint.addToHomeScreen.dismissed";
 
@@ -14,6 +15,11 @@ interface HomeProps {
 
 export function Home({ collection, progressStore, platform }: HomeProps) {
   const [hintVisible, setHintVisible] = useState(false);
+  const [search, setSearch] = useState("");
+  const [pos, setPos] = useState<PartOfSpeech | null>(null);
+  const levels = useMemo(() => levelsOf(collection), [collection]);
+  const partsOfSpeech = useMemo(() => partsOfSpeechIn(collection), [collection]);
+  const visibleLevels = useMemo(() => filterLevels(levels, { search, pos }), [levels, search, pos]);
 
   useEffect(() => {
     if (platform.isStandalone) return;
@@ -36,7 +42,9 @@ export function Home({ collection, progressStore, platform }: HomeProps) {
       <header class="screen__header screen__header--with-actions">
         <div>
           <h1>Hordbook</h1>
-          <p class="muted">A personal word hoard</p>
+          <p class="muted">
+            {collection.name} · {collection.words.length.toLocaleString("en")} words
+          </p>
         </div>
         <a class="icon-link" href={routes.settings} aria-label="Settings">
           <svg aria-hidden="true" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
@@ -62,11 +70,73 @@ export function Home({ collection, progressStore, platform }: HomeProps) {
         </aside>
       )}
 
-      <section class="card" aria-labelledby="collection-title">
-        <h2 id="collection-title">{collection.name}</h2>
-        <p>{collection.words.length.toLocaleString("en")} words, sorted by {collection.sortKey}</p>
-        <p class="muted">Browsing the words by rank comes next.</p>
-      </section>
+      <div class="toolbar" role="search">
+        <label class="visually-hidden" for="search">
+          Search words
+        </label>
+        <input
+          id="search"
+          class="toolbar__search"
+          type="search"
+          placeholder="Search words"
+          autocomplete="off"
+          autocapitalize="none"
+          spellcheck={false}
+          value={search}
+          onInput={(event) => setSearch(event.currentTarget.value)}
+        />
+        <label class="visually-hidden" for="pos-filter">
+          Part of speech
+        </label>
+        <select
+          id="pos-filter"
+          class="toolbar__select"
+          value={pos ?? ""}
+          onChange={(event) => {
+            const value = event.currentTarget.value;
+            setPos(isPartOfSpeech(value) ? value : null);
+          }}
+        >
+          <option value="">All parts of speech</option>
+          {partsOfSpeech.map((p) => (
+            <option key={p} value={p}>
+              {PART_OF_SPEECH_LABELS[p].name}
+            </option>
+          ))}
+        </select>
+      </div>
+
+      {visibleLevels.length === 0 && (
+        <p class="empty" role="status">
+          No words match{search.trim() ? ` “${search.trim()}”` : ""}
+          {pos ? ` (${PART_OF_SPEECH_LABELS[pos].name})` : ""}.
+        </p>
+      )}
+
+      {visibleLevels.map((level) => (
+        <section key={level.number} class="level" aria-labelledby={`level-${level.number}`}>
+          <header class="level__header">
+            <h2 id={`level-${level.number}`}>Level {level.number}</h2>
+            <p class="muted">
+              Ranks {level.firstRank}–{level.lastRank}
+            </p>
+          </header>
+          <ol class="rows">
+            {level.words.map((word) => (
+              <WordRow key={word.id} word={word} />
+            ))}
+          </ol>
+        </section>
+      ))}
     </main>
+  );
+}
+
+function WordRow({ word }: { word: Word }) {
+  return (
+    <li class="row">
+      <span class="row__rank">{word.rank}</span> <span class="row__lemma">{word.lemma}</span>{" "}
+      <span class="row__pos muted">{word.pos ? PART_OF_SPEECH_LABELS[word.pos].short : ""}</span>
+    </li>
   );
 }

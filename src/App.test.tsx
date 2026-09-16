@@ -9,8 +9,7 @@ describe("App root", () => {
     renderApp({ collection: fixtureCollection({ name: "Fixture Collection 0.1", wordCount: 3 }) });
 
     expect(screen.getByRole("heading", { level: 1, name: "Hordbook" })).toBeInTheDocument();
-    expect(screen.getByText("Fixture Collection 0.1")).toBeInTheDocument();
-    expect(screen.getByText(/3 words/)).toBeInTheDocument();
+    expect(screen.getByText("Fixture Collection 0.1 · 3 words")).toBeInTheDocument();
   });
 
   it("shows the Add to Home Screen hint until it is dismissed, and remembers the dismissal", async () => {
