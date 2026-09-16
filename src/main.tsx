@@ -10,6 +10,9 @@ import "./styles.css";
 // New versions activate on the next launch; nothing to prompt for.
 registerSW({ immediate: true });
 
+// The app restores the list's scroll position itself when a word card closes.
+history.scrollRestoration = "manual";
+
 const collection = collectionFromFile(ngslFile as CollectionFile);
 
 // package.json version, plus the commit the Pages workflow built from.

@@ -1,14 +1,44 @@
+import { useLayoutEffect, useRef } from "preact/hooks";
+
 import type { Ports } from "./ports";
-import { useRoute } from "./route";
+import { type Route, useRoute } from "./route";
 import { Home } from "./screens/Home";
 import { Settings } from "./screens/Settings";
+import { WordCard } from "./screens/WordCard";
 
 export function App({ collection, progressStore, platform, appVersion }: Ports) {
   const route = useRoute();
-  switch (route.screen) {
-    case "settings":
-      return <Settings collection={collection} appVersion={appVersion} />;
-    case "home":
-      return <Home collection={collection} progressStore={progressStore} platform={platform} />;
+  useListScrollRestore(route);
+
+  if (route.screen === "settings") {
+    return <Settings collection={collection} appVersion={appVersion} />;
   }
+  // The list stays mounted (hidden) under a word card so that its filters
+  // and scroll position survive the round trip.
+  return (
+    <>
+      <Home collection={collection} progressStore={progressStore} platform={platform} hidden={route.screen !== "home"} />
+      {route.screen === "word" && <WordCard collection={collection} platform={platform} wordId={route.wordId} />}
+    </>
+  );
+}
+
+/**
+ * Remembers where the list was scrolled when a word card opens and puts it
+ * back on return; cards themselves always open at the top.
+ */
+function useListScrollRestore(route: Route) {
+  const previous = useRef<Route["screen"] | null>(null);
+  const listScrollY = useRef(0);
+  useLayoutEffect(() => {
+    const from = previous.current;
+    previous.current = route.screen;
+    if (from === route.screen) return;
+    if (from === "home") listScrollY.current = window.scrollY;
+    if (route.screen === "home" && from !== null) {
+      window.scrollTo(0, listScrollY.current);
+    } else if (route.screen !== "home") {
+      window.scrollTo(0, 0);
+    }
+  }, [route.screen, route.screen === "word" ? route.wordId : null]);
 }

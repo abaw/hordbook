@@ -29,9 +29,9 @@ export interface Level {
  * (NGSL: 2,809 words in seven levels, the last covering 2401–2809).
  */
 export function levelsOf(collection: Collection): Level[] {
-  const sorted = [...collection.words].sort((a, b) => a.rank - b.rank);
+  const sorted = sortedByRank(collection);
   const { levelSize } = collection;
-  const count = Math.max(1, Math.round(sorted.length / levelSize));
+  const count = levelCount(collection);
   return Array.from({ length: count }, (_, index) => {
     const firstRank = index * levelSize + 1;
     const isLast = index === count - 1;
@@ -67,4 +67,34 @@ export function filterLevels(levels: Level[], filter: WordFilter): Level[] {
 export function partsOfSpeechIn(collection: Collection): PartOfSpeech[] {
   const present = new Set(collection.words.map((w) => w.pos));
   return PARTS_OF_SPEECH.filter((pos) => present.has(pos));
+}
+
+function sortedByRank(collection: Collection): Word[] {
+  return [...collection.words].sort((a, b) => a.rank - b.rank);
+}
+
+/** Rounded, so a small remainder joins the last level rather than forming its own. */
+function levelCount(collection: Collection): number {
+  return Math.max(1, Math.round(collection.words.length / collection.levelSize));
+}
+
+/** The level a rank belongs to. */
+export function levelNumberOf(collection: Collection, rank: number): number {
+  return Math.min(levelCount(collection), Math.ceil(rank / collection.levelSize));
+}
+
+export interface WordPosition {
+  word: Word;
+  /** The word one rank earlier, if any. */
+  previous: Word | null;
+  /** The word one rank later, if any. */
+  next: Word | null;
+}
+
+/** Locates a word by ID together with its neighbours in rank order. */
+export function locateWord(collection: Collection, wordId: string): WordPosition | null {
+  const sorted = sortedByRank(collection);
+  const index = sorted.findIndex((w) => w.id === wordId);
+  if (index === -1) return null;
+  return { word: sorted[index]!, previous: sorted[index - 1] ?? null, next: sorted[index + 1] ?? null };
 }

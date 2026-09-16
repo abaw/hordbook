@@ -11,9 +11,11 @@ interface HomeProps {
   collection: Collection;
   progressStore: ProgressStore;
   platform: Platform;
+  /** Kept mounted but hidden while a word card is open. */
+  hidden?: boolean;
 }
 
-export function Home({ collection, progressStore, platform }: HomeProps) {
+export function Home({ collection, progressStore, platform, hidden = false }: HomeProps) {
   const [hintVisible, setHintVisible] = useState(false);
   const [search, setSearch] = useState("");
   const [pos, setPos] = useState<PartOfSpeech | null>(null);
@@ -38,7 +40,7 @@ export function Home({ collection, progressStore, platform }: HomeProps) {
   };
 
   return (
-    <main class="screen">
+    <main class="screen" hidden={hidden}>
       <header class="screen__header screen__header--with-actions">
         <div>
           <h1>Hordbook</h1>
@@ -135,8 +137,10 @@ export function Home({ collection, progressStore, platform }: HomeProps) {
 function WordRow({ word }: { word: Word }) {
   return (
     <li class="row">
-      <span class="row__rank">{word.rank}</span> <span class="row__lemma">{word.lemma}</span>{" "}
-      <span class="row__pos muted">{word.pos ? PART_OF_SPEECH_LABELS[word.pos].short : ""}</span>
+      <a class="row__link" href={routes.word(word.id)}>
+        <span class="row__rank">{word.rank}</span> <span class="row__lemma">{word.lemma}</span>{" "}
+        <span class="row__pos muted">{word.pos ? PART_OF_SPEECH_LABELS[word.pos].short : ""}</span>
+      </a>
     </li>
   );
 }

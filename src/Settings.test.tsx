@@ -39,12 +39,11 @@ describe("Settings and About", () => {
   });
 
   it("credits the NGSL authors under CC BY-SA 4.0 and links to the source site for the shipped collection", async () => {
-    const user = userEvent.setup();
+    window.location.hash = "#/settings";
+    await settleNavigation();
     renderApp({ collection: collectionFromFile(ngslFile as CollectionFile) });
 
-    await user.click(screen.getByRole("link", { name: "Settings" }));
-
-    const about = await screen.findByRole("region", { name: "About" });
+    const about = screen.getByRole("region", { name: "About" });
     expect(within(about).getByText(/Charles Browne, Brent Culligan and Joseph Phillips/)).toBeInTheDocument();
     expect(within(about).getByText(/CC BY-SA 4\.0/)).toBeInTheDocument();
     expect(within(about).getByRole("link", { name: "New General Service List 1.2" })).toHaveAttribute(
