@@ -2,7 +2,7 @@ import type { Collection, License, Platform, ProgressStore, Word } from "../port
 
 export const CC_BY_SA_4: License = {
   spdx: "CC-BY-SA-4.0",
-  name: "CC BY-SA 4.0",
+  name: "Creative Commons Attribution-ShareAlike 4.0 International",
   url: "https://creativecommons.org/licenses/by-sa/4.0/",
 };
 

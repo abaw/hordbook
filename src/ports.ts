@@ -85,4 +85,6 @@ export interface Ports {
   collection: Collection;
   progressStore: ProgressStore;
   platform: Platform;
+  /** Build identifier shown in About, e.g. `0.1.0 (62a4df3)`. */
+  appVersion: string;
 }

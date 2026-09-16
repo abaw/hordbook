@@ -3,12 +3,17 @@ import preact from "@preact/preset-vite";
 import { defineConfig } from "vite";
 import { VitePWA } from "vite-plugin-pwa";
 
+import pkg from "./package.json";
+
 // GitHub Pages serves the project under /hordbook/. The installed home-screen
 // app's start URL is derived from this, so it must not change after launch.
 export const BASE_PATH = "/hordbook/";
 
 export default defineConfig({
   base: BASE_PATH,
+  define: {
+    __APP_VERSION__: JSON.stringify(pkg.version),
+  },
   plugins: [
     preact(),
     VitePWA({

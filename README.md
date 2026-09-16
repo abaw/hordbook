@@ -23,7 +23,7 @@ npm run build      # typecheck + production build with manifest and service work
 npm run preview    # serve dist/ locally under /hordbook/
 ```
 
-The app is Preact + TypeScript + Vite. `src/App.tsx` is the single root; it receives its dependencies as ports (`src/ports.ts`): the collection, a progress store and a platform object. Production wiring lives in `src/main.tsx` and `src/browser.ts`; tests wire in-memory fakes from `src/test/fakes.ts`.
+The app is Preact + TypeScript + Vite. `src/App.tsx` is the single root; it receives its dependencies as ports (`src/ports.ts`): the collection, a progress store, a platform object and the app version. Screens live in `src/screens/` and are addressed by URL fragment (`#/settings`) so the browser back button works in the installed app. Production wiring lives in `src/main.tsx` and `src/browser.ts`; tests wire in-memory fakes from `src/test/fakes.ts` through `src/test/renderApp.tsx`.
 
 Deployment: pushing to `main` runs `.github/workflows/pages.yml`, which tests, builds and publishes `dist/` to GitHub Pages.
 
