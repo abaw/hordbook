@@ -86,6 +86,13 @@ body {
   margin: 0.25rem 0;
 }
 
+.hint__figure {
+  display: block;
+  width: min(100%, 15rem);
+  height: auto;
+  margin: 0.5rem auto 0.75rem;
+}
+
 .button {
   display: inline-block;
   min-height: 44px; /* iOS minimum comfortable tap target */

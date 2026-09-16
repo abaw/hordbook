@@ -25,6 +25,8 @@ The app is Preact + TypeScript + Vite. `src/App.tsx` is the single root; it rece
 
 Deployment: pushing to `main` runs `.github/workflows/pages.yml`, which tests, builds and publishes `dist/` to GitHub Pages.
 
+Images: the masters live in `design/`; `python3 design/derive.py` (needs Pillow) regenerates the icons in `public/`, the illustrations in `src/assets/` and the social banner.
+
 ## Data
 
 Collection files live in `collections/` and are built by the pipeline in `data/` (see `data/README.md`). Data is licensed CC BY-SA 4.0 with attribution (`collections/LICENSE-DATA.md`); code is MIT (`LICENSE`).

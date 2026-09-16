@@ -1,5 +1,6 @@
 import { useEffect, useState } from "preact/hooks";
 
+import hintFigure from "./assets/hint-add-to-home-screen.png";
 import type { Ports } from "./ports";
 
 const HINT_DISMISSED_KEY = "hint.addToHomeScreen.dismissed";
@@ -35,6 +36,7 @@ export function App({ collection, progressStore, platform }: Ports) {
           <h2 id="hint-title" class="hint__title">
             Add to Home Screen
           </h2>
+          <img class="hint__figure" src={hintFigure} alt="" width="720" height="300" />
           <p>
             In Safari, tap <strong>Share</strong> and then <strong>Add to Home Screen</strong>. Hordbook then
             opens full-screen and works offline.
