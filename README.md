@@ -1,5 +1,7 @@
 # Hordbook
 
+![Hordbook: a personal word hoard for learning English, one collection at a time.](design/social-banner.png)
+
 A personal, rank-ordered word hoard for learning English vocabulary, one collection at a time. The first collection is the New General Service List (NGSL 1.2): 2,809 words with easy-English definitions, Traditional Chinese glosses and IPA.
 
 Hordbook is a static single-page web app (PWA) meant to be installed on an iPhone home screen. It has no server and no account; progress stays on the device.
