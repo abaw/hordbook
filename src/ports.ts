@@ -68,10 +68,34 @@ export interface Collection {
   words: Word[];
 }
 
-/** On-device persistence. Word-level progress records are added by later tickets. */
+/** The learner's per-word status. `unseen` is the default and is never stored. */
+export type ProgressState = "unseen" | "learning" | "known";
+
+/**
+ * Per-word progress, keyed by word ID. A record exists only for words the
+ * learner has marked; absence means `unseen`. The spaced-repetition fields
+ * are reserved so that review scheduling can be added without a migration:
+ *
+ * - `firstSeen`: ISO timestamp of the first time the word was marked.
+ * - `lastReviewed`: ISO timestamp of the most recent state change.
+ * - `interval`: days until the next review; always `0` in v1 (no scheduling).
+ */
+export interface ProgressRecord {
+  wordId: string;
+  state: Exclude<ProgressState, "unseen">;
+  firstSeen: string;
+  lastReviewed: string;
+  interval: number;
+}
+
+/** On-device persistence: small settings plus one record per marked word. */
 export interface ProgressStore {
   getSetting(key: string): Promise<string | null>;
   setSetting(key: string, value: string): Promise<void>;
+  /** Every stored record; the app keeps them in memory afterwards. */
+  getAllRecords(): Promise<ProgressRecord[]>;
+  putRecord(record: ProgressRecord): Promise<void>;
+  deleteRecord(wordId: string): Promise<void>;
 }
 
 /** Device capabilities the app touches. */

@@ -3,8 +3,9 @@ import { registerSW } from "virtual:pwa-register";
 
 import ngslFile from "../collections/ngsl.json";
 import { App } from "./App";
-import { browserPlatform, localStorageSettings } from "./browser";
+import { browserPlatform } from "./browser";
 import { collectionFromFile, type CollectionFile } from "./collectionFile";
+import { indexedDbProgressStore } from "./indexedDb";
 import "./styles.css";
 
 // New versions activate on the next launch; nothing to prompt for.
@@ -22,7 +23,7 @@ const appVersion = `${__APP_VERSION__} (${commit ? commit.slice(0, 7) : "dev"})`
 render(
   <App
     collection={collection}
-    progressStore={localStorageSettings()}
+    progressStore={indexedDbProgressStore()}
     platform={browserPlatform()}
     appVersion={appVersion}
   />,

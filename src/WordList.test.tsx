@@ -15,7 +15,7 @@ const words = [
   fixtureWord({ id: "fx:able", lemma: "able", pos: "adj", rank: 7 }),
 ];
 
-function renderWordList() {
+async function renderWordList() {
   // Standalone: no first-launch hint competing for headings.
   return renderApp({
     collection: fixtureCollection({ words, levelSize: 3 }),
@@ -28,8 +28,8 @@ function rowTexts() {
 }
 
 describe("Word list", () => {
-  it("shows every word in rank order with rank, lemma and part of speech", () => {
-    renderWordList();
+  it("shows every word in rank order with rank, lemma and part of speech", async () => {
+    await renderWordList();
 
     expect(rowTexts()).toEqual([
       "1 the det.",
@@ -42,8 +42,8 @@ describe("Word list", () => {
     ]);
   });
 
-  it("groups words into levels of the collection's level size, the last level taking the remainder", () => {
-    renderWordList();
+  it("groups words into levels of the collection's level size, the last level taking the remainder", async () => {
+    await renderWordList();
 
     const levels = screen.getAllByRole("region", { name: /^Level \d/ });
     expect(levels.map((level) => within(level).getByRole("heading", { level: 2 }).textContent)).toEqual([
@@ -57,7 +57,7 @@ describe("Word list", () => {
 
   it("filters to words whose lemma starts with the search text, as it is typed", async () => {
     const user = userEvent.setup();
-    renderWordList();
+    await renderWordList();
 
     await user.type(screen.getByRole("searchbox", { name: "Search words" }), "ab");
 
@@ -70,7 +70,7 @@ describe("Word list", () => {
 
   it("restricts the list to one part of speech, combined with the search", async () => {
     const user = userEvent.setup();
-    renderWordList();
+    await renderWordList();
     const posFilter = screen.getByRole("combobox", { name: "Part of speech" });
 
     expect(within(posFilter).getAllByRole("option").map((o) => o.textContent)).toEqual([
@@ -95,7 +95,7 @@ describe("Word list", () => {
 
   it("shows an empty state when nothing matches, and recovers when the search is cleared", async () => {
     const user = userEvent.setup();
-    renderWordList();
+    await renderWordList();
     const search = screen.getByRole("searchbox", { name: "Search words" });
 
     await user.type(search, "zzz");

@@ -1,4 +1,4 @@
-import { PARTS_OF_SPEECH, type Collection, type PartOfSpeech, type Word } from "./ports";
+import { PARTS_OF_SPEECH, type Collection, type PartOfSpeech, type ProgressState, type Word } from "./ports";
 
 /** Display labels for the collection file's part-of-speech codes. */
 export const PART_OF_SPEECH_LABELS: Record<PartOfSpeech, { short: string; name: string }> = {
@@ -50,14 +50,18 @@ export interface WordFilter {
   search: string;
   /** Restrict to one part of speech; null matches everything. */
   pos: PartOfSpeech | null;
+  /** Restrict to one progress state; null matches everything. */
+  state: ProgressState | null;
 }
 
 /** Keeps the words matching the filter; levels left empty are dropped. */
-export function filterLevels(levels: Level[], filter: WordFilter): Level[] {
+export function filterLevels(levels: Level[], filter: WordFilter, stateOf: (wordId: string) => ProgressState): Level[] {
   const prefix = filter.search.trim().toLocaleLowerCase("en");
-  if (prefix === "" && filter.pos === null) return levels;
+  if (prefix === "" && filter.pos === null && filter.state === null) return levels;
   const matches = (w: Word) =>
-    (filter.pos === null || w.pos === filter.pos) && w.lemma.toLocaleLowerCase("en").startsWith(prefix);
+    (filter.pos === null || w.pos === filter.pos) &&
+    (filter.state === null || stateOf(w.id) === filter.state) &&
+    w.lemma.toLocaleLowerCase("en").startsWith(prefix);
   return levels
     .map((level) => ({ ...level, words: level.words.filter(matches) }))
     .filter((level) => level.words.length > 0);

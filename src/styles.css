@@ -376,3 +376,121 @@ a:focus-visible,
   font-weight: 400;
   margin-right: 0.35em;
 }
+
+/* Progress state ----------------------------------------------------------- */
+
+:root {
+  --learning: var(--accent);
+  --known: #2e8b57;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --known: #5cbf85;
+  }
+}
+
+.state {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-width: 44px;
+  min-height: 44px;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--text);
+  font: inherit;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.state--row {
+  flex: 0 0 44px;
+  margin-right: 0.25rem;
+}
+
+.state--card {
+  padding: 0 1rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-weight: 600;
+}
+
+.state__dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 2px solid var(--muted);
+  box-sizing: border-box;
+}
+
+.state--learning .state__dot {
+  border-color: var(--learning);
+  background: var(--learning);
+}
+
+.state--known .state__dot {
+  border-color: var(--known);
+  background: var(--known);
+}
+
+.state:focus-visible {
+  outline: 3px solid var(--text);
+  outline-offset: 2px;
+  border-radius: 0.625rem;
+}
+
+.word__state {
+  margin: 1rem 0 0;
+}
+
+.progress {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  min-width: 6rem;
+}
+
+.progress__bar {
+  display: flex;
+  height: 6px;
+  border-radius: 3px;
+  background: var(--border);
+  overflow: hidden;
+}
+
+.progress__known {
+  background: var(--known);
+}
+
+.progress__learning {
+  background: var(--learning);
+}
+
+.progress__counts {
+  margin: 0;
+  font-size: 0.8125em;
+  white-space: nowrap;
+}
+
+/* Overall bar sits between the header and the toolbar. */
+.screen__header + .progress,
+.hint + .progress {
+  margin-top: 0.75rem;
+}
+
+.level__header {
+  align-items: flex-start;
+}
+
+.level__title {
+  flex: 1 1 auto;
+}
+
+.level__header .progress {
+  flex: 0 1 9rem;
+  align-items: flex-end;
+  padding-top: 0.35rem;
+}

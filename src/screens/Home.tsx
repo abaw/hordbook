@@ -1,9 +1,20 @@
 import { useEffect, useMemo, useState } from "preact/hooks";
 
 import hintFigure from "../assets/hint-add-to-home-screen.png";
-import { isPartOfSpeech, type Collection, type PartOfSpeech, type Platform, type ProgressStore, type Word } from "../ports";
+import {
+  isPartOfSpeech,
+  type Collection,
+  type PartOfSpeech,
+  type Platform,
+  type ProgressState,
+  type ProgressStore,
+  type Word,
+} from "../ports";
+import { isProgressState, PROGRESS_STATE_LABELS, PROGRESS_STATES, type ProgressRecords, stateOf } from "../progress";
 import { routes } from "../route";
 import { filterLevels, levelsOf, PART_OF_SPEECH_LABELS, partsOfSpeechIn } from "../wordList";
+import { countProgress, ProgressBar } from "./ProgressBar";
+import { StateButton } from "./StateButton";
 
 const HINT_DISMISSED_KEY = "hint.addToHomeScreen.dismissed";
 
@@ -11,17 +22,38 @@ interface HomeProps {
   collection: Collection;
   progressStore: ProgressStore;
   platform: Platform;
+  records: ProgressRecords;
+  onCycleState(wordId: string): void;
+  /** The word the learner last viewed; the list opens scrolled to its row. */
+  initialWordId: string | null;
   /** Kept mounted but hidden while a word card is open. */
   hidden?: boolean;
 }
 
-export function Home({ collection, progressStore, platform, hidden = false }: HomeProps) {
+export function Home({
+  collection,
+  progressStore,
+  platform,
+  records,
+  onCycleState,
+  initialWordId,
+  hidden = false,
+}: HomeProps) {
   const [hintVisible, setHintVisible] = useState(false);
   const [search, setSearch] = useState("");
   const [pos, setPos] = useState<PartOfSpeech | null>(null);
+  const [state, setState] = useState<ProgressState | null>(null);
   const levels = useMemo(() => levelsOf(collection), [collection]);
   const partsOfSpeech = useMemo(() => partsOfSpeechIn(collection), [collection]);
-  const visibleLevels = useMemo(() => filterLevels(levels, { search, pos }), [levels, search, pos]);
+  const visibleLevels = useMemo(
+    () => filterLevels(levels, { search, pos, state }, (wordId) => stateOf(records, wordId)),
+    [levels, search, pos, state, records],
+  );
+  // Progress is counted over each whole level, not over the filtered rows.
+  const levelCounts = useMemo(
+    () => new Map(levels.map((level) => [level.number, countProgress(level.words, records)])),
+    [levels, records],
+  );
 
   useEffect(() => {
     if (platform.isStandalone) return;
@@ -33,6 +65,12 @@ export function Home({ collection, progressStore, platform, hidden = false }: Ho
       cancelled = true;
     };
   }, [platform.isStandalone, progressStore]);
+
+  // Once, on launch: return to where the learner stopped.
+  useEffect(() => {
+    if (hidden || initialWordId === null) return;
+    document.getElementById(rowId(initialWordId))?.scrollIntoView({ block: "center" });
+  }, []);
 
   const dismissHint = () => {
     setHintVisible(false);
@@ -72,6 +110,8 @@ export function Home({ collection, progressStore, platform, hidden = false }: Ho
         </aside>
       )}
 
+      <ProgressBar subject="Collection" counts={countProgress(collection.words, records)} />
+
       <div class="toolbar" role="search">
         <label class="visually-hidden" for="search">
           Search words
@@ -106,26 +146,49 @@ export function Home({ collection, progressStore, platform, hidden = false }: Ho
             </option>
           ))}
         </select>
+        <label class="visually-hidden" for="state-filter">
+          Progress
+        </label>
+        <select
+          id="state-filter"
+          class="toolbar__select"
+          value={state ?? ""}
+          onChange={(event) => {
+            const value = event.currentTarget.value;
+            setState(isProgressState(value) ? value : null);
+          }}
+        >
+          <option value="">All progress</option>
+          {PROGRESS_STATES.map((s) => (
+            <option key={s} value={s}>
+              {PROGRESS_STATE_LABELS[s]}
+            </option>
+          ))}
+        </select>
       </div>
 
       {visibleLevels.length === 0 && (
         <p class="empty" role="status">
           No words match{search.trim() ? ` “${search.trim()}”` : ""}
-          {pos ? ` (${PART_OF_SPEECH_LABELS[pos].name})` : ""}.
+          {pos ? ` (${PART_OF_SPEECH_LABELS[pos].name})` : ""}
+          {state ? ` (${PROGRESS_STATE_LABELS[state]})` : ""}.
         </p>
       )}
 
       {visibleLevels.map((level) => (
         <section key={level.number} class="level" aria-labelledby={`level-${level.number}`}>
           <header class="level__header">
-            <h2 id={`level-${level.number}`}>Level {level.number}</h2>
-            <p class="muted">
-              Ranks {level.firstRank}–{level.lastRank}
-            </p>
+            <div class="level__title">
+              <h2 id={`level-${level.number}`}>Level {level.number}</h2>
+              <p class="muted">
+                Ranks {level.firstRank}–{level.lastRank}
+              </p>
+            </div>
+            <ProgressBar subject={`Level ${level.number}`} counts={levelCounts.get(level.number)!} />
           </header>
           <ol class="rows">
             {level.words.map((word) => (
-              <WordRow key={word.id} word={word} />
+              <WordRow key={word.id} word={word} state={stateOf(records, word.id)} onCycleState={() => onCycleState(word.id)} />
             ))}
           </ol>
         </section>
@@ -134,13 +197,24 @@ export function Home({ collection, progressStore, platform, hidden = false }: Ho
   );
 }
 
-function WordRow({ word }: { word: Word }) {
+interface WordRowProps {
+  word: Word;
+  state: ProgressState;
+  onCycleState(): void;
+}
+
+function rowId(wordId: string): string {
+  return `row-${wordId}`;
+}
+
+function WordRow({ word, state, onCycleState }: WordRowProps) {
   return (
-    <li class="row">
+    <li class="row" id={rowId(word.id)}>
       <a class="row__link" href={routes.word(word.id)}>
         <span class="row__rank">{word.rank}</span> <span class="row__lemma">{word.lemma}</span>{" "}
         <span class="row__pos muted">{word.pos ? PART_OF_SPEECH_LABELS[word.pos].short : ""}</span>
       </a>
+      <StateButton lemma={word.lemma} state={state} onCycle={onCycleState} />
     </li>
   );
 }

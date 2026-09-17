@@ -1,6 +1,7 @@
 import { useLayoutEffect, useRef } from "preact/hooks";
 
 import type { Ports } from "./ports";
+import { useLastPosition, useProgress } from "./progress";
 import { type Route, useRoute } from "./route";
 import { Home } from "./screens/Home";
 import { Settings } from "./screens/Settings";
@@ -8,7 +9,18 @@ import { WordCard } from "./screens/WordCard";
 
 export function App({ collection, progressStore, platform, appVersion }: Ports) {
   const route = useRoute();
+  const progress = useProgress(progressStore);
+  const lastPosition = useLastPosition(progressStore);
   useListScrollRestore(route);
+
+  const viewedWordId = route.screen === "word" ? route.wordId : null;
+  useLayoutEffect(() => {
+    if (viewedWordId !== null) lastPosition.remember(viewedWordId);
+  }, [viewedWordId, lastPosition.remember]);
+
+  // Wait for the device's progress records and last position so nothing
+  // flashes from unseen or jumps after the first paint.
+  if (progress.records === null || lastPosition.wordId === undefined) return null;
 
   if (route.screen === "settings") {
     return <Settings collection={collection} appVersion={appVersion} />;
@@ -17,8 +29,24 @@ export function App({ collection, progressStore, platform, appVersion }: Ports) 
   // and scroll position survive the round trip.
   return (
     <>
-      <Home collection={collection} progressStore={progressStore} platform={platform} hidden={route.screen !== "home"} />
-      {route.screen === "word" && <WordCard collection={collection} platform={platform} wordId={route.wordId} />}
+      <Home
+        collection={collection}
+        progressStore={progressStore}
+        platform={platform}
+        records={progress.records}
+        onCycleState={progress.cycleState}
+        initialWordId={lastPosition.wordId}
+        hidden={route.screen !== "home"}
+      />
+      {route.screen === "word" && (
+        <WordCard
+          collection={collection}
+          platform={platform}
+          wordId={route.wordId}
+          records={progress.records}
+          onCycleState={progress.cycleState}
+        />
+      )}
     </>
   );
 }

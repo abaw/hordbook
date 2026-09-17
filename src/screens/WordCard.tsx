@@ -1,15 +1,19 @@
 import type { Collection, Platform } from "../ports";
+import { type ProgressRecords, stateOf } from "../progress";
 import { REFERENCE_LINKS } from "../referenceLinks";
 import { routes } from "../route";
 import { levelNumberOf, locateWord, PART_OF_SPEECH_LABELS } from "../wordList";
+import { StateButton } from "./StateButton";
 
 interface WordCardProps {
   collection: Collection;
   platform: Platform;
   wordId: string;
+  records: ProgressRecords;
+  onCycleState(wordId: string): void;
 }
 
-export function WordCard({ collection, platform, wordId }: WordCardProps) {
+export function WordCard({ collection, platform, wordId, records, onCycleState }: WordCardProps) {
   const position = locateWord(collection, wordId);
   const word = position?.word;
 
@@ -45,6 +49,10 @@ export function WordCard({ collection, platform, wordId }: WordCardProps) {
               {word.gloss}
             </p>
           )}
+
+          <div class="word__state">
+            <StateButton lemma={word.lemma} state={stateOf(records, word.id)} onCycle={() => onCycleState(word.id)} size="card" />
+          </div>
 
           <ul class="reference-links" aria-label="Look up elsewhere">
             {REFERENCE_LINKS.map((link) => {

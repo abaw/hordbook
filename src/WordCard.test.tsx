@@ -20,9 +20,9 @@ const words = [
   fixtureWord({ id: "fx:able", lemma: "able", pos: "adj", rank: 4, ipa: null, definition: "having the skill to do something", gloss: "" }),
 ];
 
-function renderWords() {
+async function renderWords() {
   const platform = fakePlatform({ isStandalone: true });
-  const view = renderApp({ collection: fixtureCollection({ words, levelSize: 2 }), platform });
+  const view = await renderApp({ collection: fixtureCollection({ words, levelSize: 2 }), platform });
   return { ...view, platform };
 }
 
@@ -34,7 +34,7 @@ afterEach(async () => {
 describe("Word card", () => {
   it("opens from a row and shows rank, level, lemma, IPA, part of speech, definition and gloss", async () => {
     const user = userEvent.setup();
-    renderWords();
+    await renderWords();
 
     await user.click(screen.getByRole("link", { name: "3 abandon verb" }));
 
@@ -53,7 +53,7 @@ describe("Word card", () => {
 
   it("moves to the previous and next word by rank and stops at the ends", async () => {
     const user = userEvent.setup();
-    renderWords();
+    await renderWords();
     await user.click(screen.getByRole("link", { name: "2 be verb" }));
     await screen.findByRole("article", { name: "be" });
 
@@ -76,7 +76,7 @@ describe("Word card", () => {
 
   it("opens Youglish and Longman for the lemma through the openUrl port", async () => {
     const user = userEvent.setup();
-    const { platform } = renderWords();
+    const { platform } = await renderWords();
     await user.click(screen.getByRole("link", { name: "3 abandon verb" }));
     const card = await screen.findByRole("article", { name: "abandon" });
 
@@ -98,7 +98,7 @@ describe("Word card", () => {
 
   it("hides IPA and gloss when the collection has none, without placeholder text", async () => {
     const user = userEvent.setup();
-    renderWords();
+    await renderWords();
     await user.click(screen.getByRole("link", { name: "4 able adj." }));
     const card = await screen.findByRole("article", { name: "able" });
 
@@ -111,7 +111,7 @@ describe("Word card", () => {
   it("returns to the list with the search, filter and scroll position it left", async () => {
     const user = userEvent.setup();
     const scrollTo = vi.spyOn(window, "scrollTo").mockImplementation(() => {});
-    renderWords();
+    await renderWords();
 
     await user.type(screen.getByRole("searchbox", { name: "Search words" }), "ab");
     await user.selectOptions(screen.getByRole("combobox", { name: "Part of speech" }), "Verb");

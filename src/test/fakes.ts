@@ -1,4 +1,4 @@
-import type { Collection, License, Platform, ProgressStore, Word } from "../ports";
+import type { Collection, License, Platform, ProgressRecord, ProgressStore, Word } from "../ports";
 
 export const CC_BY_SA_4: License = {
   spdx: "CC-BY-SA-4.0",
@@ -45,14 +45,25 @@ export function fixtureCollection(
 }
 
 /** In-memory progress store; a fresh instance is an empty device. */
-export function memoryProgressStore(): ProgressStore {
+export function memoryProgressStore(): ProgressStore & { records: Map<string, ProgressRecord> } {
   const settings = new Map<string, string>();
+  const records = new Map<string, ProgressRecord>();
   return {
+    records,
     async getSetting(key) {
       return settings.get(key) ?? null;
     },
     async setSetting(key, value) {
       settings.set(key, value);
+    },
+    async getAllRecords() {
+      return [...records.values()];
+    },
+    async putRecord(record) {
+      records.set(record.wordId, record);
+    },
+    async deleteRecord(wordId) {
+      records.delete(wordId);
     },
   };
 }

@@ -20,7 +20,7 @@ describe("Settings and About", () => {
       source: { name: "Fixture Word Source", version: "0.1", urls: ["https://example.test/source"] },
       attribution: "Words by Ada Fixture (example.test), licensed under CC BY-SA 4.0.",
     });
-    renderApp({ collection, appVersion: "0.1.0 (abc1234)" });
+    await renderApp({ collection, appVersion: "0.1.0 (abc1234)" });
 
     await user.click(screen.getByRole("link", { name: "Settings" }));
 
@@ -41,7 +41,7 @@ describe("Settings and About", () => {
   it("credits the NGSL authors under CC BY-SA 4.0 and links to the source site for the shipped collection", async () => {
     window.location.hash = "#/settings";
     await settleNavigation();
-    renderApp({ collection: collectionFromFile(ngslFile as CollectionFile) });
+    await renderApp({ collection: collectionFromFile(ngslFile as CollectionFile) });
 
     const about = screen.getByRole("region", { name: "About" });
     expect(within(about).getByText(/Charles Browne, Brent Culligan and Joseph Phillips/)).toBeInTheDocument();
@@ -54,7 +54,7 @@ describe("Settings and About", () => {
 
   it("returns to Home with the browser back button", async () => {
     const user = userEvent.setup();
-    renderApp();
+    await renderApp();
 
     await user.click(screen.getByRole("link", { name: "Settings" }));
     await screen.findByRole("heading", { level: 1, name: "Settings" });
@@ -70,7 +70,7 @@ describe("Settings and About", () => {
     window.location.hash = "#/settings";
     await settleNavigation();
 
-    renderApp();
+    await renderApp();
 
     expect(screen.getByRole("heading", { level: 1, name: "Settings" })).toBeInTheDocument();
     await user.click(screen.getByRole("link", { name: "Home" }));
