@@ -122,8 +122,9 @@ export function WordCard({
           </h2>
           <p>
             Only the compact English voice is installed, so Speak sounds robotic. On your iPhone, open{" "}
-            <strong>Settings › Accessibility › Spoken Content › Voices › English</strong> and download an
-            Enhanced or Premium voice for your accent. Hordbook will use it automatically.
+            <strong>Settings › Accessibility › Read &amp; Speak › Voices › English</strong> (on iOS 18 and earlier the
+            menu is called <strong>Spoken Content</strong>) and download an Enhanced or Premium voice for your
+            accent. Hordbook will use it automatically.
           </p>
           <button type="button" class="button" onClick={dismissVoiceHint}>
             Got it

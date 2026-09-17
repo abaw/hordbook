@@ -86,7 +86,8 @@ describe("Speak", () => {
 
     await openCardAndSpeak(user, "1 abandon verb", "abandon");
     const hint = await screen.findByRole("note", { name: /enhanced voice/i });
-    expect(hint).toHaveTextContent(/Settings › Accessibility › Spoken Content › Voices › English/);
+    expect(hint).toHaveTextContent(/Settings › Accessibility › Read & Speak › Voices › English/);
+    expect(hint).toHaveTextContent(/Spoken Content/);
     await user.click(screen.getByRole("button", { name: "Got it" }));
     expect(screen.queryByRole("note", { name: /enhanced voice/i })).not.toBeInTheDocument();
     unmount();
