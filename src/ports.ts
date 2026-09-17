@@ -132,6 +132,13 @@ export interface Ports {
   collection: Collection;
   progressStore: ProgressStore;
   platform: Platform;
-  /** Build identifier shown in About, e.g. `0.1.0 (62a4df3)`. */
-  appVersion: string;
+  build: BuildInfo;
+}
+
+/** What was built: shown in About and used to link docs at the matching commit. */
+export interface BuildInfo {
+  /** package.json version. */
+  version: string;
+  /** Full git commit the build came from; null for local builds. */
+  commit: string | null;
 }

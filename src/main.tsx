@@ -17,15 +17,14 @@ history.scrollRestoration = "manual";
 const collection = collectionFromFile(ngslFile as CollectionFile);
 
 // package.json version, plus the commit the Pages workflow built from.
-const commit = import.meta.env.VITE_COMMIT_SHA;
-const appVersion = `${__APP_VERSION__} (${commit ? commit.slice(0, 7) : "dev"})`;
+const build = { version: __APP_VERSION__, commit: import.meta.env.VITE_COMMIT_SHA ?? null };
 
 render(
   <App
     collection={collection}
     progressStore={indexedDbProgressStore()}
     platform={browserPlatform()}
-    appVersion={appVersion}
+    build={build}
   />,
   document.getElementById("app")!,
 );

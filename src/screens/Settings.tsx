@@ -1,7 +1,7 @@
 import { useState } from "preact/hooks";
 
-import type { Collection, SpeechLocale } from "../ports";
-import { parseCustomGptUrl } from "../promptActions";
+import type { BuildInfo, Collection, Platform, SpeechLocale } from "../ports";
+import { CUSTOM_GPT_GUIDE_PATH, parseCustomGptUrl, tutorGptInstructions } from "../promptActions";
 import { routes } from "../route";
 import type { AppSettings } from "../settings";
 import { SPEECH_LOCALES } from "../speech";
@@ -10,15 +10,30 @@ const REPOSITORY_URL = "https://github.com/abaw/hordbook";
 
 interface SettingsProps {
   collection: Collection;
-  appVersion: string;
+  build: BuildInfo;
+  platform: Platform;
   settings: AppSettings;
   onVoiceLocaleChange(locale: SpeechLocale): void;
   onCustomGptUrlChange(url: string | null): void;
 }
 
 /** Settings screen: Voice, ChatGPT, About. Export/Import/Reset arrive with their ticket. */
-export function Settings({ collection, appVersion, settings, onVoiceLocaleChange, onCustomGptUrlChange }: SettingsProps) {
+export function Settings({
+  collection,
+  build,
+  platform,
+  settings,
+  onVoiceLocaleChange,
+  onCustomGptUrlChange,
+}: SettingsProps) {
   const sourceSite = collection.source.urls[0];
+  const appVersion = `${build.version} (${build.commit ? build.commit.slice(0, 7) : "dev"})`;
+  const guideUrl = `${REPOSITORY_URL}/blob/${build.commit ?? "main"}/${CUSTOM_GPT_GUIDE_PATH}`;
+  const [instructionsCopied, setInstructionsCopied] = useState(false);
+  const copyInstructions = () => {
+    platform.writeClipboard(tutorGptInstructions());
+    setInstructionsCopied(true);
+  };
   const sourceLabel = `${collection.source.name} ${collection.source.version}`;
   const [gptDraft, setGptDraft] = useState(settings.customGptUrl ?? "");
   const gptDraftInvalid = gptDraft.trim() !== "" && parseCustomGptUrl(gptDraft) === null;
@@ -87,10 +102,41 @@ export function Settings({ collection, appVersion, settings, onVoiceLocaleChange
           </p>
         )}
         <p id="custom-gpt-help" class="muted">
-          Paste the link of your tutor GPT and the card's prompt actions will open it with short prompts. Leave
-          empty to send full prompts to plain ChatGPT. See the repository's <code>docs/custom-gpt.md</code> for the
-          recommended GPT instructions.
+          With a tutor GPT set, the card's prompt actions open it with short prompts and get answers in a consistent
+          shape. Leave empty to send full prompts to plain ChatGPT.
         </p>
+
+        <h3 class="card__subtitle">Create your tutor GPT (once)</h3>
+        <ol class="steps">
+          <li>
+            Tap <strong>Copy GPT instructions</strong> below.
+          </li>
+          <li>
+            In ChatGPT, open <strong>Explore GPTs › Create</strong>, name it <em>Hordbook Tutor</em>, and paste the
+            instructions into the <strong>Instructions</strong> field. Save it as <strong>Only me</strong>.
+          </li>
+          <li>Open the GPT, copy its link from the address bar and paste it above.</li>
+        </ol>
+        <div class="actions">
+          <button type="button" class="button" onClick={copyInstructions}>
+            Copy GPT instructions
+          </button>
+          <a
+            class="chip"
+            href={guideUrl}
+            onClick={(event) => {
+              event.preventDefault();
+              platform.openUrl(guideUrl);
+            }}
+          >
+            Full set-up guide
+          </a>
+        </div>
+        {instructionsCopied && (
+          <p class="muted" role="status">
+            Instructions copied. Paste them into the GPT editor.
+          </p>
+        )}
       </section>
 
       <section class="card" aria-labelledby="about-title">

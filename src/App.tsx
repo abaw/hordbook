@@ -8,7 +8,7 @@ import { Home } from "./screens/Home";
 import { Settings } from "./screens/Settings";
 import { WordCard } from "./screens/WordCard";
 
-export function App({ collection, progressStore, platform, appVersion }: Ports) {
+export function App({ collection, progressStore, platform, build }: Ports) {
   const route = useRoute();
   const progress = useProgress(progressStore);
   const lastPosition = useLastPosition(progressStore);
@@ -28,7 +28,8 @@ export function App({ collection, progressStore, platform, appVersion }: Ports) 
     return (
       <Settings
         collection={collection}
-        appVersion={appVersion}
+        build={build}
+        platform={platform}
         settings={settings}
         onVoiceLocaleChange={setVoiceLocale}
         onCustomGptUrlChange={setCustomGptUrl}

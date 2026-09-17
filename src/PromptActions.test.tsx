@@ -114,6 +114,27 @@ describe("ChatGPT prompt actions", () => {
     expect(platform.opened[1]).toMatch(/^https:\/\/chatgpt\.com\/\?q=/);
   });
 
+  it("lets the learner copy the tutor GPT instructions and links the guide pinned to the app's build commit", async () => {
+    const user = userEvent.setup();
+    const { platform } = await renderCard();
+    window.location.hash = "#/settings";
+    await settleNavigation();
+
+    const guide = await screen.findByRole("link", { name: /set-up guide/i });
+    expect(guide).toHaveAttribute("href", "https://github.com/abaw/hordbook/blob/abc1234def/docs/custom-gpt.md");
+
+    await user.click(screen.getByRole("button", { name: "Copy GPT instructions" }));
+
+    expect(platform.clipboard).toHaveLength(1);
+    const instructions = platform.clipboard[0]!;
+    expect(instructions).toMatch(/^You are Hordbook Tutor/);
+    expect(instructions).toContain('For "examples":');
+    expect(instructions).toContain('For "teach":');
+    expect(instructions).toContain('For "compare":');
+    expect(instructions).not.toContain("```");
+    expect(screen.getByRole("status")).toHaveTextContent(/copied/i);
+  });
+
   it("keeps every prompt URL under 2,000 characters even for a very long definition", async () => {
     const user = userEvent.setup();
     const verbose = fixtureWord({

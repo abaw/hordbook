@@ -14,6 +14,12 @@ export default defineConfig({
   define: {
     __APP_VERSION__: JSON.stringify(pkg.version),
   },
+  build: {
+    // The collection (~600 kB of JSON) is bundled into the main chunk on
+    // purpose so the app is complete offline; the default 500 kB warning
+    // would fire on every build.
+    chunkSizeWarningLimit: 1200,
+  },
   plugins: [
     preact(),
     VitePWA({

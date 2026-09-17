@@ -14,7 +14,7 @@ export async function renderApp(overrides: Partial<Ports> = {}) {
     collection: fixtureCollection(),
     progressStore: memoryProgressStore(),
     platform: fakePlatform(),
-    appVersion: "0.1.0 (test)",
+    build: { version: "0.1.0", commit: "abc1234def" },
     ...overrides,
   };
   const view = render(<App {...ports} />);

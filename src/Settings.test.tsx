@@ -20,7 +20,7 @@ describe("Settings and About", () => {
       source: { name: "Fixture Word Source", version: "0.1", urls: ["https://example.test/source"] },
       attribution: "Words by Ada Fixture (example.test), licensed under CC BY-SA 4.0.",
     });
-    await renderApp({ collection, appVersion: "0.1.0 (abc1234)" });
+    await renderApp({ collection, build: { version: "0.1.0", commit: "abc1234def" } });
 
     await user.click(screen.getByRole("link", { name: "Settings" }));
 

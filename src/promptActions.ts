@@ -1,5 +1,19 @@
+import guide from "../docs/custom-gpt.md?raw";
 import type { Word } from "./ports";
 import { PART_OF_SPEECH_LABELS } from "./wordList";
+
+/** Path of the tutor GPT guide in the repository; linked from Settings at the build's commit. */
+export const CUSTOM_GPT_GUIDE_PATH = "docs/custom-gpt.md";
+
+/**
+ * The instruction block to paste into the GPT editor: the first fenced code
+ * block of docs/custom-gpt.md, so the document stays the single source.
+ */
+export function tutorGptInstructions(): string {
+  const match = /```\n([\s\S]*?)\n```/.exec(guide);
+  if (match?.[1] === undefined) throw new Error(`${CUSTOM_GPT_GUIDE_PATH} has no fenced instruction block`);
+  return match[1];
+}
 
 /** Browsers and the ChatGPT app accept URLs comfortably below this. */
 export const MAX_PROMPT_URL_LENGTH = 2000;
