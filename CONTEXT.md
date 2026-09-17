@@ -17,7 +17,8 @@ Hordbook is a personal word hoard: an installable single-page web app (PWA) that
 - **Reference link** — an outbound link on a word card to an external resource (Youglish, Longman). Data-driven list.
 - **Prompt action** — a button on a word card that composes a prompt for ChatGPT and opens it via deep link (`chatgpt.com/?q=…` or a custom GPT URL). Three in v1: *Example sentences*, *Teach me inside out*, *Compare with similar words*. Output is always English.
 - **Custom GPT** — the learner's own ChatGPT GPT holding the tutor instructions; its URL is set in Settings. When absent, prompt actions fall back to full-text prompts against plain ChatGPT.
-- **Speak** — the on-device text-to-speech action (Web Speech API) that pronounces the lemma inside a part-of-speech carrier phrase.
+- **Speak** — the on-device text-to-speech action (Web Speech API) that pronounces the lemma inside a part-of-speech **carrier phrase** ("to record" for verbs, "the record" for nouns, the bare lemma otherwise) so heteronyms are stressed for the sense shown.
+- **Voice accent** — the learner's Settings choice between US English (`en-US`) and UK English (`en-GB`) for Speak. The app picks the highest-quality installed voice for that locale; iOS ships a *compact* voice and lets the learner download *enhanced* or *premium* ones.
 - **Pipeline** — the offline Python process that builds a collection file from licensed sources, generates glosses, and runs licence and script checks. Runs on the maintainer's machine, never on the device.
 
 ## Invariants

@@ -1,4 +1,4 @@
-import type { Collection, License, Platform, ProgressRecord, ProgressStore, Word } from "../ports";
+import type { Collection, License, Platform, ProgressRecord, ProgressStore, SpeechLocale, Voice, Word } from "../ports";
 
 export const CC_BY_SA_4: License = {
   spdx: "CC-BY-SA-4.0",
@@ -68,14 +68,28 @@ export function memoryProgressStore(): ProgressStore & { records: Map<string, Pr
   };
 }
 
-export function fakePlatform(overrides: Partial<Platform> = {}): Platform & { opened: string[] } {
+export interface FakePlatform extends Platform {
+  opened: string[];
+  spoken: Array<{ text: string; locale: SpeechLocale }>;
+}
+
+export function fakePlatform(overrides: Partial<Platform> & { installedVoices?: Voice[] } = {}): FakePlatform {
+  const { installedVoices = [], ...rest } = overrides;
   const opened: string[] = [];
+  const spoken: FakePlatform["spoken"] = [];
   return {
     isStandalone: false,
     openUrl(url) {
       opened.push(url);
     },
-    ...overrides,
+    speak(text, locale) {
+      spoken.push({ text, locale });
+    },
+    async voices() {
+      return installedVoices;
+    },
+    ...rest,
     opened,
+    spoken,
   };
 }

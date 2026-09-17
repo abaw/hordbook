@@ -1,7 +1,11 @@
+import { useState } from "preact/hooks";
+
 import type { Collection, Platform } from "../ports";
 import { type ProgressRecords, stateOf } from "../progress";
 import { REFERENCE_LINKS } from "../referenceLinks";
 import { routes } from "../route";
+import type { AppSettings } from "../settings";
+import { carrierPhrase, onlyCompactVoices } from "../speech";
 import { levelNumberOf, locateWord, PART_OF_SPEECH_LABELS } from "../wordList";
 import { StateButton } from "./StateButton";
 
@@ -11,11 +15,37 @@ interface WordCardProps {
   wordId: string;
   records: ProgressRecords;
   onCycleState(wordId: string): void;
+  settings: AppSettings;
+  onDismissEnhancedVoiceHint(): void;
 }
 
-export function WordCard({ collection, platform, wordId, records, onCycleState }: WordCardProps) {
+export function WordCard({
+  collection,
+  platform,
+  wordId,
+  records,
+  onCycleState,
+  settings,
+  onDismissEnhancedVoiceHint,
+}: WordCardProps) {
   const position = locateWord(collection, wordId);
   const word = position?.word;
+  const [voiceHintVisible, setVoiceHintVisible] = useState(false);
+
+  const speak = () => {
+    if (word === undefined) return;
+    platform.speak(carrierPhrase(word), settings.voiceLocale);
+    if (!settings.enhancedVoiceHintDismissed) {
+      void platform.voices().then((voices) => {
+        if (onlyCompactVoices(voices, settings.voiceLocale)) setVoiceHintVisible(true);
+      });
+    }
+  };
+
+  const dismissVoiceHint = () => {
+    setVoiceHintVisible(false);
+    onDismissEnhancedVoiceHint();
+  };
 
   return (
     <main class="screen">
@@ -36,9 +66,18 @@ export function WordCard({ collection, platform, wordId, records, onCycleState }
           <p class="muted">
             Rank {word.rank} · Level {levelNumberOf(collection, word.rank)}
           </p>
-          <h1 id="word-lemma" class="word__lemma">
-            {word.lemma}
-          </h1>
+          <div class="word__headline">
+            <h1 id="word-lemma" class="word__lemma">
+              {word.lemma}
+            </h1>
+            <button type="button" class="speak" onClick={speak} aria-label="Speak">
+              <svg aria-hidden="true" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 9v6h4l5 4V5L8 9H4z" />
+                <path d="M16 9a4 4 0 0 1 0 6" />
+                <path d="M18.5 6.5a7.5 7.5 0 0 1 0 11" />
+              </svg>
+            </button>
+          </div>
           <p class="word__meta">
             {word.ipa && <span class="word__ipa">{word.ipa}</span>}
             {word.pos && <span class="word__pos">{PART_OF_SPEECH_LABELS[word.pos].name}</span>}
@@ -74,6 +113,22 @@ export function WordCard({ collection, platform, wordId, records, onCycleState }
             })}
           </ul>
         </article>
+      )}
+
+      {voiceHintVisible && !settings.enhancedVoiceHintDismissed && (
+        <aside class="hint" role="note" aria-labelledby="voice-hint-title">
+          <h2 id="voice-hint-title" class="hint__title">
+            Get an enhanced voice
+          </h2>
+          <p>
+            Only the compact English voice is installed, so Speak sounds robotic. On your iPhone, open{" "}
+            <strong>Settings › Accessibility › Spoken Content › Voices › English</strong> and download an
+            Enhanced or Premium voice for your accent. Hordbook will use it automatically.
+          </p>
+          <button type="button" class="button" onClick={dismissVoiceHint}>
+            Got it
+          </button>
+        </aside>
       )}
 
       {position && (

@@ -98,11 +98,32 @@ export interface ProgressStore {
   deleteRecord(wordId: string): Promise<void>;
 }
 
+/** The two English accents the learner can choose between. */
+export type SpeechLocale = "en-US" | "en-GB";
+
+/**
+ * How natural an installed voice sounds. iOS ships a compact voice per
+ * language; enhanced and premium voices are downloads the learner makes in
+ * Settings › Accessibility › Spoken Content.
+ */
+export type VoiceQuality = "premium" | "enhanced" | "compact" | "other";
+
+export interface Voice {
+  name: string;
+  /** BCP 47 tag as reported by the device, e.g. `en-US`. */
+  lang: string;
+  quality: VoiceQuality;
+}
+
 /** Device capabilities the app touches. */
 export interface Platform {
   /** True when running as an installed home-screen app rather than in a browser tab. */
   isStandalone: boolean;
   openUrl(url: string): void;
+  /** Pronounces `text` with the best installed voice for `locale`. */
+  speak(text: string, locale: SpeechLocale): void;
+  /** Installed text-to-speech voices; may be empty where speech is unavailable. */
+  voices(): Promise<Voice[]>;
 }
 
 export interface Ports {

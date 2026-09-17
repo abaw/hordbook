@@ -1,18 +1,19 @@
-import type { Collection } from "../ports";
+import type { Collection, SpeechLocale } from "../ports";
 import { routes } from "../route";
+import type { AppSettings } from "../settings";
+import { SPEECH_LOCALES } from "../speech";
 
 const REPOSITORY_URL = "https://github.com/abaw/hordbook";
 
 interface SettingsProps {
   collection: Collection;
   appVersion: string;
+  settings: AppSettings;
+  onVoiceLocaleChange(locale: SpeechLocale): void;
 }
 
-/**
- * Settings screen. In this ticket it holds only About; voice, custom GPT URL
- * and Export/Import/Reset arrive with their own tickets.
- */
-export function Settings({ collection, appVersion }: SettingsProps) {
+/** Settings screen: Voice, About. Custom GPT URL and Export/Import/Reset arrive with their tickets. */
+export function Settings({ collection, appVersion, settings, onVoiceLocaleChange }: SettingsProps) {
   const sourceSite = collection.source.urls[0];
   const sourceLabel = `${collection.source.name} ${collection.source.version}`;
   return (
@@ -25,6 +26,26 @@ export function Settings({ collection, appVersion }: SettingsProps) {
         </nav>
         <h1>Settings</h1>
       </header>
+
+      <section class="card" aria-labelledby="voice-title">
+        <h2 id="voice-title">Voice</h2>
+        <fieldset class="choices" role="radiogroup" aria-labelledby="voice-accent-legend">
+          <legend id="voice-accent-legend">Voice accent</legend>
+          {SPEECH_LOCALES.map(({ locale, label }) => (
+            <label key={locale} class="choice">
+              <input
+                type="radio"
+                name="voice-accent"
+                value={locale}
+                checked={settings.voiceLocale === locale}
+                onChange={() => onVoiceLocaleChange(locale)}
+              />
+              {label}
+            </label>
+          ))}
+        </fieldset>
+        <p class="muted">Speak uses the best English voice installed on this phone for the chosen accent.</p>
+      </section>
 
       <section class="card" aria-labelledby="about-title">
         <h2 id="about-title">About</h2>

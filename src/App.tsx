@@ -3,6 +3,7 @@ import { useLayoutEffect, useRef } from "preact/hooks";
 import type { Ports } from "./ports";
 import { useLastPosition, useProgress } from "./progress";
 import { type Route, useRoute } from "./route";
+import { useSettings } from "./settings";
 import { Home } from "./screens/Home";
 import { Settings } from "./screens/Settings";
 import { WordCard } from "./screens/WordCard";
@@ -11,6 +12,7 @@ export function App({ collection, progressStore, platform, appVersion }: Ports) 
   const route = useRoute();
   const progress = useProgress(progressStore);
   const lastPosition = useLastPosition(progressStore);
+  const { settings, setVoiceLocale, dismissEnhancedVoiceHint } = useSettings(progressStore);
   useListScrollRestore(route);
 
   const viewedWordId = route.screen === "word" ? route.wordId : null;
@@ -20,10 +22,12 @@ export function App({ collection, progressStore, platform, appVersion }: Ports) 
 
   // Wait for the device's progress records and last position so nothing
   // flashes from unseen or jumps after the first paint.
-  if (progress.records === null || lastPosition.wordId === undefined) return null;
+  if (progress.records === null || lastPosition.wordId === undefined || settings === null) return null;
 
   if (route.screen === "settings") {
-    return <Settings collection={collection} appVersion={appVersion} />;
+    return (
+      <Settings collection={collection} appVersion={appVersion} settings={settings} onVoiceLocaleChange={setVoiceLocale} />
+    );
   }
   // The list stays mounted (hidden) under a word card so that its filters
   // and scroll position survive the round trip.
@@ -45,6 +49,8 @@ export function App({ collection, progressStore, platform, appVersion }: Ports) 
           wordId={route.wordId}
           records={progress.records}
           onCycleState={progress.cycleState}
+          settings={settings}
+          onDismissEnhancedVoiceHint={dismissEnhancedVoiceHint}
         />
       )}
     </>
