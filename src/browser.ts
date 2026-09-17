@@ -24,6 +24,10 @@ export function browserPlatform(): Platform {
       synth.cancel();
       synth.speak(utterance);
     },
+    writeClipboard(text) {
+      // Best effort: the deep link carries the same text, so a refusal is not fatal.
+      void navigator.clipboard?.writeText(text).catch(() => undefined);
+    },
     voices() {
       if (synth === null) return Promise.resolve([]);
       const now = deviceVoices(synth);

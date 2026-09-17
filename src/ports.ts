@@ -124,6 +124,8 @@ export interface Platform {
   speak(text: string, locale: SpeechLocale): void;
   /** Installed text-to-speech voices; may be empty where speech is unavailable. */
   voices(): Promise<Voice[]>;
+  /** Puts text on the system clipboard (the fallback if a ChatGPT link does not prefill). */
+  writeClipboard(text: string): void;
 }
 
 export interface Ports {

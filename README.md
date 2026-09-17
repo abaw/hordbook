@@ -12,6 +12,10 @@ Hordbook is a static single-page web app (PWA) meant to be installed on an iPhon
 2. Tap **Share**, then **Add to Home Screen**.
 3. Launch it from the home screen. After the first visit it works offline.
 
+## ChatGPT
+
+Each word card has three prompt actions (Example sentences, Teach me inside out, Compare with similar words). They copy a prompt to the clipboard and open ChatGPT with it prefilled, using your existing ChatGPT Plus subscription; no API key is involved. For consistent, well-structured answers, create a personal tutor GPT once by following `docs/custom-gpt.md` and paste its link into **Settings → ChatGPT → Custom GPT URL**.
+
 ## Develop
 
 ```sh

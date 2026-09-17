@@ -71,12 +71,14 @@ export function memoryProgressStore(): ProgressStore & { records: Map<string, Pr
 export interface FakePlatform extends Platform {
   opened: string[];
   spoken: Array<{ text: string; locale: SpeechLocale }>;
+  clipboard: string[];
 }
 
 export function fakePlatform(overrides: Partial<Platform> & { installedVoices?: Voice[] } = {}): FakePlatform {
   const { installedVoices = [], ...rest } = overrides;
   const opened: string[] = [];
   const spoken: FakePlatform["spoken"] = [];
+  const clipboard: string[] = [];
   return {
     isStandalone: false,
     openUrl(url) {
@@ -88,8 +90,12 @@ export function fakePlatform(overrides: Partial<Platform> & { installedVoices?: 
     async voices() {
       return installedVoices;
     },
+    writeClipboard(text) {
+      clipboard.push(text);
+    },
     ...rest,
     opened,
     spoken,
+    clipboard,
   };
 }

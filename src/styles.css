@@ -555,3 +555,84 @@ a:focus-visible,
   margin: 0;
   accent-color: var(--accent);
 }
+
+/* Prompt actions and settings fields ------------------------------------- */
+
+.prompt-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1.25rem;
+}
+
+.prompt-action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 48px;
+  padding: 0.6rem 1rem;
+  border: 0;
+  border-radius: 0.75rem;
+  background: var(--accent);
+  color: var(--accent-text);
+  font: inherit;
+  font-weight: 600;
+  text-align: left;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.prompt-action::after {
+  content: "›";
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+.prompt-action:active {
+  filter: brightness(0.92);
+}
+
+.prompt-action:focus-visible {
+  outline: 3px solid var(--text);
+  outline-offset: 2px;
+}
+
+.field {
+  display: block;
+  margin: 0.5rem 0 0.25rem;
+  font-weight: 600;
+}
+
+.field__input {
+  width: 100%;
+  min-height: 44px;
+  padding: 0 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 0.625rem;
+  background: var(--bg);
+  color: var(--text);
+  font: inherit;
+}
+
+.field__input[aria-invalid="true"] {
+  border-color: #c0392b;
+}
+
+.field__error {
+  margin: 0.25rem 0 0;
+  color: #c0392b;
+}
+
+@media (prefers-color-scheme: dark) {
+  .field__input[aria-invalid="true"] {
+    border-color: #ff7b6b;
+  }
+
+  .field__error {
+    color: #ff7b6b;
+  }
+}
+
+code {
+  font-size: 0.9em;
+}

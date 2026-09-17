@@ -1,4 +1,7 @@
+import { useState } from "preact/hooks";
+
 import type { Collection, SpeechLocale } from "../ports";
+import { parseCustomGptUrl } from "../promptActions";
 import { routes } from "../route";
 import type { AppSettings } from "../settings";
 import { SPEECH_LOCALES } from "../speech";
@@ -10,12 +13,24 @@ interface SettingsProps {
   appVersion: string;
   settings: AppSettings;
   onVoiceLocaleChange(locale: SpeechLocale): void;
+  onCustomGptUrlChange(url: string | null): void;
 }
 
-/** Settings screen: Voice, About. Custom GPT URL and Export/Import/Reset arrive with their tickets. */
-export function Settings({ collection, appVersion, settings, onVoiceLocaleChange }: SettingsProps) {
+/** Settings screen: Voice, ChatGPT, About. Export/Import/Reset arrive with their ticket. */
+export function Settings({ collection, appVersion, settings, onVoiceLocaleChange, onCustomGptUrlChange }: SettingsProps) {
   const sourceSite = collection.source.urls[0];
   const sourceLabel = `${collection.source.name} ${collection.source.version}`;
+  const [gptDraft, setGptDraft] = useState(settings.customGptUrl ?? "");
+  const gptDraftInvalid = gptDraft.trim() !== "" && parseCustomGptUrl(gptDraft) === null;
+
+  const onGptInput = (value: string) => {
+    setGptDraft(value);
+    if (value.trim() === "") onCustomGptUrlChange(null);
+    else {
+      const url = parseCustomGptUrl(value);
+      if (url !== null) onCustomGptUrlChange(url);
+    }
+  };
   return (
     <main class="screen">
       <header class="screen__header">
@@ -45,6 +60,37 @@ export function Settings({ collection, appVersion, settings, onVoiceLocaleChange
           ))}
         </fieldset>
         <p class="muted">Speak uses the best English voice installed on this phone for the chosen accent.</p>
+      </section>
+
+      <section class="card" aria-labelledby="chatgpt-title">
+        <h2 id="chatgpt-title">ChatGPT</h2>
+        <label class="field" for="custom-gpt-url">
+          Custom GPT URL
+        </label>
+        <input
+          id="custom-gpt-url"
+          class="field__input"
+          type="url"
+          inputMode="url"
+          autocomplete="off"
+          autocapitalize="none"
+          spellcheck={false}
+          placeholder="https://chatgpt.com/g/g-…"
+          value={gptDraft}
+          aria-invalid={gptDraftInvalid}
+          aria-describedby="custom-gpt-help"
+          onInput={(event) => onGptInput(event.currentTarget.value)}
+        />
+        {gptDraftInvalid && (
+          <p class="field__error" role="alert">
+            Enter a GPT link like https://chatgpt.com/g/g-… — or leave empty to use plain ChatGPT.
+          </p>
+        )}
+        <p id="custom-gpt-help" class="muted">
+          Paste the link of your tutor GPT and the card's prompt actions will open it with short prompts. Leave
+          empty to send full prompts to plain ChatGPT. See the repository's <code>docs/custom-gpt.md</code> for the
+          recommended GPT instructions.
+        </p>
       </section>
 
       <section class="card" aria-labelledby="about-title">

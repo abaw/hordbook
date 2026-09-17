@@ -2,6 +2,7 @@ import { useState } from "preact/hooks";
 
 import type { Collection, Platform } from "../ports";
 import { type ProgressRecords, stateOf } from "../progress";
+import { composePrompt, PROMPT_ACTIONS, type PromptAction } from "../promptActions";
 import { REFERENCE_LINKS } from "../referenceLinks";
 import { routes } from "../route";
 import type { AppSettings } from "../settings";
@@ -40,6 +41,14 @@ export function WordCard({
         if (onlyCompactVoices(voices, settings.voiceLocale)) setVoiceHintVisible(true);
       });
     }
+  };
+
+  const runPromptAction = (action: PromptAction) => {
+    if (word === undefined) return;
+    const { text, url } = composePrompt(action, word, settings.customGptUrl);
+    // Clipboard first: the fallback if ChatGPT stops honouring the prefill.
+    platform.writeClipboard(text);
+    platform.openUrl(url);
   };
 
   const dismissVoiceHint = () => {
@@ -91,6 +100,14 @@ export function WordCard({
 
           <div class="word__state">
             <StateButton lemma={word.lemma} state={stateOf(records, word.id)} onCycle={() => onCycleState(word.id)} size="card" />
+          </div>
+
+          <div class="prompt-actions" role="group" aria-label="Ask ChatGPT">
+            {PROMPT_ACTIONS.map((action) => (
+              <button key={action.id} type="button" class="prompt-action" onClick={() => runPromptAction(action)}>
+                {action.label}
+              </button>
+            ))}
           </div>
 
           <ul class="reference-links" aria-label="Look up elsewhere">
