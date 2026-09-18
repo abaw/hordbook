@@ -29,8 +29,17 @@ export function App({ collection, progressStore, platform, build }: Ports) {
       <Settings
         collection={collection}
         build={build}
+        platform={platform}
         settings={settings}
         onVoiceLocaleChange={setVoiceLocale}
+        records={progress.records}
+        lastWordId={lastPosition.wordId}
+        onImport={(records, imported) => {
+          if (imported.voiceLocale) setVoiceLocale(imported.voiceLocale);
+          if (imported.lastWordId) lastPosition.remember(imported.lastWordId);
+          return progress.putRecords(records);
+        }}
+        onReset={progress.resetAll}
       />
     );
   }

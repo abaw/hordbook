@@ -32,5 +32,9 @@ describe("IndexedDB progress store", () => {
     const second = indexedDbProgressStore(factory);
     expect(await second.getSetting("lastWordId")).toBe("ngsl:abandon");
     expect(await second.getAllRecords()).toEqual([{ ...record("ngsl:abandon", "known"), interval: 3 }]);
+
+    await second.clearRecords();
+    expect(await second.getAllRecords()).toEqual([]);
+    expect(await second.getSetting("lastWordId")).toBe("ngsl:abandon");
   });
 });

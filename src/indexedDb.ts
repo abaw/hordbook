@@ -32,6 +32,9 @@ export function indexedDbProgressStore(factory: IDBFactory = indexedDB): Progres
     async deleteRecord(wordId) {
       await request(await db, PROGRESS, "readwrite", (s) => s.delete(wordId));
     },
+    async clearRecords() {
+      await request(await db, PROGRESS, "readwrite", (s) => s.clear());
+    },
   };
 }
 

@@ -1,19 +1,36 @@
-import type { BuildInfo, Collection, SpeechLocale } from "../ports";
+import type { BuildInfo, Collection, Platform, ProgressRecord, SpeechLocale } from "../ports";
+import type { ProgressRecords } from "../progress";
 import { routes } from "../route";
 import type { AppSettings } from "../settings";
 import { SPEECH_LOCALES } from "../speech";
+import { Backup } from "./Backup";
 
 const REPOSITORY_URL = "https://github.com/abaw/hordbook";
 
 interface SettingsProps {
   collection: Collection;
   build: BuildInfo;
+  platform: Platform;
   settings: AppSettings;
   onVoiceLocaleChange(locale: SpeechLocale): void;
+  records: ProgressRecords;
+  lastWordId: string | null;
+  onImport(records: Iterable<ProgressRecord>, settings: { voiceLocale?: SpeechLocale; lastWordId?: string }): number;
+  onReset(): void;
 }
 
-/** Settings screen: Voice, About. Export/Import/Reset arrive with their ticket. */
-export function Settings({ collection, build, settings, onVoiceLocaleChange }: SettingsProps) {
+/** Settings screen: Voice, Backup, About. */
+export function Settings({
+  collection,
+  build,
+  platform,
+  settings,
+  onVoiceLocaleChange,
+  records,
+  lastWordId,
+  onImport,
+  onReset,
+}: SettingsProps) {
   const sourceSite = collection.source.urls[0];
   const appVersion = `${build.version} (${build.commit ? build.commit.slice(0, 7) : "dev"})`;
   const sourceLabel = `${collection.source.name} ${collection.source.version}`;
@@ -47,6 +64,14 @@ export function Settings({ collection, build, settings, onVoiceLocaleChange }: S
         </fieldset>
         <p class="muted">Speak uses the best English voice installed on this phone for the chosen accent.</p>
       </section>
+
+      <Backup
+        platform={platform}
+        records={records}
+        exportInput={{ collection, build, voiceLocale: settings.voiceLocale, lastWordId }}
+        onImport={onImport}
+        onReset={onReset}
+      />
 
       <section class="card" aria-labelledby="about-title">
         <h2 id="about-title">About</h2>

@@ -51,6 +51,10 @@ export interface Progress {
   /** Null until the store has been read. */
   records: ProgressRecords | null;
   cycleState(wordId: string): void;
+  /** Stores the given records (already merged by the caller) and returns how many were written. */
+  putRecords(records: Iterable<ProgressRecord>): number;
+  /** Deletes every record. */
+  resetAll(): void;
 }
 
 /** Mirrors the store in memory and writes every change through immediately. */
@@ -87,7 +91,27 @@ export function useProgress(store: ProgressStore): Progress {
     [store],
   );
 
-  return { records, cycleState };
+  const putRecords = useCallback(
+    (incoming: Iterable<ProgressRecord>) => {
+      const list = [...incoming];
+      setRecords((current) => {
+        if (current === null) return current;
+        const updated = new Map(current);
+        for (const record of list) updated.set(record.wordId, record);
+        return updated;
+      });
+      for (const record of list) void store.putRecord(record);
+      return list.length;
+    },
+    [store],
+  );
+
+  const resetAll = useCallback(() => {
+    setRecords((current) => (current === null ? current : new Map()));
+    void store.clearRecords();
+  }, [store]);
+
+  return { records, cycleState, putRecords, resetAll };
 }
 
 const LAST_WORD_KEY = "lastWordId";

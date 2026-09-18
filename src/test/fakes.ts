@@ -1,4 +1,14 @@
-import type { Collection, License, Platform, ProgressRecord, ProgressStore, SpeechLocale, Voice, Word } from "../ports";
+import type {
+  Collection,
+  License,
+  Platform,
+  ProgressRecord,
+  ProgressStore,
+  SpeechLocale,
+  TextFile,
+  Voice,
+  Word,
+} from "../ports";
 
 export const CC_BY_SA_4: License = {
   spdx: "CC-BY-SA-4.0",
@@ -65,6 +75,9 @@ export function memoryProgressStore(): ProgressStore & { records: Map<string, Pr
     async deleteRecord(wordId) {
       records.delete(wordId);
     },
+    async clearRecords() {
+      records.clear();
+    },
   };
 }
 
@@ -72,6 +85,10 @@ export interface FakePlatform extends Platform {
   opened: string[];
   spoken: Array<{ text: string; locale: SpeechLocale }>;
   clipboard: string[];
+  /** Files handed to shareFile. */
+  shared: TextFile[];
+  /** What the next pickFile calls resolve to; push before the tap. */
+  pickQueue: Array<TextFile | null>;
 }
 
 export function fakePlatform(overrides: Partial<Platform> & { installedVoices?: Voice[] } = {}): FakePlatform {
@@ -79,6 +96,8 @@ export function fakePlatform(overrides: Partial<Platform> & { installedVoices?: 
   const opened: string[] = [];
   const spoken: FakePlatform["spoken"] = [];
   const clipboard: string[] = [];
+  const shared: TextFile[] = [];
+  const pickQueue: Array<TextFile | null> = [];
   return {
     isStandalone: false,
     openUrl(url) {
@@ -93,9 +112,17 @@ export function fakePlatform(overrides: Partial<Platform> & { installedVoices?: 
     writeClipboard(text) {
       clipboard.push(text);
     },
+    async shareFile(file) {
+      shared.push(file);
+    },
+    async pickFile() {
+      return pickQueue.shift() ?? null;
+    },
     ...rest,
     opened,
     spoken,
     clipboard,
+    shared,
+    pickQueue,
   };
 }

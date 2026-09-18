@@ -1,4 +1,4 @@
-import type { Platform, Voice } from "./ports";
+import type { Platform, TextFile, Voice } from "./ports";
 import { bestVoice, classifyVoice } from "./speech";
 
 /** Detects the iOS home-screen web app and the standard display-mode media query. */
@@ -27,6 +27,39 @@ export function browserPlatform(): Platform {
     writeClipboard(text) {
       // Best effort: the deep link carries the same text, so a refusal is not fatal.
       void navigator.clipboard?.writeText(text).catch(() => undefined);
+    },
+    async shareFile(file) {
+      const blob = new File([file.content], file.name, { type: file.type });
+      // iOS Safari: the share sheet, with "Save to Files", AirDrop and so on.
+      if (navigator.canShare?.({ files: [blob] })) {
+        try {
+          await navigator.share({ files: [blob], title: file.name });
+          return;
+        } catch (error) {
+          if (error instanceof DOMException && error.name === "AbortError") return; // learner dismissed the sheet
+        }
+      }
+      // Desktop browsers: a plain download.
+      const url = URL.createObjectURL(blob);
+      const anchor = document.createElement("a");
+      anchor.href = url;
+      anchor.download = file.name;
+      anchor.click();
+      setTimeout(() => URL.revokeObjectURL(url), 10_000);
+    },
+    pickFile(accept) {
+      return new Promise<TextFile | null>((resolve) => {
+        const input = document.createElement("input");
+        input.type = "file";
+        input.accept = accept;
+        input.addEventListener("change", () => {
+          const chosen = input.files?.[0];
+          if (!chosen) return resolve(null);
+          void chosen.text().then((content) => resolve({ name: chosen.name, type: chosen.type, content }));
+        });
+        input.addEventListener("cancel", () => resolve(null));
+        input.click();
+      });
     },
     voices() {
       if (synth === null) return Promise.resolve([]);

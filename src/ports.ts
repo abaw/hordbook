@@ -96,6 +96,16 @@ export interface ProgressStore {
   getAllRecords(): Promise<ProgressRecord[]>;
   putRecord(record: ProgressRecord): Promise<void>;
   deleteRecord(wordId: string): Promise<void>;
+  /** Removes every progress record; settings are untouched. */
+  clearRecords(): Promise<void>;
+}
+
+/** A text file handed to or received from the device. */
+export interface TextFile {
+  name: string;
+  /** MIME type, e.g. `application/json`. */
+  type: string;
+  content: string;
 }
 
 /** The two English accents the learner can choose between. */
@@ -126,6 +136,10 @@ export interface Platform {
   voices(): Promise<Voice[]>;
   /** Puts text on the system clipboard (the fallback if a ChatGPT link does not prefill). */
   writeClipboard(text: string): void;
+  /** Offers a file through the system share sheet (iOS) or as a download. */
+  shareFile(file: TextFile): Promise<void>;
+  /** Lets the learner choose a file; resolves null when they cancel. */
+  pickFile(accept: string): Promise<TextFile | null>;
 }
 
 export interface Ports {
