@@ -14,7 +14,7 @@ Hordbook is a static single-page web app (PWA) meant to be installed on an iPhon
 
 ## ChatGPT
 
-Each word card has three prompt actions (Example sentences, Teach me inside out, Compare with similar words). They copy a prompt to the clipboard and open ChatGPT with it prefilled, using your existing ChatGPT Plus subscription; no API key is involved. For consistent, well-structured answers, create a personal tutor GPT once: **Settings → ChatGPT** in the app walks you through it and copies the GPT instructions (kept in `docs/custom-gpt.md`) to your clipboard; then paste the GPT's link into **Custom GPT URL**.
+Each word card has three prompt actions (Example sentences, Teach me inside out, Compare with similar words). They open ChatGPT (the iOS app when installed) with a full, structured prompt already typed in, and copy the same prompt to the clipboard as a fallback. This uses your existing ChatGPT Plus subscription; no API key or custom GPT is involved (see `docs/adr/0001-prompt-actions-use-plain-chatgpt.md` for why).
 
 ## Develop
 

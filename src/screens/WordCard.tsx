@@ -45,7 +45,7 @@ export function WordCard({
 
   const runPromptAction = (action: PromptAction) => {
     if (word === undefined) return;
-    const { text, url } = composePrompt(action, word, settings.customGptUrl);
+    const { text, url } = composePrompt(action, word);
     // Clipboard first: the fallback if ChatGPT stops honouring the prefill.
     platform.writeClipboard(text);
     platform.openUrl(url);

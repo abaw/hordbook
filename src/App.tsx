@@ -12,7 +12,7 @@ export function App({ collection, progressStore, platform, build }: Ports) {
   const route = useRoute();
   const progress = useProgress(progressStore);
   const lastPosition = useLastPosition(progressStore);
-  const { settings, setVoiceLocale, dismissEnhancedVoiceHint, setCustomGptUrl } = useSettings(progressStore);
+  const { settings, setVoiceLocale, dismissEnhancedVoiceHint } = useSettings(progressStore);
   useListScrollRestore(route);
 
   const viewedWordId = route.screen === "word" ? route.wordId : null;
@@ -29,10 +29,8 @@ export function App({ collection, progressStore, platform, build }: Ports) {
       <Settings
         collection={collection}
         build={build}
-        platform={platform}
         settings={settings}
         onVoiceLocaleChange={setVoiceLocale}
-        onCustomGptUrlChange={setCustomGptUrl}
       />
     );
   }

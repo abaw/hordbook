@@ -2,7 +2,10 @@ import { screen, within } from "@testing-library/preact";
 import userEvent from "@testing-library/user-event";
 import { afterEach, describe, expect, it } from "vitest";
 
-import { fakePlatform, fixtureCollection, fixtureWord, memoryProgressStore } from "./test/fakes";
+import ngslFile from "../collections/ngsl.json";
+import { collectionFromFile, type CollectionFile } from "./collectionFile";
+import type { Collection } from "./ports";
+import { fakePlatform, fixtureCollection, fixtureWord } from "./test/fakes";
 import { renderApp, settleNavigation } from "./test/renderApp";
 
 const abandon = fixtureWord({
@@ -14,17 +17,21 @@ const abandon = fixtureWord({
 });
 
 const ACTIONS = ["Example sentences", "Teach me inside out", "Compare with similar words"] as const;
+const PLAIN = "https://chatgpt.com/?q=";
 
-async function renderCard(words = [abandon], progressStore = memoryProgressStore()) {
+async function renderCard(collection: Collection, wordId: string) {
   const platform = fakePlatform({ isStandalone: true });
-  window.location.hash = `#/words/${words[0]!.id}`;
+  window.location.hash = `#/words/${wordId}`;
   await settleNavigation();
-  const view = await renderApp({ collection: fixtureCollection({ words }), platform, progressStore });
-  return { ...view, platform, progressStore };
+  const view = await renderApp({ collection, platform });
+  return { ...view, platform };
 }
 
-function promptActions() {
-  return within(screen.getByRole("group", { name: "Ask ChatGPT" }));
+async function fireAllActions(user: ReturnType<typeof userEvent.setup>) {
+  const group = within(screen.getByRole("group", { name: "Ask ChatGPT" }));
+  for (const action of ACTIONS) {
+    await user.click(group.getByRole("button", { name: action }));
+  }
 }
 
 afterEach(async () => {
@@ -33,109 +40,42 @@ afterEach(async () => {
 });
 
 describe("ChatGPT prompt actions", () => {
-  it("opens plain ChatGPT with a full English-only prompt naming lemma, part of speech and definition, copied to the clipboard", async () => {
+  it("opens ChatGPT with a structured English-only prompt naming lemma, part of speech and definition, copied to the clipboard", async () => {
     const user = userEvent.setup();
-    const { platform } = await renderCard();
+    const { platform } = await renderCard(fixtureCollection({ words: [abandon] }), abandon.id);
 
-    for (const action of ACTIONS) {
-      await user.click(promptActions().getByRole("button", { name: action }));
-    }
+    await fireAllActions(user);
 
     expect(platform.clipboard).toHaveLength(3);
     expect(platform.opened).toHaveLength(3);
     platform.clipboard.forEach((prompt, i) => {
-      expect(prompt).toContain('"abandon"');
-      expect(prompt).toContain("(verb)");
+      expect(prompt).toContain('"abandon" (verb)');
       expect(prompt).toContain("to leave someone or something you are responsible for and not return");
       expect(prompt).toMatch(/English only/);
-      expect(platform.opened[i]).toBe(`https://chatgpt.com/?q=${encodeURIComponent(prompt)}`);
+      expect(platform.opened[i]).toBe(`${PLAIN}${encodeURIComponent(prompt)}`);
     });
-    expect(platform.clipboard[0]).toMatch(/example sentences/i);
-    expect(platform.clipboard[1]).toMatch(/collocations/i);
-    expect(platform.clipboard[2]).toMatch(/near-synonyms|similar words/i);
+    expect(platform.clipboard[0]).toMatch(/8 example sentences/);
+    expect(platform.clipboard[1]).toMatch(/collocations/);
+    expect(platform.clipboard[1]).toMatch(/memory hook/);
+    expect(platform.clipboard[2]).toMatch(/near-synonyms/);
     expect(new Set(platform.clipboard).size).toBe(3);
   });
 
-  it("targets the custom GPT with a compact prompt once its URL is set in Settings, and remembers it", async () => {
+  it("carries the longest NGSL definition in full and still stays under 2,000 characters", async () => {
     const user = userEvent.setup();
-    const { platform, progressStore, unmount } = await renderCard();
-    const gptUrl = "https://chatgpt.com/g/g-abc123XYZ-hordbook-tutor";
+    const collection = collectionFromFile(ngslFile as CollectionFile);
+    const longest = collection.words.reduce((a, b) => (b.definition.length > a.definition.length ? b : a));
+    const { platform } = await renderCard(collection, longest.id);
 
-    window.location.hash = "#/settings";
-    await settleNavigation();
-    const field = await screen.findByRole("textbox", { name: "Custom GPT URL" });
-    await user.type(field, gptUrl);
-    expect(screen.queryByRole("alert")).not.toBeInTheDocument();
+    await fireAllActions(user);
 
-    window.location.hash = "#/words/fx:abandon";
-    await settleNavigation();
-    await screen.findByRole("article", { name: "abandon" });
-    await user.click(promptActions().getByRole("button", { name: "Example sentences" }));
-
-    const compact = "examples: abandon (verb) — to leave someone or something you are responsible for and not return";
-    expect(platform.clipboard).toEqual([compact]);
-    expect(platform.opened).toEqual([`${gptUrl}?q=${encodeURIComponent(compact)}`]);
-    unmount();
-
-    await renderCard([abandon], progressStore);
-    window.location.hash = "#/settings";
-    await settleNavigation();
-    expect(await screen.findByRole("textbox", { name: "Custom GPT URL" })).toHaveValue(gptUrl);
+    for (const [i, url] of platform.opened.entries()) {
+      expect(url.length).toBeLessThanOrEqual(2000);
+      expect(platform.clipboard[i]).toContain(longest.definition);
+    }
   });
 
-  it("rejects a URL that is not a chatgpt.com GPT link and keeps using plain ChatGPT; clearing the field also does", async () => {
-    const user = userEvent.setup();
-    const { platform } = await renderCard();
-
-    window.location.hash = "#/settings";
-    await settleNavigation();
-    const field = await screen.findByRole("textbox", { name: "Custom GPT URL" });
-    await user.type(field, "https://example.com/g/g-abc");
-    expect(screen.getByRole("alert")).toHaveTextContent(/chatgpt\.com\/g\//);
-
-    window.location.hash = "#/words/fx:abandon";
-    await settleNavigation();
-    await screen.findByRole("article", { name: "abandon" });
-    await user.click(promptActions().getByRole("button", { name: "Example sentences" }));
-    expect(platform.opened[0]).toMatch(/^https:\/\/chatgpt\.com\/\?q=/);
-
-    window.location.hash = "#/settings";
-    await settleNavigation();
-    const again = await screen.findByRole("textbox", { name: "Custom GPT URL" });
-    await user.clear(again);
-    await user.type(again, "https://chatgpt.com/g/g-abc123-tutor");
-    await user.clear(again);
-    expect(screen.queryByRole("alert")).not.toBeInTheDocument();
-
-    window.location.hash = "#/words/fx:abandon";
-    await settleNavigation();
-    await screen.findByRole("article", { name: "abandon" });
-    await user.click(promptActions().getByRole("button", { name: "Teach me inside out" }));
-    expect(platform.opened[1]).toMatch(/^https:\/\/chatgpt\.com\/\?q=/);
-  });
-
-  it("lets the learner copy the tutor GPT instructions and links the guide pinned to the app's build commit", async () => {
-    const user = userEvent.setup();
-    const { platform } = await renderCard();
-    window.location.hash = "#/settings";
-    await settleNavigation();
-
-    const guide = await screen.findByRole("link", { name: /set-up guide/i });
-    expect(guide).toHaveAttribute("href", "https://github.com/abaw/hordbook/blob/abc1234def/docs/custom-gpt.md");
-
-    await user.click(screen.getByRole("button", { name: "Copy GPT instructions" }));
-
-    expect(platform.clipboard).toHaveLength(1);
-    const instructions = platform.clipboard[0]!;
-    expect(instructions).toMatch(/^You are Hordbook Tutor/);
-    expect(instructions).toContain('For "examples":');
-    expect(instructions).toContain('For "teach":');
-    expect(instructions).toContain('For "compare":');
-    expect(instructions).not.toContain("```");
-    expect(screen.getByRole("status")).toHaveTextContent(/copied/i);
-  });
-
-  it("keeps every prompt URL under 2,000 characters even for a very long definition", async () => {
+  it("shortens an absurdly long definition rather than exceeding the URL bound", async () => {
     const user = userEvent.setup();
     const verbose = fixtureWord({
       id: "fx:verbose",
@@ -144,17 +84,14 @@ describe("ChatGPT prompt actions", () => {
       rank: 1,
       definition: "using far more words than are needed, ".repeat(120).trim(),
     });
-    const { platform } = await renderCard([verbose]);
+    const { platform } = await renderCard(fixtureCollection({ words: [verbose] }), verbose.id);
 
-    for (const action of ACTIONS) {
-      await user.click(promptActions().getByRole("button", { name: action }));
-    }
+    await fireAllActions(user);
 
-    expect(platform.opened).toHaveLength(3);
     for (const url of platform.opened) {
       expect(url.length).toBeLessThanOrEqual(2000);
       expect(url.length).toBeGreaterThan(1500);
-      expect(decodeURIComponent(url.slice("https://chatgpt.com/?q=".length))).toContain('"verbose" (adjective)');
+      expect(decodeURIComponent(url.slice(PLAIN.length))).toContain('"verbose" (adjective)');
     }
   });
 });
